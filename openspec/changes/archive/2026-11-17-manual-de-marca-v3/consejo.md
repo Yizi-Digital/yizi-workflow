@@ -19,5 +19,6 @@
 
 ## Decisión del CEO
 
-- Decisión: PENDIENTE
-- Fecha:
+- Decisión: APROBADO. El CEO redactó con Ultron y Jarvis la misión y visión del grupo y de cada satélite (frentes: operación, mercado, personas, sociedad). La formación de talento queda fuera de Yizi Talent por ahora.
+- Fecha: 2026-11-17
+- Sigue como propuesta: la adaptación del Ciclo de Servicio a Publisher y Talent (sección 10.1 del manual), que se define al activar cada satélite.

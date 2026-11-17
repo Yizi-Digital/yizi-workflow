@@ -22,11 +22,12 @@ Los nombres con puntos y sin puntos son equivalentes. Estos nombres son **intern
 ## 2. Constitución Yizi
 
 - **Nombre:** "Y" de Yefer + "izi" (*easy*). Promesa: hacer fácil lo complejo.
-- **Misión:** democratizar la tecnología de alto nivel, transformando el caos operativo de los negocios locales y gastronómicos en sistemas ágiles, automatizados y extremadamente fáciles de usar.
-- **Visión:** ser el motor tecnológico que impulse a los negocios y mercados a escalar sus ventas y optimizar su logística, sin perder el control de su operación diaria.
+- **Misión:** hacer fácil la tecnología y la inteligencia artificial para todos, cerrando las brechas desde las más pequeñas hasta las más grandes: la calle, la bodega y el negocio de barrio, las regiones con menos recursos, y las empresas e industrias. Cada línea de negocio del grupo guía un frente de esa transformación.
+- **Visión:** ser el grupo que lleva la tecnología y la IA a la vida diaria de cualquier persona y lugar, con una organización autogestionada y rentable que crece por sí sola: cada brecha que cerramos financia y acelera la siguiente.
+- **Frentes:** Solutions (la operación) · Publisher (el mercado) · Talent (las personas) · Projects (la sociedad). Detalle en `marca/manual-de-marca.md`.
 - **Valores:** Empatía Operativa · Agilidad Real · Robustez Invisible.
 - **Arquetipo:** El Mago con base técnica. **Tono:** directo, sobrio, cercano, sin jerga.
-- **Principios humano-IA:** spec antes que acción · humano al mando · verdad antes que velocidad · foco antes que dispersión · mejora continua.
+- **Principios humano-IA:** spec antes que acción · humano al mando · verdad antes que velocidad · foco antes que dispersión · mejora continua · autogestión y crecimiento rentable.
 
 La versión completa y vigente está en las specs: `openspec show cultura --type spec`.
 

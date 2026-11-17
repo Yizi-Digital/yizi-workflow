@@ -6,7 +6,7 @@
 | Fecha | 2026-11-17 |
 | Dueño | Área de marca |
 | Sustituye a | Manual de Marca v2.0 |
-| Estado | Borrador para aprobación del CEO. La misión y la visión de grupo (sección 2) son PROPUESTA. |
+| Estado | Vigente. Aprobado por el CEO el 2026-11-17. |
 
 Este manual dice cómo se llama, cómo suena y cómo se ve Yizi, ahora que Yizi Digital es un grupo con varias líneas de negocio. Para los clientes, la voz es siempre El Guía Yizi.
 
@@ -24,23 +24,28 @@ Una idea guía: el cliente debe entender en una frase qué hace cada parte de Yi
 
 ## 2. Misión y visión
 
-### 2.1 Del grupo
+Aprobadas por el CEO el 2026-11-17.
 
-> **PROPUESTA — pendiente de aprobación del CEO.** Cambiar la misión requiere su aprobación. Hasta entonces, la misión vigente es la v2.0 (sección 2.2).
+### 2.1 Del grupo (Yizi Digital, núcleo)
 
-**Misión (propuesta):**
-Hacer fácil lo complejo: llevar tecnología, talento y marketing de alto nivel a negocios de todos los tamaños, para que dejen el caos operativo atrás y manejen su operación con sistemas ágiles, automatizados y sencillos de usar.
+**Misión:** Hacer fácil la tecnología y la inteligencia artificial para todos, cerrando las brechas desde las más pequeñas hasta las más grandes: la calle, la bodega y el negocio de barrio, las regiones con menos recursos, y las empresas e industrias. Cada línea de negocio del grupo guía un frente de esa transformación.
 
-**Visión (propuesta):**
-Ser el grupo que impulsa a negocios y mercados a vender más y operar mejor, con soluciones, equipos y productos propios que funcionan con fluidez, sin que el dueño pierda el control de su operación.
+**Visión:** Ser el grupo que lleva la tecnología y la IA a la vida diaria de cualquier persona y lugar, con una organización autogestionada y rentable que crece por sí sola: cada brecha que cerramos financia y acelera la siguiente.
 
-### 2.2 De Yizi Solutions (texto v2.0, vigente)
+### 2.2 De cada satélite: los frentes de transformación
 
-Este es el texto de la v2.0, sin cambios. Queda como la misión y la visión de Yizi Solutions.
+Cada satélite guía un frente distinto. Así no se pisan entre sí ni confunden a los clientes, y cada idea nueva tiene un lugar claro.
 
-**Misión:** Democratizar la tecnología de alto nivel, transformando el caos operativo de los negocios locales y gastronómicos en sistemas ágiles, automatizados y extremadamente fáciles de usar.
+| Satélite | Frente | Misión | Visión |
+|---|---|---|---|
+| **Yizi Solutions** | La operación | Transformar el caos operativo de negocios, comercios, bodegas y empresas de cualquier tamaño en sistemas ágiles, automatizados y fáciles de usar. | Ser el aliado tecnológico con el que cualquier negocio vende más y opera mejor, sin perder el control de su día a día. |
+| **Yizi Publisher** | El mercado | Llevar a los negocios al mundo digital para que los encuentren, los elijan y les compren, con marketing y ventas digitales fáciles de entender y de medir. | Que ningún buen negocio se quede atrás por ser invisible en lo digital. |
+| **Yizi Talent** | Las personas | Conectar a las empresas con talento de IA y software que se integra rápido y entrega resultados. | Ser la red de talento que lleva la capacidad tecnológica a donde hace falta, incluidas las regiones con menos oportunidades. |
+| **Yizi Projects** | La sociedad | Crear productos propios que llevan la tecnología y la IA a la vida diaria de muchas personas a la vez, empezando por las brechas que nadie está cerrando. | Que cada producto de Yizi cierre una brecha a gran escala y financie el siguiente. |
 
-**Visión:** Ser el motor tecnológico que impulse a los negocios y mercados a escalar sus ventas y optimizar su logística, sin perder el control de su operación diaria.
+La formación de talento queda fuera de Yizi Talent por ahora; podrá evaluarse en el futuro como una propuesta mayor.
+
+**Antecedente:** la misión y visión v2.0 (centradas en negocios locales y gastronómicos) quedan como punto de partida de Yizi Solutions: lo gastronómico es su primer mercado, no su límite.
 
 ---
 
@@ -137,7 +142,7 @@ Solo se ofrece a clientes lo que pertenece a un satélite **activo**. Un satéli
 | Estado | Yizi Projects está activo. Hoy no hay proyectos MACRO registrados. Por ahora se admite uno a la vez. |
 | Marca | Puede tener marca propia. Si se presenta con respaldo, se escribe "por Yizi". Que sea independiente o con respaldo lo aprueban Marca y Estrategia. |
 
-Las promesas de Publisher y Talent son **propuesta de redacción** y se validan al activar cada satélite.
+Las promesas de cada satélite traducen su misión a una frase para clientes. Las de Publisher y Talent se usan cuando cada satélite se active.
 
 ---
 
@@ -299,7 +304,7 @@ El CEO no quiere diluir la visión ni confundir a los clientes. Estas son las re
 | Área | Cambio |
 |---|---|
 | Alcance | Pasa de describir una sola empresa a describir el grupo Yizi Digital como marca madre. |
-| Misión y visión | Se propone una misión y visión de grupo (**pendiente de aprobación del CEO**). El texto v2.0 se conserva íntegro como misión y visión de Yizi Solutions. |
+| Misión y visión | Nueva misión y visión del grupo y una por satélite (frentes: operación, mercado, personas, sociedad), aprobadas por el CEO. La v2.0 queda como antecedente de Yizi Solutions. |
 | Valores | Se mantienen los tres. Se amplía su redacción para que apliquen a todo el grupo (campañas y talento, además de software). |
 | Arquitectura de marca | Nueva: marca madre, satélites "Yizi <Descriptor>" y proyectos MACRO con marca propia y respaldo "por Yizi". |
 | Fichas de satélite | Nuevas: Yizi Solutions, Yizi Publisher, Yizi Talent y proyectos MACRO. |

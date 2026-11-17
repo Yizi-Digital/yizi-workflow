@@ -7,7 +7,7 @@
 | Tipo | estrategico (cambia misión y visión) |
 | Tamaño | L |
 | Compuertas | Jarvis (dueño), Viernes (misión y visión), Edith, Vision, Ultron + aprobación del CEO |
-| Aprobación | **PENDIENTE del CEO** |
+| Aprobación | Aprobado por el CEO el 2026-11-17 (misión y visión del grupo y de cada satélite; sin formación de talento en Yizi Talent por ahora) |
 
 ## Why
 
@@ -18,7 +18,7 @@ El Manual de Marca v2.0 describe a una sola empresa centrada en negocios locales
 ## What Changes
 
 - Nuevo `marca/manual-de-marca.md` (v3.0), redactado por Jarvis: grupo matriz, arquitectura de marca de tres niveles, fichas de satélites, reglas de nombre y logotipo, tono por satélite y "Cómo evitamos diluir la marca".
-- `cultura`: la misión y visión del grupo pasan a ser las de la v3.0; la v2.0 queda como la de Yizi Solutions.
+- `cultura`: la misión y visión del grupo y de cada satélite pasan a ser las del Manual v3.0 (redactadas con el CEO); se añade el principio de autogestión y crecimiento rentable.
 - `comunicacion`: la identidad visual se referencia al manual vigente (v3.0). Colores y tipografías no cambian.
 
 ## Capabilities
@@ -27,7 +27,7 @@ El Manual de Marca v2.0 describe a una sola empresa centrada en negocios locales
 - Ninguna.
 
 ### Modified Capabilities
-- `cultura`: requisito "Misión y visión vigentes".
+- `cultura`: requisito "Misión y visión vigentes" y nuevo requisito "Autogestión y crecimiento rentable".
 - `comunicacion`: requisito "Identidad visual".
 
 ## Impact
