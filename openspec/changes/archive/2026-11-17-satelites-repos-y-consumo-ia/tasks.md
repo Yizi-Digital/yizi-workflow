@@ -22,11 +22,11 @@
 - [x] 4.1 Generar `../yizi-solutions` desde `satelites/plantilla/` sin marcadores pendientes
 - [x] 4.2 Inicializar OpenSpec y comprobar con `openspec doctor` que ve el núcleo `yizi-workflow`
 - [x] 4.3 Hacer el primer commit del satélite en la rama `main`
-- [ ] 4.4 Subir a `Yizi-Digital/yizi-solutions` cuando el repositorio exista (requiere al CEO)
+- [x] 4.4 Subir a `Yizi-Digital/yizi-solutions` cuando el repositorio exista (requiere al CEO)
 
 ## 5. Verificación y archivo [Ultron]
 
 - [x] 5.1 Registrar los veredictos en `consejo.md`
 - [x] 5.2 Ejecutar `openspec validate satelites-repos-y-consumo-ia --strict` sin errores
 - [x] 5.3 Sincronizar las specs vigentes con el delta (sin archivar) y verificar con `openspec validate --specs --strict`
-- [ ] 5.4 Cuando 4.4 esté hecha, archivar con `openspec archive satelites-repos-y-consumo-ia --skip-specs` (las specs ya están sincronizadas)
+- [x] 5.4 Cuando 4.4 esté hecha, archivar con `openspec archive satelites-repos-y-consumo-ia --skip-specs` (las specs ya están sincronizadas)

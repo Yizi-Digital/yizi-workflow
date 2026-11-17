@@ -62,5 +62,6 @@
 
 - Decisión: APROBADO (decisiones del CEO en la sesión del 2026-11-17: nombres en inglés, un repositorio por satélite, Yizi Solutions primero, siglas sin significado, consumo por ventana de 5 horas).
 - Fecha: 2026-11-17
-- Pendientes del CEO: crear el repositorio vacío `Yizi-Digital/yizi-solutions`; confirmar "Yizi Growth".
+- Repositorio `Yizi-Digital/yizi-solutions` creado por el CEO y satélite subido a `main` el 2026-11-17 (condición de Ultron cumplida).
+- Pendiente del CEO: confirmar "Yizi Growth".
 - Anulaciones de compuertas BLOQUEADAS: ninguna.
