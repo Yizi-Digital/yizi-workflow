@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yizi",
+  "owner": {
+    "name": "Yizi Digital"
+  },
+  "metadata": {
+    "description": "Marketplace interno de Yizi Digital: distribuye el núcleo yizi-workflow a todos los satélites."
+  },
+  "plugins": [
+    {
+      "name": "yizi-nucleo",
+      "source": "./",
+      "description": "Consejo Ejecutivo de agentes y skills del núcleo Yizi."
+    }
+  ]
+}

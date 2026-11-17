@@ -1,0 +1,72 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Registro de satélites del universo Yizi
+# Fuente de verdad del portafolio (spec: satelites). Dueña: V.I.E.R.N.E.S.
+# Todo cambio de este archivo se hace dentro de un cambio OpenSpec del núcleo
+# con compuerta de Viernes y Edith y aprobación del CEO.
+#
+# Estados: propuesto → incubacion → activo → pausado → cerrado
+# Solo los satélites `activo` se ofrecen a clientes.
+# Cada satélite es un repositorio separado: github.com/Yizi-Digital/<id>.
+# Nombres comerciales en inglés: "Yizi <Descriptor>"; id = yizi-<descriptor>.
+# ─────────────────────────────────────────────────────────────────────────────
+
+nucleo:
+  id: yizi-workflow
+  nombre: Yizi Digital (núcleo)
+  repo: https://github.com/Yizi-Digital/yizi-workflow
+  store_openspec: yizi-workflow
+  plugin_claude: yizi-nucleo@yizi
+
+limites:
+  # Propuesto por E.D.I.T.H según la caja disponible (spec autoridad-macro).
+  macro_simultaneos_max: 1
+
+satelites:
+  - id: yizi-solutions
+    nombre: Yizi Solutions
+    tipo: linea
+    estado: activo
+    descripcion: >-
+      Desarrollo de soluciones tecnológicas e IA para comercios, restaurantes,
+      pymes y grandes empresas: menús y pedidos digitales, automatización,
+      inventario, pagos y analítica. Es la línea que describe el Manual de Marca.
+    patrocinador: vision
+    lider:
+      formal: K.A.R.E.N
+      corto: Karen
+      rol: Líder de entrega de soluciones; convierte diagnósticos en productos funcionando.
+      estado: aprobado   # CEO, 2026-11-17
+    repo: https://github.com/Yizi-Digital/yizi-solutions   # primer satélite (2026-11-17)
+
+  - id: yizi-growth
+    nombre: Yizi Growth
+    tipo: linea
+    estado: incubacion
+    descripcion: >-
+      Agencia de marketing y ventas digitales: campañas, embudos de venta,
+      contenido y canales digitales para negocios locales.
+    patrocinador: jarvis
+    lider:
+      formal: H.O.M.E.R
+      corto: Homer
+      rol: Líder de crecimiento; diseña y opera campañas y embudos de venta.
+      estado: aprobado   # CEO, 2026-11-17
+    repo: null   # se creará como Yizi-Digital/<id> al activarse
+
+  - id: yizi-talent
+    nombre: Yizi Talent
+    tipo: linea
+    estado: incubacion
+    descripcion: >-
+      Consultora de outsourcing con talento de IA y software: equipos y
+      especialistas asignados a proyectos de otras empresas.
+    patrocinador: ultron
+    lider:
+      formal: J.O.C.A.S.T.A
+      corto: Jocasta
+      rol: Líder de talento; recluta, asigna y da seguimiento a especialistas.
+      estado: aprobado   # CEO, 2026-11-17
+    repo: null   # se creará como Yizi-Digital/<id> al activarse
+
+# Proyectos MACRO: se añaden aquí con tipo `macro` y estado `incubacion`
+# solo cuando la Autoridad MACRO los autoriza (patrocinadora: viernes).
