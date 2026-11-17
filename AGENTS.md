@@ -40,6 +40,7 @@ La versión completa y vigente está en las specs: `openspec show cultura --type
 5. **Permisos mínimos.** Nunca escribas credenciales ni datos bancarios en el repo ni en la conversación.
 6. **Foco.** Lo que no encaja en un satélite activo se registra como señal para Viernes, no se ejecuta.
 7. **Ventana de 5 horas.** Si el uso del plan de IA está cerca de su límite, solo trabajo crítico, modelo más ligero y sin subagentes en paralelo; avisa al CEO de lo pendiente.
+8. **Lenguaje simple.** Escribe en lenguaje natural, humano y simplificado (ASD-STE100): lo importante primero, frases cortas, voz activa, palabras comunes. Guía: `marca/guia-de-escritura.md`.
 
 Detalle: `openspec show gobierno-agentes --type spec`.
 

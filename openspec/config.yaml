@@ -19,6 +19,8 @@ context: |
   más grandes (empresas e industrias). Cada satélite guía un frente.
   Valores: Empatía Operativa, Agilidad Real, Robustez Invisible.
   Arquetipo: El Mago (con base técnica). Tono: directo, sobrio, cercano, sin jerga.
+  Escritura: lenguaje natural, humano y simplificado (ASD-STE100 adaptado al
+  español). Frases cortas, voz activa, palabras comunes. Guía: marca/guia-de-escritura.md.
 
   Este repositorio es el NÚCLEO (yizi-workflow). Sus specs son la verdad
   vigente de cultura, gobierno, ciclo SDD y agentes para todos los satélites.
