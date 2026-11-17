@@ -31,11 +31,11 @@ Toda propuesta MACRO SHALL incluir: problema y público objetivo, encaje con la 
 - **THEN** Viernes la devuelve para completarla antes de convocar a los evaluadores
 
 ### Requirement: Veredictos de la Autoridad MACRO
-La decisión sobre un proyecto MACRO SHALL ser una de tres: AUTORIZADO, que lo registra como satélite `macro` en estado `incubacion`; EN ESPERA, que lo guarda en la cartera para revisarlo después; o RECHAZADO, con sus motivos. La decisión MUST registrarse en el registro del Consejo del cambio.
+La decisión sobre un proyecto MACRO SHALL ser una de tres: AUTORIZADO, que lo registra como proyecto de Yizi Projects en estado `incubacion`; EN ESPERA, que lo guarda en la cartera para revisarlo después; o RECHAZADO, con sus motivos. La decisión MUST registrarse en el registro del Consejo del cambio.
 
 #### Scenario: Proyecto autorizado
 - **WHEN** el CEO autoriza un proyecto MACRO
-- **THEN** se añade al registro de satélites como tipo `macro` en `incubacion`, con Viernes como patrocinador
+- **THEN** se añade a la lista de proyectos de Yizi Projects en el registro de satélites, en `incubacion`, con Viernes como patrocinadora
 
 ### Requirement: Límite de proyectos MACRO simultáneos
 El número de proyectos MACRO en incubación o activos SHALL estar limitado por el valor fijado en el registro de satélites, que Edith propone según la caja disponible. Mientras la caja sea limitada, el valor inicial SHALL ser un proyecto MACRO a la vez.
@@ -45,7 +45,7 @@ El número de proyectos MACRO en incubación o activos SHALL estar limitado por 
 - **THEN** el nuevo queda EN ESPERA hasta que se libere el cupo o el CEO cambie el límite
 
 ### Requirement: Revisión periódica y criterio de cierre
-Todo satélite `macro` SHALL revisarse en los puntos de control definidos en su expediente. Si se cumple su criterio de cierre, Viernes MUST proponer pausarlo o cerrarlo.
+Todo proyecto MACRO de Yizi Projects SHALL revisarse en los puntos de control definidos en su expediente. Si se cumple su criterio de cierre, Viernes MUST proponer pausarlo o cerrarlo.
 
 #### Scenario: Criterio de cierre alcanzado
 - **WHEN** un proyecto MACRO no alcanza la métrica mínima en el plazo acordado

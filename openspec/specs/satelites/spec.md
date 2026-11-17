@@ -13,11 +13,15 @@ El repositorio `yizi-workflow` SHALL ser el único núcleo del universo Yizi y l
 - **THEN** la copia se elimina y se sustituye por la referencia al núcleo
 
 ### Requirement: Tipos de satélite
-Un satélite SHALL ser de uno de dos tipos: `linea`, una línea de negocio de Yizi (por ejemplo, soluciones tecnológicas, talento o marketing); o `macro`, un proyecto propio autorizado por la Autoridad MACRO. Los proyectos de clientes MUST gestionarse dentro del satélite de línea que los atiende y no son satélites.
+Un satélite SHALL ser de uno de dos tipos: `linea`, una línea de negocio de Yizi (por ejemplo, soluciones tecnológicas, talento o marketing); o `macro`, cuyo único satélite es Yizi Projects, la casa de todos los proyectos propios autorizados por la Autoridad MACRO. Un proyecto MACRO MUST vivir dentro de Yizi Projects y no es un satélite. Los proyectos de clientes MUST gestionarse dentro del satélite de línea que los atiende y no son satélites.
 
 #### Scenario: Proyecto para un cliente
 - **WHEN** se contrata un sistema de pedidos para un restaurante
 - **THEN** se gestiona como proyecto del satélite de soluciones, no como un satélite nuevo
+
+#### Scenario: Proyecto MACRO autorizado
+- **WHEN** el CEO autoriza un proyecto MACRO
+- **THEN** el proyecto se crea dentro del repositorio de Yizi Projects y no se crea un satélite nuevo
 
 ### Requirement: Registro de satélites
 El núcleo SHALL mantener un registro de satélites con, para cada uno: id, nombre comercial, tipo, estado, agente patrocinador N1, líder N2 y repositorio. Ningún satélite MUST operar si no figura en el registro.
