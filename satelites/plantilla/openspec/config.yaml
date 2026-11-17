@@ -1,0 +1,52 @@
+schema: spec-driven
+
+# Satélite {{SATELITE_ID}} · {{SATELITE_NOMBRE}}
+# Orbita el núcleo yizi-workflow: hereda sus specs (cultura, gobierno, ciclo
+# SDD, calidad, arquitectura, comunicación, comercial, finanzas, satélites,
+# autoridad MACRO, consejo y jerarquía) por referencia, sin copiarlas.
+
+references:
+  - id: yizi-workflow
+    remote: https://github.com/YiziDigital/yizi-workflow
+
+context: |
+  Language: Spanish
+  All artifacts must be written in Spanish.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  Este repositorio es el satélite {{SATELITE_ID}} ({{SATELITE_NOMBRE}}), de tipo
+  {{SATELITE_TIPO}}, del universo Yizi Digital. {{SATELITE_DESCRIPCION}}
+
+  El núcleo es el store de OpenSpec `yizi-workflow`. Sus specs prevalecen sobre
+  las de este satélite. Léelas con `openspec show <spec> --type spec --store yizi-workflow`.
+
+  Agentes: el Consejo Ejecutivo del núcleo (Vision CTO, Jarvis CDO, Edith CFO,
+  Viernes CSO, Ultron COO) y el líder de este satélite, {{LIDER_FORMAL}}
+  ({{LIDER_CORTO}}), que reporta a {{PATROCINADOR}}. El CEO decide.
+
+  Toda propuesta declara Dueño, Alcance ({{SATELITE_ID}}), Tipo, Tamaño y Compuertas.
+
+rules:
+  proposal:
+    - "Empieza con una tabla de metadatos: Dueño (agente), Alcance ({{SATELITE_ID}}), Tipo (tecnico | marca-comunicacion | comercial | financiero | operacion | estrategico | macro), Tamaño (S | M | L | MACRO) y Compuertas requeridas."
+    - "Indica qué valor de Yizi (Empatía Operativa, Agilidad Real, Robustez Invisible) justifica el cambio."
+    - "Declara explícitamente qué queda fuera de alcance."
+    - "Si el cambio es L o MACRO, incluye una estimación de costo (horas, herramientas, IA) para la compuerta de Edith."
+  specs:
+    - "Cada requisito usa SHALL o MUST y tiene al menos un escenario #### Scenario: con WHEN/THEN."
+    - "No copies ni contradigas specs del núcleo: si hace falta cambiarlas, propón el cambio en yizi-workflow."
+  design:
+    - "Registra cada decisión con alternativas consideradas y el agente que la tomó."
+    - "Si se usan modelos de IA, indica el nivel de costo según la spec finanzas del núcleo y el plan de respaldo."
+  tasks:
+    - "Asigna cada grupo de tareas a un agente responsable entre corchetes, por ejemplo [{{LIDER_CORTO}}] o [Vision]."
+    - "Mantén las tareas pequeñas (máximo medio día cada una) y con una verificación al final."
+
+operations:
+  apply:
+    guidance:
+      - "Implementa en contexto limpio. {{LIDER_CORTO}} coordina el satélite; Ultron vela por el ciclo."
+      - "Antes de cualquier acción irreversible (despliegue, envío a clientes, pagos, borrados, force push) detente y pide confirmación humana."
+  archive:
+    guidance:
+      - "Archiva solo si todas las tareas están completas, la verificación pasó y openspec validate --strict no reporta errores."

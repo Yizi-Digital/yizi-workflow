@@ -1,0 +1,60 @@
+schema: spec-driven
+
+# ─────────────────────────────────────────────────────────────────────────────
+# YIZI-WORKFLOW · Núcleo del universo Yizi Digital
+# Este repositorio es el NÚCLEO: cultura, gobierno, ciclo SDD y Consejo
+# Ejecutivo de agentes. Los satélites lo referencian como store de OpenSpec
+# (id: yizi-workflow) y heredan sus agentes con el plugin `yizi-nucleo`.
+# ─────────────────────────────────────────────────────────────────────────────
+
+context: |
+  Language: Spanish
+  All artifacts must be written in Spanish.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  Organización: Yizi Digital ("Y" de Yefer + "izi" = easy). Grupo matriz que
+  hace fácil la tecnología de alto nivel para negocios reales: comercios,
+  restaurantes, pymes y grandes empresas.
+  Misión: democratizar la tecnología de alto nivel, transformando el caos
+  operativo de los negocios en sistemas ágiles, automatizados y fáciles de usar.
+  Valores: Empatía Operativa, Agilidad Real, Robustez Invisible.
+  Arquetipo: El Mago (con base técnica). Tono: directo, sobrio, cercano, sin jerga.
+
+  Este repositorio es el NÚCLEO (yizi-workflow). Sus specs son la verdad
+  vigente de cultura, gobierno, ciclo SDD y agentes para todos los satélites.
+
+  Autoridad final: el CEO (humano). Consejo Ejecutivo de agentes:
+  - V.I.S.I.O.N (Vision)   · CTO · tecnología, arquitectura, calidad, seguridad técnica
+  - J.A.R.V.I.S (Jarvis)   · CDO (Chief Digital Officer) · marca, marketing, ventas digitales, cliente
+  - E.D.I.T.H (Edith)      · CFO · finanzas, precios, presupuesto, costos de IA
+  - V.I.E.R.N.E.S (Viernes)· CSO (Chief Strategy Officer) · estrategia, satélites, Autoridad MACRO
+  - U.L.T.R.O.N (Ultron)   · COO · operaciones, ejecución del ciclo SDD, orquestación
+
+  Antes de proponer, lee las specs relacionadas con `openspec list --specs`.
+  Toda propuesta declara Dueño, Alcance, Tipo, Tamaño y Compuertas (ver spec ciclo-sdd).
+
+rules:
+  proposal:
+    - "Empieza con una tabla de metadatos: Dueño (agente), Alcance (nucleo o id de satélite), Tipo (tecnico | marca-comunicacion | comercial | financiero | operacion | estrategico | macro), Tamaño (S | M | L | MACRO) y Compuertas requeridas."
+    - "Indica qué valor de Yizi (Empatía Operativa, Agilidad Real, Robustez Invisible) justifica el cambio."
+    - "Declara explícitamente qué queda fuera de alcance."
+    - "Si el cambio es L o MACRO, incluye una estimación de costo (horas, herramientas, IA) para la compuerta de Edith."
+  specs:
+    - "Cada requisito usa SHALL o MUST y tiene al menos un escenario #### Scenario: con WHEN/THEN."
+    - "Escribe escenarios verificables: cada uno debe poder convertirse en una prueba o en una evidencia de verificación."
+  design:
+    - "Registra cada decisión con alternativas consideradas y el agente que la tomó (normalmente Vision para lo técnico)."
+    - "Si se usan modelos de IA, indica el nivel de costo según la spec finanzas y el plan de respaldo si el modelo falla."
+  tasks:
+    - "Asigna cada grupo de tareas a un agente responsable entre corchetes, por ejemplo [Vision] o [Ultron]."
+    - "Mantén las tareas pequeñas (máximo medio día cada una) y con una verificación al final."
+
+operations:
+  apply:
+    guidance:
+      - "Implementa en contexto limpio. Ultron orquesta; cada tarea la ejecuta el agente asignado."
+      - "Antes de cualquier acción irreversible (despliegue, envío a clientes, pagos, borrados, force push) detente y pide confirmación humana."
+  archive:
+    guidance:
+      - "Archiva solo si todas las tareas están completas, la verificación pasó y openspec validate --strict no reporta errores."
+      - "Resume en una línea qué cambió en las specs vigentes y quién lo aprobó."
