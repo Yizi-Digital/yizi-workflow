@@ -6,14 +6,14 @@
 #
 # Estados: propuesto → incubacion → activo → pausado → cerrado
 # Solo los satélites `activo` se ofrecen a clientes.
-# Cada satélite es un repositorio separado: github.com/YiziDigital/<id>.
+# Cada satélite es un repositorio separado: github.com/Yizi-Digital/<id>.
 # Nombres comerciales en inglés: "Yizi <Descriptor>"; id = yizi-<descriptor>.
 # ─────────────────────────────────────────────────────────────────────────────
 
 nucleo:
   id: yizi-workflow
   nombre: Yizi Digital (núcleo)
-  repo: https://github.com/YiziDigital/yizi-workflow
+  repo: https://github.com/Yizi-Digital/yizi-workflow
   store_openspec: yizi-workflow
   plugin_claude: yizi-nucleo@yizi
 
@@ -36,7 +36,7 @@ satelites:
       corto: Karen
       rol: Líder de entrega de soluciones; convierte diagnósticos en productos funcionando.
       estado: aprobado   # CEO, 2026-11-17
-    repo: https://github.com/YiziDigital/yizi-solutions   # primer satélite (2026-11-17)
+    repo: https://github.com/Yizi-Digital/yizi-solutions   # primer satélite (2026-11-17)
 
   - id: yizi-growth
     nombre: Yizi Growth
@@ -51,7 +51,7 @@ satelites:
       corto: Homer
       rol: Líder de crecimiento; diseña y opera campañas y embudos de venta.
       estado: aprobado   # CEO, 2026-11-17
-    repo: null   # se creará como YiziDigital/<id> al activarse
+    repo: null   # se creará como Yizi-Digital/<id> al activarse
 
   - id: yizi-talent
     nombre: Yizi Talent
@@ -66,7 +66,7 @@ satelites:
       corto: Jocasta
       rol: Líder de talento; recluta, asigna y da seguimiento a especialistas.
       estado: aprobado   # CEO, 2026-11-17
-    repo: null   # se creará como YiziDigital/<id> al activarse
+    repo: null   # se creará como Yizi-Digital/<id> al activarse
 
 # Proyectos MACRO: se añaden aquí con tipo `macro` y estado `incubacion`
 # solo cuando la Autoridad MACRO los autoriza (patrocinadora: viernes).

@@ -17,12 +17,12 @@ El CEO resolvió los pendientes del Big Bang: los satélites llevan nombre comer
 
 ## What Changes
 
-- `satelites`: nuevo requisito que obliga a que cada satélite viva en su propio repositorio dentro de la organización `YiziDigital`, con nombre igual a su id.
+- `satelites`: nuevo requisito que obliga a que cada satélite viva en su propio repositorio dentro de la organización `Yizi-Digital`, con nombre igual a su id.
 - `comunicacion`: la arquitectura de marca usa descriptores en inglés ("Yizi Solutions", "Yizi Growth", "Yizi Talent").
 - `finanzas`: se retira el límite fijo con avisos al 80 % y 100 %; se añaden "Límite de gasto según consumo observado" y "Consumo por ventana de 5 horas".
 - Registro de satélites: ids y nombres en inglés (`yizi-solutions`, `yizi-growth`, `yizi-talent`), líderes aprobados y repositorio de Yizi Solutions.
 - Fichas de los agentes: se eliminan los significados inventados de las siglas y se actualizan los satélites que patrocinan.
-- Skill `yizi-satelite`: crea el repo remoto en `YiziDigital/<id>` (con confirmación humana).
+- Skill `yizi-satelite`: crea el repo remoto en `Yizi-Digital/<id>` (con confirmación humana).
 - Nuevo registro mensual de consumo de IA para Edith.
 - Génesis local del repositorio `yizi-solutions` desde la plantilla.
 
@@ -39,7 +39,7 @@ El CEO resolvió los pendientes del Big Bang: los satélites llevan nombre comer
 ## Impact
 
 - `satelites/registro.yaml`, `.claude/agents/*.md`, `.agents/skills/yizi-satelite/SKILL.md`, `README.md`, nuevo `finanzas/consumo-ia.md`.
-- Nuevo repositorio local `yizi-solutions` (junto al núcleo). El repositorio remoto `YiziDigital/yizi-solutions` lo crea el CEO o se crea con su confirmación.
+- Nuevo repositorio local `yizi-solutions` (junto al núcleo). El repositorio remoto `Yizi-Digital/yizi-solutions` lo crea el CEO o se crea con su confirmación.
 - **Estimación de costo (compuerta de Edith):** 0 USD; consumo de IA de una sesión dentro del plan vigente.
 
 ## Out of Scope

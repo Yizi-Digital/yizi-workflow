@@ -1,6 +1,6 @@
 ---
 name: yizi-satelite
-description: Crea (génesis) un satélite del universo Yizi a partir de la plantilla del núcleo yizi-workflow - un repositorio separado YiziDigital/<id> para una línea de negocio o un proyecto MACRO, que hereda specs y agentes del núcleo - y lo inscribe en el registro de satélites. Úsalo cuando el usuario diga "crea el satélite", "nuevo satélite", "génesis de satélite", "arranca Yizi <línea>" o "monta el repo del proyecto macro".
+description: Crea (génesis) un satélite del universo Yizi a partir de la plantilla del núcleo yizi-workflow - un repositorio separado Yizi-Digital/<id> para una línea de negocio o un proyecto MACRO, que hereda specs y agentes del núcleo - y lo inscribe en el registro de satélites. Úsalo cuando el usuario diga "crea el satélite", "nuevo satélite", "génesis de satélite", "arranca Yizi <línea>" o "monta el repo del proyecto macro".
 license: Propietaria · Yizi Digital
 metadata:
   author: yizi-digital
@@ -25,7 +25,7 @@ Un satélite solo nace con un cambio aprobado en el núcleo (spec `satelites`).
 
 ## 2. Reúne los datos que faltan
 
-Cada satélite es un **repositorio separado** en la organización de GitHub de Yizi: `YiziDigital/<id>` (spec `satelites`). Nunca generes un satélite dentro del repositorio del núcleo.
+Cada satélite es un **repositorio separado** en la organización de GitHub de Yizi: `Yizi-Digital/<id>` (spec `satelites`). Nunca generes un satélite dentro del repositorio del núcleo.
 
 Pregunta solo lo que no esté en el registro:
 - carpeta destino local (por defecto, junto al núcleo: `../<id>`);
@@ -68,17 +68,17 @@ openspec store list --json
 ## 5. Sube el satélite a la organización
 
 1. Haz el primer commit en la rama `main` del satélite: `Génesis de <id> desde la plantilla del núcleo yizi-workflow`.
-2. Crear `YiziDigital/<id>` en GitHub es una acción hacia afuera: pide al CEO que cree el repositorio **vacío** (sin README ni licencia) o que confirme que lo creas tú, si tu herramienta tiene permiso para crear repositorios en la organización.
-3. Con el repositorio creado: `git remote add origin https://github.com/YiziDigital/<id>.git` y `git push -u origin main` (con confirmación).
+2. Crear `Yizi-Digital/<id>` en GitHub es una acción hacia afuera: pide al CEO que cree el repositorio **vacío** (sin README ni licencia) o que confirme que lo creas tú, si tu herramienta tiene permiso para crear repositorios en la organización.
+3. Con el repositorio creado: `git remote add origin https://github.com/Yizi-Digital/<id>.git` y `git push -u origin main` (con confirmación).
 
 ## 6. Actualiza el registro del núcleo
 
-En `satelites/registro.yaml` del núcleo, completa el campo `repo` con `https://github.com/YiziDigital/<id>`. Ese cambio del registro se hace dentro del cambio OpenSpec que autorizó el satélite.
+En `satelites/registro.yaml` del núcleo, completa el campo `repo` con `https://github.com/Yizi-Digital/<id>`. Ese cambio del registro se hace dentro del cambio OpenSpec que autorizó el satélite.
 
 ## 7. Cierra
 
 Muestra al CEO:
 - la ruta del nuevo repositorio y su árbol de archivos;
 - el resultado de `openspec doctor`;
-- la URL `https://github.com/YiziDigital/<id>` (o el paso pendiente si el repositorio aún no existe);
+- la URL `https://github.com/Yizi-Digital/<id>` (o el paso pendiente si el repositorio aún no existe);
 - los siguientes pasos: abrir Claude Code en el satélite y aceptar el plugin `yizi-nucleo`, y proponer el primer cambio del satélite.

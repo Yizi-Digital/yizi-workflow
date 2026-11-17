@@ -8,7 +8,7 @@
 
 ## 2. Skill y documentación [Ultron, Jarvis]
 
-- [x] 2.1 Actualizar `yizi-satelite` para que el repo remoto sea `YiziDigital/<id>` y pida confirmación al CEO
+- [x] 2.1 Actualizar `yizi-satelite` para que el repo remoto sea `Yizi-Digital/<id>` y pida confirmación al CEO
 - [x] 2.2 Actualizar `README.md` y `AGENTS.md` con los nombres en inglés y la regla de un repo por satélite
 - [x] 2.3 Verificar que el plugin sigue pasando `claude plugin validate`
 
@@ -22,7 +22,7 @@
 - [x] 4.1 Generar `../yizi-solutions` desde `satelites/plantilla/` sin marcadores pendientes
 - [x] 4.2 Inicializar OpenSpec y comprobar con `openspec doctor` que ve el núcleo `yizi-workflow`
 - [x] 4.3 Hacer el primer commit del satélite en la rama `main`
-- [ ] 4.4 Subir a `YiziDigital/yizi-solutions` cuando el repositorio exista (requiere al CEO)
+- [ ] 4.4 Subir a `Yizi-Digital/yizi-solutions` cuando el repositorio exista (requiere al CEO)
 
 ## 5. Verificación y archivo [Ultron]
 

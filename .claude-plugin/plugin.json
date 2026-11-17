@@ -6,8 +6,8 @@
   "author": {
     "name": "Yizi Digital"
   },
-  "homepage": "https://github.com/YiziDigital/yizi-workflow",
-  "repository": "https://github.com/YiziDigital/yizi-workflow",
+  "homepage": "https://github.com/Yizi-Digital/yizi-workflow",
+  "repository": "https://github.com/Yizi-Digital/yizi-workflow",
   "keywords": ["yizi", "openspec", "sdd", "agentes", "nucleo"],
   "agents": [
     "./.claude/agents/vision.md",

@@ -7,7 +7,7 @@ schema: spec-driven
 
 references:
   - id: yizi-workflow
-    remote: https://github.com/YiziDigital/yizi-workflow
+    remote: https://github.com/Yizi-Digital/yizi-workflow
 
 context: |
   Language: Spanish

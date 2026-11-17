@@ -1,6 +1,6 @@
 # AGENTS.md · {{SATELITE_NOMBRE}} (`{{SATELITE_ID}}`)
 
-Este repositorio es un **satélite** del universo Yizi Digital, de tipo `{{SATELITE_TIPO}}`. Orbita el núcleo [`yizi-workflow`](https://github.com/YiziDigital/yizi-workflow), cuyas reglas **prevalecen** sobre las de este satélite.
+Este repositorio es un **satélite** del universo Yizi Digital, de tipo `{{SATELITE_TIPO}}`. Orbita el núcleo [`yizi-workflow`](https://github.com/Yizi-Digital/yizi-workflow), cuyas reglas **prevalecen** sobre las de este satélite.
 
 {{SATELITE_DESCRIPCION}}
 

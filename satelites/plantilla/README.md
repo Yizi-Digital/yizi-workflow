@@ -6,7 +6,7 @@ Satélite `{{SATELITE_ID}}` (tipo `{{SATELITE_TIPO}}`) del universo **Yizi Digit
 
 | | |
 |---|---|
-| Núcleo | [`yizi-workflow`](https://github.com/YiziDigital/yizi-workflow) (store de OpenSpec `yizi-workflow`, plugin `yizi-nucleo@yizi`) |
+| Núcleo | [`yizi-workflow`](https://github.com/Yizi-Digital/yizi-workflow) (store de OpenSpec `yizi-workflow`, plugin `yizi-nucleo@yizi`) |
 | Patrocinador | {{PATROCINADOR}} |
 | Líder del satélite | {{LIDER_FORMAL}} ({{LIDER_CORTO}}) |
 

@@ -17,7 +17,7 @@
 | Jarvis | Marca y cliente | CONDICIONADO | El CEO confirma "Growth" como traducción de "Impulso" |
 | Edith | Costo y presupuesto | APROBADO | Llenar el registro de consumo al cierre de cada mes |
 | Viernes | Alineación estratégica | APROBADO | Ninguna |
-| Ultron | Operabilidad | CONDICIONADO | No archivar hasta subir `YiziDigital/yizi-solutions` |
+| Ultron | Operabilidad | CONDICIONADO | No archivar hasta subir `Yizi-Digital/yizi-solutions` |
 
 ## Detalle
 
@@ -56,11 +56,11 @@
 **Motivos:**
 - Todas las tareas locales están hechas y verificadas.
 - Crear el repositorio en la organización requiere al CEO (acción hacia afuera).
-**Condiciones:** el cambio queda abierto; se archiva con `--skip-specs` cuando `YiziDigital/yizi-solutions` exista y tenga el primer commit.
+**Condiciones:** el cambio queda abierto; se archiva con `--skip-specs` cuando `Yizi-Digital/yizi-solutions` exista y tenga el primer commit.
 
 ## Decisión del CEO
 
 - Decisión: APROBADO (decisiones del CEO en la sesión del 2026-11-17: nombres en inglés, un repositorio por satélite, Yizi Solutions primero, siglas sin significado, consumo por ventana de 5 horas).
 - Fecha: 2026-11-17
-- Pendientes del CEO: crear el repositorio vacío `YiziDigital/yizi-solutions`; confirmar "Yizi Growth".
+- Pendientes del CEO: crear el repositorio vacío `Yizi-Digital/yizi-solutions`; confirmar "Yizi Growth".
 - Anulaciones de compuertas BLOQUEADAS: ninguna.

@@ -80,7 +80,7 @@ openspec/changes/           Cambios en curso (y archive/ con el historial)
 .agents/skills/             Skills: openspec-* (flujo SDD) y yizi-* (consejo, satélites)
 .claude-plugin/             Plugin `yizi-nucleo` para que los satélites hereden agentes y skills
 .openspec-store/            Identidad del núcleo como store de OpenSpec (`yizi-workflow`)
-satelites/registro.yaml     Portafolio de satélites (cada uno es un repo separado YiziDigital/<id>)
+satelites/registro.yaml     Portafolio de satélites (cada uno es un repo separado Yizi-Digital/<id>)
 finanzas/consumo-ia.md      Registro mensual de consumo de IA (Edith)
 satelites/plantilla/        Plantilla para crear un satélite nuevo
 ```

@@ -39,7 +39,7 @@ flowchart TB
     MACRO -. autoriza .-> PM
 ```
 
-Cada satélite es un **repositorio separado** dentro de la organización [YiziDigital](https://github.com/YiziDigital) (`YiziDigital/<id>`). El primero es [`yizi-solutions`](https://github.com/YiziDigital/yizi-solutions); Growth y Talent están en incubación y no se ofrecen todavía a clientes.
+Cada satélite es un **repositorio separado** dentro de la organización [Yizi-Digital](https://github.com/Yizi-Digital) (`Yizi-Digital/<id>`). El primero es [`yizi-solutions`](https://github.com/Yizi-Digital/yizi-solutions); Growth y Talent están en incubación y no se ofrecen todavía a clientes.
 
 ### Jerarquía de agentes
 
@@ -119,7 +119,7 @@ flowchart LR
 2. Clona el núcleo y regístralo como store (así los satélites pueden leerlo):
 
    ```bash
-   git clone https://github.com/YiziDigital/yizi-workflow.git
+   git clone https://github.com/Yizi-Digital/yizi-workflow.git
    ```
 
    ```bash
@@ -148,7 +148,7 @@ flowchart LR
 
 1. Viernes propone el satélite con un cambio del núcleo (`/openspec-propose`), que actualiza `satelites/registro.yaml`.
 2. El Consejo lo revisa (`/yizi-consejo`) y el CEO lo aprueba.
-3. El skill `/yizi-satelite` genera un **repositorio separado** `YiziDigital/<id>` desde `satelites/plantilla/` (el CEO crea el repositorio vacío en GitHub o confirma su creación):
+3. El skill `/yizi-satelite` genera un **repositorio separado** `Yizi-Digital/<id>` desde `satelites/plantilla/` (el CEO crea el repositorio vacío en GitHub o confirma su creación):
    - su `openspec/config.yaml` declara `references: [yizi-workflow]`, así OpenSpec entrega a los agentes el índice de las specs del núcleo;
    - su `.claude/settings.json` activa el plugin `yizi-nucleo@yizi`, así los cinco directivos y los skills de Yizi están disponibles sin copiarlos;
    - incluye la ficha de su líder N2.
@@ -156,7 +156,7 @@ flowchart LR
 Para instalar el plugin a mano en cualquier repositorio:
 
 ```text
-/plugin install yizi-nucleo --marketplace YiziDigital/yizi-workflow
+/plugin install yizi-nucleo --marketplace Yizi-Digital/yizi-workflow
 ```
 
 Cuando el núcleo cambia, los satélites lo adoptan con `git pull` en el núcleo y `claude plugin update yizi-nucleo@yizi`.
@@ -183,7 +183,7 @@ yizi-workflow/
 ├── finanzas/
 │   └── consumo-ia.md         Registro mensual de consumo de IA (Edith)
 └── satelites/
-    ├── registro.yaml         Portafolio de satélites (cada uno en YiziDigital/<id>)
+    ├── registro.yaml         Portafolio de satélites (cada uno en Yizi-Digital/<id>)
     └── plantilla/            Plantilla de satélite
 ```
 
