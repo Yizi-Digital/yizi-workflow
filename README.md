@@ -27,7 +27,7 @@ flowchart TB
     subgraph SAT["🛰️ SATÉLITES (heredan el núcleo)"]
         direction LR
         SOL["Yizi Solutions<br/>tecnología e IA<br/>líder: Karen<br/>repo: yizi-solutions"]
-        IMP["Yizi Growth<br/>marketing y ventas<br/>líder: Homer<br/>(incubación)"]
+        IMP["Yizi Publisher<br/>marketing y ventas<br/>líder: Homer<br/>(incubación)"]
         TAL["Yizi Talent<br/>outsourcing IA/software<br/>líder: Jocasta<br/>(incubación)"]
         PM["Proyectos MACRO<br/>apps propias<br/>(con autorización)"]
     end
@@ -39,7 +39,7 @@ flowchart TB
     MACRO -. autoriza .-> PM
 ```
 
-Cada satélite es un **repositorio separado** dentro de la organización [Yizi-Digital](https://github.com/Yizi-Digital) (`Yizi-Digital/<id>`). El primero es [`yizi-solutions`](https://github.com/Yizi-Digital/yizi-solutions); Growth y Talent están en incubación y no se ofrecen todavía a clientes.
+Cada satélite es un **repositorio separado** dentro de la organización [Yizi-Digital](https://github.com/Yizi-Digital) (`Yizi-Digital/<id>`). El primero es [`yizi-solutions`](https://github.com/Yizi-Digital/yizi-solutions); Publisher y Talent están en incubación y no se ofrecen todavía a clientes.
 
 ### Jerarquía de agentes
 

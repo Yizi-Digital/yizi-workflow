@@ -38,8 +38,8 @@ satelites:
       estado: aprobado   # CEO, 2026-11-17
     repo: https://github.com/Yizi-Digital/yizi-solutions   # primer satélite (2026-11-17)
 
-  - id: yizi-growth
-    nombre: Yizi Growth
+  - id: yizi-publisher
+    nombre: Yizi Publisher
     tipo: linea
     estado: incubacion
     descripcion: >-
