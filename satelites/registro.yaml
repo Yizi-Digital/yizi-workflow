@@ -68,5 +68,21 @@ satelites:
       estado: aprobado   # CEO, 2026-11-17
     repo: null   # se creará como Yizi-Digital/<id> al activarse
 
-# Proyectos MACRO: se añaden aquí con tipo `macro` y estado `incubacion`
-# solo cuando la Autoridad MACRO los autoriza (patrocinadora: viernes).
+  - id: yizi-projects
+    nombre: Yizi Projects
+    tipo: macro
+    estado: activo
+    descripcion: >-
+      Casa de los proyectos MACRO: incuba y desarrolla los productos propios de
+      Yizi para un público amplio, autorizados por la Autoridad MACRO. No vende
+      servicios a clientes; sus productos usan marca propia con respaldo "por Yizi".
+    patrocinador: viernes
+    lider:
+      formal: H.E.R.B.I.E
+      corto: Herbie
+      rol: Líder de proyectos propios; incuba cada producto MACRO y vigila sus criterios de éxito y de cierre.
+      estado: propuesto   # pendiente de aprobación del CEO
+    repo: https://github.com/Yizi-Digital/yizi-projects   # pendiente de que el CEO cree el repo vacío
+    # Proyectos MACRO autorizados. Cada uno vive en proyectos/<id>/ del repo.
+    # Límite: limites.macro_simultaneos_max (en incubacion o activo).
+    proyectos: []

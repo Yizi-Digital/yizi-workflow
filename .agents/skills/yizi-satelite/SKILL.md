@@ -1,6 +1,6 @@
 ---
 name: yizi-satelite
-description: Crea (génesis) un satélite del universo Yizi a partir de la plantilla del núcleo yizi-workflow - un repositorio separado Yizi-Digital/<id> para una línea de negocio o un proyecto MACRO, que hereda specs y agentes del núcleo - y lo inscribe en el registro de satélites. Úsalo cuando el usuario diga "crea el satélite", "nuevo satélite", "génesis de satélite", "arranca Yizi <línea>" o "monta el repo del proyecto macro".
+description: Crea (génesis) un satélite del universo Yizi a partir de la plantilla del núcleo yizi-workflow - un repositorio separado Yizi-Digital/<id> para una línea de negocio, que hereda specs y agentes del núcleo - y lo inscribe en el registro de satélites. Úsalo cuando el usuario diga "crea el satélite", "nuevo satélite", "génesis de satélite", "arranca Yizi <línea>" o "arranca Yizi Projects".
 license: Propietaria · Yizi Digital
 metadata:
   author: yizi-digital
@@ -19,9 +19,10 @@ Genera el repositorio de un satélite a partir de `satelites/plantilla/` del nú
 Un satélite solo nace con un cambio aprobado en el núcleo (spec `satelites`).
 
 1. Lee `satelites/registro.yaml` del núcleo.
-2. Si el satélite no figura en el registro, o no hay un cambio del núcleo aprobado por el CEO que lo cree, **detente** y ofrece proponerlo con `/openspec-propose` (tipo `estrategico`, dueña Viernes; si es MACRO, primero el skill `yizi-consejo` en modo MACRO).
-3. Si figura, toma de allí: `id`, `nombre`, `tipo`, `descripcion`, `patrocinador` y `lider`.
-4. Si el líder N2 está como `propuesto`, pregunta al CEO si aprueba el nombre antes de continuar.
+2. Los proyectos MACRO **no** son satélites: viven en `proyectos/<id>/` dentro de Yizi Projects. Para uno de ellos, no uses este skill.
+3. Si el satélite no figura en el registro, o no hay un cambio del núcleo aprobado por el CEO que lo cree, **detente** y ofrece proponerlo con `/openspec-propose` (tipo `estrategico`, dueña Viernes).
+4. Si figura, toma de allí: `id`, `nombre`, `tipo`, `descripcion`, `patrocinador` y `lider`.
+5. Si el líder N2 está como `propuesto`, pregunta al CEO si aprueba el nombre antes de continuar.
 
 ## 2. Reúne los datos que faltan
 

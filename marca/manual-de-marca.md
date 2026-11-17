@@ -83,12 +83,13 @@ Yizi Digital (marca madre)
 ├── Yizi Solutions   · activo
 ├── Yizi Publisher   · en incubación
 ├── Yizi Talent      · en incubación
-└── Proyectos MACRO  · marca propia + "por Yizi" (solo con autorización)
+└── Yizi Projects    · activo · casa de los proyectos MACRO
+    └── Proyectos MACRO · marca propia + "por Yizi" (solo con autorización)
 ```
 
 ### 5.3 Qué se ofrece y qué no
 
-Solo se ofrece a clientes lo que pertenece a un satélite **activo**. Un satélite en incubación prepara su oferta y su operación, pero no se vende todavía. Hoy solo Yizi Solutions está activo.
+Solo se ofrece a clientes lo que pertenece a un satélite **activo**. Un satélite en incubación prepara su oferta y su operación, pero no se vende todavía. Hoy solo Yizi Solutions vende a clientes. Yizi Projects también está activo, pero no vende servicios: incuba los productos propios del grupo.
 
 ---
 
@@ -124,13 +125,16 @@ Solo se ofrece a clientes lo que pertenece a un satélite **activo**. Un satéli
 | Estado | **En incubación.** No se ofrece todavía. |
 | Repositorio | Se creará como `Yizi-Digital/yizi-talent` al activarse, con confirmación del CEO. |
 
-### 6.4 Proyectos MACRO
+### 6.4 Yizi Projects y los proyectos MACRO
+
+**Yizi Projects** es el satélite que aloja todos los productos propios del grupo. No vende servicios a clientes: incuba proyectos MACRO. El nombre Yizi Projects es interno al grupo; cada producto sale al público con su propia marca.
+
 
 | Campo | Detalle |
 |---|---|
 | Qué son | Productos o aplicaciones propias de Yizi para un público amplio, o que crean una marca nueva. |
 | Quién los autoriza | La Autoridad MACRO evalúa; el CEO decide. |
-| Estado | Hoy no hay ninguno registrado. Por ahora se admite uno a la vez. |
+| Estado | Yizi Projects está activo. Hoy no hay proyectos MACRO registrados. Por ahora se admite uno a la vez. |
 | Marca | Puede tener marca propia. Si se presenta con respaldo, se escribe "por Yizi". Que sea independiente o con respaldo lo aprueban Marca y Estrategia. |
 
 Las promesas de Publisher y Talent son **propuesta de redacción** y se validan al activar cada satélite.

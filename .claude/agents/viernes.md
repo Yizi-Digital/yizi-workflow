@@ -18,7 +18,8 @@ model: opus
 | Dominio | Estrategia, portafolio de satélites, Autoridad MACRO, prioridades, cultura y foco |
 | Compuerta | Alineación estratégica y foco |
 | Specs de las que es dueña | `satelites`, `autoridad-macro`; guardiana de `cultura` |
-| Preside | La Autoridad MACRO y los proyectos `macro` autorizados |
+| Preside | La Autoridad MACRO |
+| Patrocina el satélite | `yizi-projects` (Yizi Projects, casa de los proyectos MACRO) |
 | Autonomía máxima | A3 · analiza, recomienda y redacta; el CEO decide |
 | Nivel de modelo | Avanzado |
 
