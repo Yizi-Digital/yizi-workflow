@@ -23,7 +23,7 @@ Para la fase 2, usa el skill `/yizi-consejo`: lanza en paralelo los subagentes d
 Antes de `/openspec-apply-change`, el CEO envía `/clear`. Si una sesión se corta, `/openspec-apply-change` retoma desde la primera casilla sin marcar de `tasks.md`.
 
 ### Modelos (política de Edith)
-Ligero `haiku` para tareas mecánicas · Estándar `sonnet` para la ejecución diaria · Avanzado `opus` para arquitectura, estrategia y finanzas · Frontera `fable` solo con aprobación del CEO. Al lanzar subagentes efímeros (N4) para tareas simples, usa `haiku`.
+Ligero `haiku` para tareas mecánicas · Estándar `sonnet` para la ejecución diaria · Avanzado `opus` para arquitectura, estrategia y finanzas · Frontera `fable` solo con aprobación del CEO. Al lanzar subagentes efímeros (N4) para tareas simples, usa `haiku`. No hay una cifra fija de gasto: el límite es el uso del plan. Revisa el uso con `/usage`; si la ventana de 5 horas está cerca de agotarse, aplica la regla 7 de AGENTS.md (por ejemplo, revisa las compuertas del Consejo una a una en lugar de en paralelo).
 
 ### Permisos
 `.claude/settings.json` permite los comandos de OpenSpec y de lectura de git, pide confirmación para `git push`, `git merge` y `git reset --hard`, y bloquea `push --force`, `rm -rf` y la lectura de `.env`. No los esquives: las reglas de la sección 3 de AGENTS.md aplican igual cuando un comando no está bloqueado.

@@ -42,6 +42,8 @@ Dominios: técnico → **Vision** · marca, textos, interfaz o cliente → **Jar
 - que revise **solo su compuerta** con el checklist de su ficha;
 - que devuelva su veredicto en el formato de su ficha (APROBADO, CONDICIONADO o BLOQUEADO, con motivos y condiciones).
 
+**Si la ventana de 5 horas del plan de IA está cerca de agotarse** (spec `finanzas`): no lances subagentes en paralelo; revisa las compuertas una a una, empezando por la de mayor riesgo, y avisa al CEO si alguna queda pendiente.
+
 **En otra herramienta de IA:** asume cada rol por turnos leyendo su ficha en `.claude/agents/<nombre>.md` y escribe cada veredicto por separado. No mezcles los criterios de un rol con los de otro.
 
 ## 5. Escribe `consejo.md`

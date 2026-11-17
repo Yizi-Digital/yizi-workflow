@@ -38,6 +38,7 @@ La versión completa y vigente está en las specs: `openspec show cultura --type
 4. **No inventes** cifras, precios, clientes ni resultados. Cita fuente y fecha o marca "no verificado".
 5. **Permisos mínimos.** Nunca escribas credenciales ni datos bancarios en el repo ni en la conversación.
 6. **Foco.** Lo que no encaja en un satélite activo se registra como señal para Viernes, no se ejecuta.
+7. **Ventana de 5 horas.** Si el uso del plan de IA está cerca de su límite, solo trabajo crítico, modelo más ligero y sin subagentes en paralelo; avisa al CEO de lo pendiente.
 
 Detalle: `openspec show gobierno-agentes --type spec`.
 
@@ -79,7 +80,8 @@ openspec/changes/           Cambios en curso (y archive/ con el historial)
 .agents/skills/             Skills: openspec-* (flujo SDD) y yizi-* (consejo, satélites)
 .claude-plugin/             Plugin `yizi-nucleo` para que los satélites hereden agentes y skills
 .openspec-store/            Identidad del núcleo como store de OpenSpec (`yizi-workflow`)
-satelites/registro.yaml     Portafolio de satélites (estado, patrocinador, líder)
+satelites/registro.yaml     Portafolio de satélites (cada uno es un repo separado YiziDigital/<id>)
+finanzas/consumo-ia.md      Registro mensual de consumo de IA (Edith)
 satelites/plantilla/        Plantilla para crear un satélite nuevo
 ```
 

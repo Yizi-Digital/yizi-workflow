@@ -6,6 +6,8 @@
 #
 # Estados: propuesto → incubacion → activo → pausado → cerrado
 # Solo los satélites `activo` se ofrecen a clientes.
+# Cada satélite es un repositorio separado: github.com/YiziDigital/<id>.
+# Nombres comerciales en inglés: "Yizi <Descriptor>"; id = yizi-<descriptor>.
 # ─────────────────────────────────────────────────────────────────────────────
 
 nucleo:
@@ -20,8 +22,8 @@ limites:
   macro_simultaneos_max: 1
 
 satelites:
-  - id: yizi-soluciones
-    nombre: Yizi Soluciones
+  - id: yizi-solutions
+    nombre: Yizi Solutions
     tipo: linea
     estado: activo
     descripcion: >-
@@ -33,11 +35,11 @@ satelites:
       formal: K.A.R.E.N
       corto: Karen
       rol: Líder de entrega de soluciones; convierte diagnósticos en productos funcionando.
-      estado: propuesto   # pendiente de aprobación del CEO
-    repo: null           # se completa con el skill yizi-satelite
+      estado: aprobado   # CEO, 2026-11-17
+    repo: https://github.com/YiziDigital/yizi-solutions   # primer satélite (2026-11-17)
 
-  - id: yizi-impulso
-    nombre: Yizi Impulso
+  - id: yizi-growth
+    nombre: Yizi Growth
     tipo: linea
     estado: incubacion
     descripcion: >-
@@ -48,11 +50,11 @@ satelites:
       formal: H.O.M.E.R
       corto: Homer
       rol: Líder de crecimiento; diseña y opera campañas y embudos de venta.
-      estado: propuesto
-    repo: null
+      estado: aprobado   # CEO, 2026-11-17
+    repo: null   # se creará como YiziDigital/<id> al activarse
 
-  - id: yizi-talento
-    nombre: Yizi Talento
+  - id: yizi-talent
+    nombre: Yizi Talent
     tipo: linea
     estado: incubacion
     descripcion: >-
@@ -63,8 +65,8 @@ satelites:
       formal: J.O.C.A.S.T.A
       corto: Jocasta
       rol: Líder de talento; recluta, asigna y da seguimiento a especialistas.
-      estado: propuesto
-    repo: null
+      estado: aprobado   # CEO, 2026-11-17
+    repo: null   # se creará como YiziDigital/<id> al activarse
 
 # Proyectos MACRO: se añaden aquí con tipo `macro` y estado `incubacion`
 # solo cuando la Autoridad MACRO los autoriza (patrocinadora: viernes).

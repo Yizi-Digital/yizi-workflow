@@ -26,9 +26,9 @@ flowchart TB
 
     subgraph SAT["🛰️ SATÉLITES (heredan el núcleo)"]
         direction LR
-        SOL["Yizi Soluciones<br/>tecnología e IA<br/>líder: Karen*"]
-        IMP["Yizi Impulso<br/>marketing y ventas<br/>líder: Homer*"]
-        TAL["Yizi Talento<br/>outsourcing IA/software<br/>líder: Jocasta*"]
+        SOL["Yizi Solutions<br/>tecnología e IA<br/>líder: Karen<br/>repo: yizi-solutions"]
+        IMP["Yizi Growth<br/>marketing y ventas<br/>líder: Homer<br/>(incubación)"]
+        TAL["Yizi Talent<br/>outsourcing IA/software<br/>líder: Jocasta<br/>(incubación)"]
         PM["Proyectos MACRO<br/>apps propias<br/>(con autorización)"]
     end
 
@@ -39,7 +39,7 @@ flowchart TB
     MACRO -. autoriza .-> PM
 ```
 
-<sub>* Nombres de líderes de satélite propuestos, pendientes de aprobación del CEO.</sub>
+Cada satélite es un **repositorio separado** dentro de la organización [YiziDigital](https://github.com/YiziDigital) (`YiziDigital/<id>`). El primero es [`yizi-solutions`](https://github.com/YiziDigital/yizi-solutions); Growth y Talent están en incubación y no se ofrecen todavía a clientes.
 
 ### Jerarquía de agentes
 
@@ -80,7 +80,7 @@ Viven en `openspec/specs/` y son la verdad vigente de cómo funciona Yizi.
 | `arquitectura` | Stack de referencia, seguridad, estabilidad transaccional, IA responsable | Vision |
 | `comunicacion` | Tono, identidad visual, arquitectura de marca, El Guía Yizi | Jarvis |
 | `comercial` | Diagnóstico Flash → Sprint Inicial → Iteración y Escala | Jarvis · Viernes |
-| `finanzas` | Estimación de costos, niveles de modelos de IA, límite de gasto, precios | Edith |
+| `finanzas` | Estimación de costos, niveles de modelos de IA, consumo por ventana de 5 horas, precios | Edith |
 | `satelites` | Modelo núcleo-satélite, registro, ciclo de vida, herencia | Viernes |
 | `autoridad-macro` | Cómo se autorizan los proyectos propios de gran alcance | Viernes · CEO |
 
@@ -148,7 +148,7 @@ flowchart LR
 
 1. Viernes propone el satélite con un cambio del núcleo (`/openspec-propose`), que actualiza `satelites/registro.yaml`.
 2. El Consejo lo revisa (`/yizi-consejo`) y el CEO lo aprueba.
-3. El skill `/yizi-satelite` genera el repositorio desde `satelites/plantilla/`:
+3. El skill `/yizi-satelite` genera un **repositorio separado** `YiziDigital/<id>` desde `satelites/plantilla/` (el CEO crea el repositorio vacío en GitHub o confirma su creación):
    - su `openspec/config.yaml` declara `references: [yizi-workflow]`, así OpenSpec entrega a los agentes el índice de las specs del núcleo;
    - su `.claude/settings.json` activa el plugin `yizi-nucleo@yizi`, así los cinco directivos y los skills de Yizi están disponibles sin copiarlos;
    - incluye la ficha de su líder N2.
@@ -180,8 +180,10 @@ yizi-workflow/
 ├── .agents/skills/           openspec-* (flujo SDD) y yizi-* (consejo, satélite)
 ├── .claude-plugin/           Plugin yizi-nucleo + marketplace yizi
 ├── .openspec-store/          Identidad del núcleo como store de OpenSpec
+├── finanzas/
+│   └── consumo-ia.md         Registro mensual de consumo de IA (Edith)
 └── satelites/
-    ├── registro.yaml         Portafolio de satélites
+    ├── registro.yaml         Portafolio de satélites (cada uno en YiziDigital/<id>)
     └── plantilla/            Plantilla de satélite
 ```
 

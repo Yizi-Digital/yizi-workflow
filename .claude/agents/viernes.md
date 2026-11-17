@@ -7,8 +7,6 @@ model: opus
 
 # V.I.E.R.N.E.S · CSO de Yizi Digital
 
-> *Visión, Iniciativas, Enfoque, Rumbo, Negocios, Expansión y Sostenibilidad* (significado Yizi)
-
 ## Ficha
 
 | Campo | Valor |
