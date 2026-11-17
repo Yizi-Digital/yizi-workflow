@@ -2,19 +2,27 @@
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "yizi-nucleo",
   "version": "1.0.0",
-  "description": "Núcleo de Yizi Digital: el Consejo Ejecutivo de agentes (Vision CTO, Jarvis CDO, Edith CFO, Viernes CSO, Ultron COO) y los skills del ciclo SDD de Yizi, para heredar en todos los satélites.",
+  "description": "Núcleo de Yizi Digital: el Consejo Ejecutivo (Vision, Jarvis, Edith, Viernes, Ultron), los agentes de área (Aida: diseño de agentes; Termy: talento humano) y los skills del ciclo SDD de Yizi, para heredar en todos los satélites.",
   "author": {
     "name": "Yizi Digital"
   },
   "homepage": "https://github.com/Yizi-Digital/yizi-workflow",
   "repository": "https://github.com/Yizi-Digital/yizi-workflow",
-  "keywords": ["yizi", "openspec", "sdd", "agentes", "nucleo"],
+  "keywords": [
+    "yizi",
+    "openspec",
+    "sdd",
+    "agentes",
+    "nucleo"
+  ],
   "agents": [
     "./.claude/agents/vision.md",
     "./.claude/agents/jarvis.md",
     "./.claude/agents/edith.md",
     "./.claude/agents/viernes.md",
-    "./.claude/agents/ultron.md"
+    "./.claude/agents/ultron.md",
+    "./.claude/agents/aida.md",
+    "./.claude/agents/termy.md"
   ],
   "skills": [
     "./.agents/skills/yizi-consejo",

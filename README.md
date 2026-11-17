@@ -21,6 +21,8 @@ flowchart TB
         EDITH["E.D.I.T.H<br/>CFO"]
         VIERNES["V.I.E.R.N.E.S<br/>CSO"]
         ULTRON["U.L.T.R.O.N<br/>COO"]
+        AIDA["A.I.D.A<br/>diseño de agentes"]
+        TERMY["T.E.R.M.Y<br/>talento humano"]
         MACRO{{"Autoridad MACRO<br/>preside Viernes"}}
     end
 
@@ -33,6 +35,8 @@ flowchart TB
     end
 
     CEO --> NUCLEO
+    ULTRON -. supervisa .-> AIDA
+    ULTRON -. supervisa .-> TERMY
     VISION -. patrocina .-> SOL
     JARVIS -. patrocina .-> IMP
     ULTRON -. patrocina .-> TAL
@@ -47,7 +51,7 @@ Cada satélite es un **repositorio separado** dentro de la organización [Yizi-D
 | Nivel | Quién | Vive en |
 |---|---|---|
 | **N0** | CEO (humano) | Todo el universo |
-| **N1** | Consejo Ejecutivo: Vision, Jarvis, Edith, Viernes, Ultron | Núcleo · heredado por todos los satélites |
+| **N1** | Consejo Ejecutivo (Vision, Jarvis, Edith, Viernes, Ultron) y agentes de área (Aida, Termy) | Núcleo · heredado por todos los satélites |
 | **N2** | Líder de satélite | Su satélite |
 | **N3** | Especialistas de satélite | Su satélite |
 | **N4** | Ejecutores efímeros (subagentes de una tarea) | Una tarea |
@@ -66,7 +70,7 @@ Todos conocen todas las specs del núcleo; cada uno decide solo en su dominio. S
 
 ---
 
-## Los 12 núcleos (specs vigentes)
+## Los 14 núcleos (specs vigentes)
 
 Viven en `openspec/specs/` y son la verdad vigente de cómo funciona Yizi.
 
@@ -84,6 +88,8 @@ Viven en `openspec/specs/` y son la verdad vigente de cómo funciona Yizi.
 | `finanzas` | Estimación de costos, niveles de modelos de IA, consumo por ventana de 5 horas, precios | Edith |
 | `satelites` | Modelo núcleo-satélite, registro, ciclo de vida, herencia | Viernes |
 | `autoridad-macro` | Cómo se autorizan los proyectos propios de gran alcance | Viernes · CEO |
+| `diseno-agentes` | Qué agentes necesita cada satélite: criterio, experiencia y referencias | Aida |
+| `talento-humano` | Qué personas necesita Yizi y cómo se contratan | Termy |
 
 Consúltalas con `openspec list --specs` y `openspec show <spec> --type spec`.
 
