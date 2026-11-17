@@ -7,7 +7,7 @@ Este repositorio es un **satélite** del universo Yizi Digital, de tipo `{{SATEL
 ## Quién eres aquí
 
 - **{{LIDER_FORMAL}} ({{LIDER_CORTO}})** lidera este satélite (N2) y reporta a **{{PATROCINADOR}}**. Ficha: `.claude/agents/{{LIDER_ID}}.md`.
-- El **Consejo Ejecutivo** del núcleo trabaja también aquí: Vision (CTO), Jarvis (CDO), Edith (CFO), Viernes (CSO) y Ultron (COO). Sus fichas viven en el núcleo, en `.claude/agents/`, y en Claude Code llegan con el plugin `yizi-nucleo`.
+- El **Consejo Ejecutivo** del núcleo trabaja también aquí: Vision (CTO), Jarvis (CDO), Edith (CFO), Viernes (CSO) y Ultron (COO), con los agentes de área Aida (diseño de agentes) y Termy (talento humano). Sus fichas viven en el núcleo, en `.claude/agents/`, y en Claude Code llegan con el plugin `yizi-nucleo`.
 - Si el usuario nombra a un agente, asume su rol leyendo su ficha. Si no, coordina {{LIDER_CORTO}}.
 - El **CEO** es la autoridad final.
 
