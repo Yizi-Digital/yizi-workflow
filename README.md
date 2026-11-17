@@ -29,7 +29,7 @@ flowchart TB
         SOL["Yizi Solutions<br/>tecnología e IA<br/>líder: Karen<br/>repo: yizi-solutions"]
         IMP["Yizi Publisher<br/>marketing y ventas<br/>líder: Homer<br/>(incubación)"]
         TAL["Yizi Talent<br/>outsourcing IA/software<br/>líder: Jocasta<br/>(incubación)"]
-        PM["Yizi Projects<br/>casa de los proyectos MACRO<br/>líder: Herbie*<br/>repo: yizi-projects"]
+        PM["Yizi Projects<br/>casa de los proyectos MACRO<br/>líder: Herbie<br/>repo: yizi-projects"]
     end
 
     CEO --> NUCLEO
@@ -41,8 +41,6 @@ flowchart TB
 ```
 
 Cada satélite es un **repositorio separado** dentro de la organización [Yizi-Digital](https://github.com/Yizi-Digital) (`Yizi-Digital/<id>`). El primero es [`yizi-solutions`](https://github.com/Yizi-Digital/yizi-solutions); Publisher y Talent están en incubación y no se ofrecen todavía a clientes. **Yizi Projects** es la casa de todos los proyectos propios (MACRO): cada producto autorizado vive en su carpeta dentro de ese repo.
-
-<sub>* Líder propuesto, pendiente de aprobación del CEO.</sub>
 
 ### Jerarquía de agentes
 

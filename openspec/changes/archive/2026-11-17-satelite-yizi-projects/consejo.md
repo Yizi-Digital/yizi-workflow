@@ -21,4 +21,4 @@
 
 - Decisión: APROBADO (crear Yizi Projects como casa de los proyectos MACRO, en estado activo).
 - Fecha: 2026-11-17
-- Pendientes del CEO: crear el repositorio vacío `Yizi-Digital/yizi-projects`; aprobar el nombre del líder H.E.R.B.I.E (Herbie).
+- El CEO creó `Yizi-Digital/yizi-projects` y aprobó a H.E.R.B.I.E (Herbie) el 2026-11-17. Satélite subido a `main`.

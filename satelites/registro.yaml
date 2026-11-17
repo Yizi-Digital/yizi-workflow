@@ -81,8 +81,8 @@ satelites:
       formal: H.E.R.B.I.E
       corto: Herbie
       rol: Líder de proyectos propios; incuba cada producto MACRO y vigila sus criterios de éxito y de cierre.
-      estado: propuesto   # pendiente de aprobación del CEO
-    repo: https://github.com/Yizi-Digital/yizi-projects   # pendiente de que el CEO cree el repo vacío
+      estado: aprobado   # CEO, 2026-11-17
+    repo: https://github.com/Yizi-Digital/yizi-projects
     # Proyectos MACRO autorizados. Cada uno vive en proyectos/<id>/ del repo.
     # Límite: limites.macro_simultaneos_max (en incubacion o activo).
     proyectos: []
