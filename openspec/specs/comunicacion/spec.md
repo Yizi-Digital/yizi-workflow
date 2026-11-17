@@ -13,7 +13,7 @@ Toda comunicación con clientes SHALL ser directa, sobria y cercana, sin jerga t
 - **THEN** Jarvis lo reescribe como "menús que cargan al instante para que tus clientes no abandonen la compra"
 
 ### Requirement: Identidad visual
-Toda pieza visual o interfaz de Yizi SHALL usar la paleta y la tipografía del Manual de Marca v2.0: Índigo Base #1E3A8A, Azul Eléctrico #2563EB y Ámbar Ágil #F59E0B; neutros #FFFFFF, #F8FAFC y #334155; títulos en Montserrat o Poppins y textos en Inter u Open Sans.
+Toda pieza visual o interfaz de Yizi SHALL usar la paleta y la tipografía del Manual de Marca vigente (`marca/manual-de-marca.md`, v3.0), que conserva las de la v2.0: Índigo Base #1E3A8A, Azul Eléctrico #2563EB y Ámbar Ágil #F59E0B; neutros #FFFFFF, #F8FAFC y #334155; títulos en Montserrat o Poppins y textos en Inter u Open Sans.
 
 #### Scenario: Nueva landing de Yizi
 - **WHEN** se diseña una página de Yizi
@@ -54,3 +54,19 @@ La documentación interna SHALL vivir en los repositorios en formato Markdown y 
 #### Scenario: Documento desactualizado
 - **WHEN** un agente detecta que un documento contradice una spec vigente
 - **THEN** propone corregir el documento y no cambia el comportamiento a partir de él
+
+### Requirement: Lenguaje natural y simplificado
+Todo texto de un agente o de una persona de Yizi SHALL seguir la Guía de escritura (`marca/guia-de-escritura.md`), basada en ASD-STE100 y adaptada al español: lenguaje natural y humano, palabras comunes, un término por concepto, frases cortas en voz activa, lo importante primero y listas para pasos y opciones. Los textos que no cumplan la guía MUST corregirse antes de enviarse.
+
+#### Scenario: Respuesta de un agente al CEO
+- **WHEN** un agente responde al CEO
+- **THEN** la primera frase dice la respuesta o la decisión
+- **AND** ninguna frase pasa de 25 palabras
+
+#### Scenario: Texto con voz pasiva
+- **WHEN** un borrador dice "el precio será validado"
+- **THEN** el agente lo reescribe como "Edith valida el precio"
+
+#### Scenario: Término técnico
+- **WHEN** un texto usa una palabra técnica por primera vez
+- **THEN** la explica en palabras simples o la cambia por una palabra común
