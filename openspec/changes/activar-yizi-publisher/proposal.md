@@ -22,12 +22,13 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 
 ## What Changes
 
-- **Estado:** Yizi Publisher pasa de `incubacion` a `activo` en `satelites/registro.yaml`, con su repositorio `https://github.com/Yizi-Digital/yizi-publisher`.
+- **Estado:** Yizi Publisher pasa de `incubacion` a `activo` en `satelites/registro.yaml`, con su repositorio `https://github.com/Yizi-Digital/yizi-publisher`. Su descripción y el rol de Homer se reescriben: "con la IA en el centro", "solo remoto" y "sin embudo en la fase 1".
+- **`activo` no autoriza vender:** Publisher no ofrece ni cobra nada antes de cerrar el RUC 10, el contrato y la elección del piloto propio (tareas 8.1 a 8.3).
 - **IA en el centro:** cada servicio de Publisher incluye una lección corta en la que el cliente hace una pieza propia con IA. Es parte fija del servicio, no un extra.
 - **Frontera "solo con IA" (decisión del CEO, 2026-11-18):** Publisher solo ofrece lo que Yizi hace en remoto con IA, con el material que el cliente graba con su celular. Fotos, video, eventos e influencers en el local quedan **mapeados y no se ofrecen**. Si un cliente los pide, se registra una señal para Viernes.
 - **Spec `satelites`:** se añade el requisito "Yizi Publisher activo con IA en el centro", con la frontera "solo con IA".
-- **Catálogo inicial:** 5 servicios en escalera (`estudio/jarvis-oferta-v2.md`), con precios propuestos por Edith. Sale el embudo de ventas por WhatsApp: no hay embudo en la fase 1. Ningún precio llega a un cliente sin la aprobación del CEO.
-- **Flujo:** sin código propio, con herramientas oficiales de Meta y Google y doble confirmación humana por pieza (de Vision).
+- **Catálogo inicial:** 5 servicios en escalera (`estudio/jarvis-oferta-v2.md`), con precios propuestos por Edith. Sale el embudo de ventas por WhatsApp: no hay embudo en la fase 1. Los precios son propuesta hasta tener 3 cotizaciones de Lima y la aprobación del CEO. Ningún precio ni texto comercial sale sin Edith y el CEO, ni antes de que Publisher esté activo.
+- **Flujo:** sin código propio, con herramientas oficiales de Meta y Google y doble confirmación humana por pieza (de Vision). La aprobación del cliente es simple y funciona en el celular (WhatsApp o enlace corto). Cada aprobación queda registrada (quién, cuándo y qué versión). Hay un flujo de salida del cliente con lista firmada.
 - **Frontera con Solutions:** la herramienta que el negocio usa cada día es de Solutions; el servicio que atrae y vende es de Publisher (de Karen).
 - **Equipo (nombres aprobados por el CEO, `estudio/aida-equipo-v2.md`):** Homer, líder N2 (aprobado el 2026-11-17). Activos al arrancar, N3 bajo Homer (aprobados el 2026-11-18): Ágora (Community Manager), Faro (presencia local y reseñas), Quirón (El Guía Yizi en modo enseñar IA) y Prisma (diseño y video con IA). Diseñados, con disparador: Sagita (anuncios) y Kepler (medición). Las 5 fichas de arranque se crean en `yizi-publisher`.
 - **Génesis** del repositorio `yizi-publisher` desde la plantilla del núcleo (`/yizi-satelite`).
@@ -37,9 +38,10 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 
 1. **Primero, los 3 pilotos de Solutions.** El CEO los hace él solo; Publisher no les quita horas.
 2. En el Diagnóstico Flash de cada piloto se **anota** la necesidad de presencia digital, sin ofrecerla.
-3. Mientras tanto, los agentes preparan el satélite: fichas de Homer, Ágora, Faro, Quirón y Prisma, catálogo, precios y textos.
-4. **Publisher arranca con 1 piloto propio**, de preferencia entre los clientes del Paquete Base, cuando el CEO lo decida con la evidencia de los pilotos.
-5. Opción, no recomendación principal: usar Publisher primero como caso interno (las redes de Yizi).
+3. **Punto de control:** Publisher no pasa a `activo` hasta terminar el Diagnóstico Flash del tercer piloto de Solutions.
+4. Después de los pilotos, los agentes preparan el satélite: fichas de Homer, Ágora, Faro, Quirón y Prisma, catálogo, precios y textos. Si la ventana de 5 horas está justa, trabaja un agente a la vez.
+5. **Publisher arranca con 1 piloto propio**, de preferencia entre los clientes del Paquete Base, cuando el CEO lo decida con la evidencia de los pilotos.
+6. Opción, no recomendación principal: usar Publisher primero como caso interno (las redes de Yizi).
 
 ### Decisiones pendientes del CEO
 
@@ -52,7 +54,9 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 
 - **Supuesto de Edith:** el CEO da 10 horas por semana a Publisher. Quedan unas 30 horas productivas al mes.
 - **Tope:** unos **6 clientes** equivalentes de "Redes con IA" mientras el CEO sea la única persona.
-- El CEO confirma sus horas reales. Si cambian, Edith recalcula el tope.
+- El CEO confirma sus horas reales. **Recomendación de Ultron:** máximo 5 horas por semana hasta cerrar los pilotos de Solutions. Edith recalcula el tope con las horas confirmadas.
+- El CEO anota los minutos reales de cada cliente desde el primer cliente.
+- **Regla de pausa:** si el CEO pierde horas de Solutions, el trabajo de Publisher se pausa.
 
 ## What Does Not Change
 

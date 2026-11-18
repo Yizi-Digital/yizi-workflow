@@ -20,7 +20,7 @@ Yizi Publisher está en `incubacion` desde el 2026-11-17, con Jarvis como patroc
 
 ### D1 · Catálogo inicial de 5 servicios en escalera — [Jarvis, Edith]
 
-Fuente: `estudio/jarvis-oferta-v2.md`, que reemplaza al catálogo de la v1. Todo servicio empieza con un Diagnóstico Flash único (ver D3). Cada servicio termina con una lección de 15 minutos: el cliente hace una pieza propia con IA.
+Fuente: `estudio/jarvis-oferta-v2.md`, que reemplaza al catálogo de la v1. Todo servicio empieza con un Diagnóstico Flash único (ver D3). Cada servicio incluye una lección en la que el cliente hace una pieza propia con IA. La duración sigue las horas de Edith (`estudio/edith-economia.md`, 2.1): Presencia básica, 1 hora de clase; Redes con IA Inicio y Redes con IA, 30 minutos al mes; Acompañamiento IA, 1 hora al mes. Campañas usa la lección del plan de redes al que se suma.
 
 | # | Servicio (Jarvis) | Qué aprende el cliente con IA | Precio con IGV (Edith) | Margen |
 |---|---|---|---|---|
@@ -30,13 +30,14 @@ Fuente: `estudio/jarvis-oferta-v2.md`, que reemplaza al catálogo de la v1. Todo
 | 4 | Campañas (complemento de un plan de redes; 1 campaña en Meta) | Leer su informe y decidir qué anuncio repetir | **S/ 129** al mes + **S/ 99** de alta | 48.4 % |
 | 5 | Acompañamiento IA (1 hora al mes; el dueño publica solo) | Crear y programar solo, con revisión de Yizi | **S/ 69** al mes | 60 % |
 
-- **Todos los precios son PROPUESTA de Edith.** El CEO los aprueba antes de que lleguen a un cliente. Jarvis consigue al menos 3 cotizaciones reales de Lima antes de publicarlos.
+- **Todos los precios son PROPUESTA de Edith** hasta que se cumplan dos cosas: Jarvis consigue al menos 3 cotizaciones reales de Lima y el CEO los aprueba.
+- **Ningún precio ni texto comercial sale hacia afuera** sin la revisión de Edith y la aprobación del CEO. Tampoco sale antes de que Publisher esté `activo`.
 - **El servicio 5 espera la decisión del CEO** (pregunta abierta 1). Recomendación de Jarvis: solo como último escalón, nunca al inicio, con 3 mejoras por escrito al mes.
 - **El servicio 4 no se vende** hasta que el CEO y Edith lo aprueben; su primer cliente es el disparador de Sagita (D4).
 - **Sin embudo de ventas por WhatsApp en la fase 1.** Pide API propia (Vision) y toca la frontera con Solutions.
 - **Ningún plan incluye responder los mensajes del público** mientras el CEO no decida (pregunta abierta 2). Cada plan entrega un banco de respuestas y una plantilla de IA; el dueño responde.
 - Supuestos de Edith: costo de la hora de S/ 20, de 1 a 5 horas por cliente (estimación) y Canva a S/ 44.90 (no verificado).
-- Una hora de más por cliente deja casi todos los planes bajo el 40 %. Cada plan tiene alcance cerrado y tope de horas. El CEO anota los minutos reales.
+- Una hora de más por cliente deja casi todos los planes bajo el 40 %. Cada plan tiene alcance cerrado y tope de horas. El CEO anota los minutos reales de cada cliente desde el primer cliente, en el registro del satélite; Edith los usa para recalcular márgenes.
 - Se promete método y medición, no números. Sin métricas de vanidad.
 
 *Alternativa descartada:* campañas pagadas como servicio suelto. Sin tope del cliente, el gasto se descontrola.
@@ -60,7 +61,7 @@ Fuente: `estudio/jarvis-oferta-v2.md`, que reemplaza al catálogo de la v1. Todo
 2. Calendario del mes: la IA propone; una persona de Yizi ajusta.
 3. Piezas con IA en estado "borrador".
 4. Revisión de una persona de Yizi con una lista fija (precios, promesas, derechos, datos personales).
-5. Aprobación del cliente, pieza por pieza, con registro de quién y cuándo.
+5. Aprobación del cliente, pieza por pieza. Debe ser simple y funcionar en el celular: un mensaje de WhatsApp o un enlace corto, con una respuesta "Sí" o un cambio pedido.
 6. Programación por una persona de Yizi en Meta Business Suite; publicación manual en Google.
 7. Control al día siguiente: "publicado" o "falló" con aviso.
 
@@ -71,6 +72,17 @@ Reglas:
 - Yizi **no pide contraseñas**. Trabaja con acceso de socio en Meta y de administrador en Google.
 - Prohibido: librerías no oficiales, bots, compra de seguidores o reseñas, mensajes sin permiso y scraping.
 - **IA:** nivel Ligero (Haiku 5.5) y Estándar (Sonnet 5.5). Nunca Avanzado ni Frontera en el servicio. Respaldo si el modelo falla: plantillas fijas y trabajo manual. El texto de comentarios entra como dato, nunca como instrucción (OWASP LLM01:2025, según la ficha de Vision).
+- **Registro de aprobaciones:** cada pieza tiene una fila en `clientes/<cliente>/aprobaciones.md` del repositorio `yizi-publisher` (o la hoja que Vision apruebe en 5.5). La fila anota: pieza, versión, quién de Yizi la revisó, quién del cliente la aprobó, fecha y hora, y el canal (WhatsApp o enlace). Se guarda una captura o el enlace del mensaje del cliente. Si la pieza cambia, sube la versión y se pide otra aprobación. Los datos del cliente no van en el núcleo.
+- **Proveedores de IA aprobados (Vision):**
+
+| Uso | Proveedor | Costo | Derechos de uso | Política de datos | Estado |
+|---|---|---|---|---|---|
+| Textos, calendario, guiones y respuestas sugeridas | Anthropic, API de Claude (Haiku 5.5 y Sonnet 5.5) | Haiku desde 0.10 / 0.50 USD y Sonnet 2 / 10 USD por millón de tokens (platform.claude.com, 2026-11-18) | Por confirmar en los términos comerciales | Por confirmar si usa datos para entrenar | Precio verificado; derechos y datos no verificados |
+| Diseño con plantillas | Canva (o similar) | S/ 44.90 al mes | Por confirmar (licencia de plantillas y elementos) | Por confirmar | No verificado |
+| Imágenes generadas con IA | Por elegir (Vision) | No verificado | No verificado | No verificado | No verificado. Mientras tanto: foto real del cliente más plantilla |
+
+- Ningún dato de cliente entra en un proveedor que no esté en esta tabla. Vision verifica los datos marcados "no verificado" antes del primer cliente (tarea 5.5d).
+- **Salida del cliente:** cuando el cliente termina el servicio, una persona de Yizi sigue una lista de salida: (1) quita los accesos de socio y de administrador de Yizi; (2) entrega al cliente sus piezas, su ficha del negocio, sus plantillas y el registro de aprobaciones; (3) confirma que las cuentas quedan solo a nombre del cliente; (4) el cliente firma la lista de salida (firma simple o mensaje de conformidad). Yizi borra sus copias de trabajo según el contrato (8.2).
 - Costo de IA: menos de S/ 5 por cliente al mes (estimación de Edith con precio de API verificado). Edith lo mide en el piloto.
 
 *Alternativa descartada:* integración propia por API desde el inicio. La revisión de apps de Meta y el acceso a la API de Google no son automáticos, y no hay clientes que la paguen. Queda para la fase 2, con un cambio aparte.
@@ -86,7 +98,7 @@ Reglas:
 | Fidelización por WhatsApp | Compartido: Solutions da la herramienta; Publisher diseña y opera las campañas |
 | Contenido del menú (fotos y textos) | Publisher diseña; el flujo a cocina es de Solutions |
 
-- **Un solo Diagnóstico Flash** pregunta por operación y por presencia. Se cobra una vez.
+- **Un solo Diagnóstico Flash** pregunta por operación y por presencia. Se cobra una vez. **Lo lidera Homer** cuando el cliente entra por Publisher; Jarvis apoya en marca y textos. Si el cliente entra por Solutions, el diagnóstico sigue el flujo de Karen.
 - **Derivación** con una ficha corta: el cliente no repite el diagnóstico.
 - **Una factura** con dos líneas; Edith evita solapes. Lidera la relación el satélite que vendió primero.
 - **Un solo catálogo de productos:** Publisher usa el bloque B03 de Solutions y no crea otra copia (Vision confirma en la fase 2).
@@ -110,7 +122,7 @@ Fuente: `estudio/aida-equipo-v2.md`. Nombres aprobados por el CEO: Homer el 2026
 - Hasta su disparador, Homer cubre esas tareas con agentes N4 de nivel Ligero, o el servicio no se vende.
 - Con la activación, el grupo pasa de 26 a 31 agentes activos (cifras de Aida).
 - Reglas para todo el equipo: ningún agente publica, paga ni entra a las cuentas del cliente. Ningún agente verifica lo que construyó (verifica Lince). Ante clientes, la identidad es El Guía Yizi.
-- Quirón debe quedar cubierto por el cambio de `jerarquia-agentes` sobre agentes del producto, que lleva Ultron.
+- Quirón (agente del producto) se refleja en la spec `jerarquia-agentes`, con la tarea 4.8 que lleva Ultron.
 
 ### D5 · Personas: solo mapeadas — [Termy]
 
@@ -129,7 +141,12 @@ Fuente: `estudio/aida-equipo-v2.md`. Nombres aprobados por el CEO: Homer el 2026
 ### D7 · Arranque y capacidad — [Viernes, Karen, Edith]
 
 - Primero, los 3 pilotos de Solutions. Publisher arranca después con **1 piloto propio**.
-- Tope: unos **6 clientes** equivalentes (30 horas al mes), con el supuesto de 10 horas por semana del CEO.
+- **Punto de control:** Publisher no pasa a `activo` (3.1) hasta que termine el Diagnóstico Flash del tercer piloto de Solutions.
+- **`activo` no autoriza vender.** Publisher no ofrece ni cobra nada antes de cerrar 8.1 (RUC 10), 8.2 (contrato) y 8.3 (piloto propio elegido).
+- **Horas del CEO:** el CEO confirma sus horas reales (1.3). Recomendación de Ultron: máximo 5 horas por semana para Publisher hasta cerrar los pilotos de Solutions. Edith recalcula el tope de clientes con las horas confirmadas.
+- **Regla de pausa:** si el CEO pierde horas de Solutions por Publisher, el trabajo de Publisher se pausa hasta recuperar el plan de Solutions.
+- **Preparación después de los pilotos:** los agentes preparan el satélite (fichas, catálogo, flujo) después de los pilotos. Si la ventana de 5 horas está justa, trabaja un agente a la vez (regla 7).
+- Tope: unos **6 clientes** equivalentes (30 horas al mes), con el supuesto de 10 horas por semana del CEO. Con 5 horas por semana serían unos 3 (estimación; Edith lo recalcula).
 - Para crecer: pasar clientes al escalón de salida, dar talleres grupales o sumar una persona (Termy y Edith).
 
 *Alternativa descartada:* abrir Publisher en paralelo a los pilotos. Quita horas al CEO y mezcla la medición del Paquete Base.
@@ -153,10 +170,10 @@ Fuente: `estudio/aida-equipo-v2.md`. Nombres aprobados por el CEO: Homer el 2026
 
 1. **Decisión del CEO pendiente.** ¿Se suma "Acompañamiento IA" (S/ 69)? Jarvis recomienda sí, solo como último escalón y nunca al inicio.
 2. **Decisión del CEO pendiente.** ¿Los planes incluyen responder los mensajes del público? Jarvis recomienda no: el dueño responde y Yizi le enseña. Un complemento "Bandeja de mensajes" queda como idea futura, sin precio.
-3. ¿Cuántas horas por semana puede dar el CEO a Publisher? Define el tope real de clientes.
+3. ¿Cuántas horas por semana puede dar el CEO a Publisher? Define el tope real de clientes. Ultron recomienda máximo 5 horas por semana hasta cerrar los pilotos.
 4. Resuelta (2026-11-18): el CEO aprobó los nombres del equipo de Aida.
 5. Abogado: contrato de servicio, propiedad de cuentas y contenido, Ley 29733, DL 1044 y política de mensajes de WhatsApp (no verificada).
 6. Contador: RUC 10 en el RMT, actividad de marketing digital y emisión electrónica.
 7. ¿El plan de IA del CEO permite el uso para clientes? No verificado; Edith cuenta el costo de la API por prudencia.
-8. Proveedor de imágenes con IA: costo, derechos y uso de datos. Lo decide Vision.
+8. Proveedor de imágenes con IA: costo, derechos y uso de datos. Lo decide Vision antes del primer cliente (tarea 5.5d); ver la tabla de D2.
 9. ¿Publisher arranca como caso interno (las redes de Yizi) antes del piloto externo?
