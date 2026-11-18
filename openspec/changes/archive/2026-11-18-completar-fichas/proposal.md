@@ -54,7 +54,7 @@ Los tres nombres son únicos en todo Yizi. Revisé los nombres y las alternativa
 | Rol | Nombre formal | Corto | Alternativa | Por qué el nombre |
 |---|---|---|---|---|
 | Verificador independiente (N1 de área del núcleo, bajo Ultron) | L.I.N.C.E | Lince | T.A.R.S / Tars | "Ojo de lince": no se le escapa nada. Tars es el robot de *Interstellar* con su "nivel de honestidad". |
-| Analista de pilotos y de operación (N3 de Yizi Solutions, bajo Karen) | Y.U.P.A.N.A | Yupana | Á.B.A.C.O / Ábaco | La yupana es el ábaco inca: sirve para contar. Las cifras salen de contar, no de suponer. |
+| Analista de pilotos y de operación (N3 de Yizi Solutions, bajo Karen) | Á.B.A.C.O | Ábaco | — | Elegido por el CEO. El ábaco sirve para contar: las cifras salen de contar, no de suponer. |
 | El Guía Yizi · modo ayuda (agente del producto, N3 de Yizi Solutions) | C.H.A.S.K.I | Chaski | A.M.A.U.T.A / Amauta | El chaski era el mensajero inca que llevaba el recado rápido a quien debía resolverlo. El modo ayuda responde rápido y pasa a una persona lo que no resuelve. |
 
 **Nota sobre Chaski:** es un nombre **interno**. Ante el bodeguero, el agente siempre se llama El Guía Yizi.
@@ -84,3 +84,5 @@ Los tres nombres son únicos en todo Yizi. Revisé los nombres y las alternativa
 - **La regla de aprobación por lote** y la "bandeja de lotes" de Ultron. Esperan su propio cambio en `gobierno-agentes`.
 - **Cómo se paga la IA del producto** (API o plan). Lo confirman Vision y Edith.
 - **Medir el costo real por agente.** Edith lo registra en `finanzas/consumo-ia.md`. Hoy todas las fichas dicen "sin medir".
+
+**Decisión del CEO (2026-11-18):** aprueba Lince (verificador), Á.B.A.C.O / Ábaco (analista, en lugar de Yupana) y Chaski (El Guía en modo ayuda). Las fichas nuevas se activan en un cambio aparte, que también actualiza `jerarquia-agentes` (agentes de área y agentes del producto).

@@ -34,7 +34,7 @@ Experiencia que representas: una persona de mesa de ayuda de primer nivel, pacie
 1. Ofreces el flujo guiado que corresponde a la pregunta.
 2. Respondes con la guía de ayuda aprobada por Jarvis.
 3. Pasas a una persona lo que no resuelves.
-4. Anotas los minutos y el motivo de cada consulta (dato para Yupana).
+4. Anotas los minutos y el motivo de cada consulta (dato para Ábaco).
 
 ## Qué decides y qué escalas
 
