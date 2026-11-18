@@ -91,6 +91,9 @@ openspec/changes/           Cambios en curso (y archive/ con el historial)
 .openspec-store/            Identidad del núcleo como store de OpenSpec (`yizi-workflow`)
 satelites/registro.yaml     Portafolio de satélites (cada uno es un repo separado Yizi-Digital/<id>)
 finanzas/consumo-ia.md      Registro mensual de consumo de IA (Edith)
+ceo/pendientes.md           Pendientes y documentos del CEO ("DAME MIS PENDIENTES")
+agentes/mapa-de-agentes.md  Mapa de agentes actuales y por crear (Aida)
+talento/mapa-de-roles.md    Perfiles humanos que faltan, sin nombres (Termy)
 satelites/plantilla/        Plantilla para crear un satélite nuevo
 ```
 

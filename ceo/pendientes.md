@@ -1,7 +1,7 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-18.
+Última actualización: 2026-11-18 (núcleo al día: PR #5 a #10 fusionados).
 
 ## 1. Mis pendientes
 
@@ -9,9 +9,6 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
-- [ ] yizi-workflow · PR #9 · fichas completadas + estudio de talentos (incluye el #6; al fusionarlo, cierra el #6).
-- [ ] yizi-workflow · PR #7 · aprobación por lotes y respaldo.
-- [ ] yizi-workflow · PR #8 · este archivo de pendientes.
 - [ ] yizi-projects · PR #2 · equipo de 14 agentes.
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
 
@@ -32,6 +29,7 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ### Más adelante
 - [ ] Decidir cuándo activar Yizi Publisher y Yizi Talent.
 - [ ] Llevar las consultas al contador y al abogado cuando tenga ese talento.
+- [ ] Activar a Lince, Ábaco y Chaski (antes de los pilotos; cambio aparte).
 
 ## 2. Mis documentos
 
@@ -48,9 +46,9 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Registro de consumo de IA | `yizi-workflow/finanzas/consumo-ia.md` |
 | Reglas vigentes (14 specs) | `yizi-workflow/openspec/specs/` |
 | Fichas de los agentes | `yizi-workflow/.claude/agents/` |
-| Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2 en rama `yizi/completar-fichas`) |
-| Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` (rama `yizi/completar-fichas`) |
-| Diseño de Lince, Ábaco y Chaski | `yizi-workflow/openspec/changes/archive/2026-11-18-completar-fichas/fichas-nuevas/` (rama `yizi/completar-fichas`) |
+| Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2) |
+| Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` |
+| Diseño de Lince, Ábaco y Chaski | `yizi-workflow/openspec/changes/archive/2026-11-18-completar-fichas/fichas-nuevas/` |
 
 ### Yizi Solutions · yizi-solutions (rama `karen/catalogo-inicial`)
 | Qué | Ruta |
