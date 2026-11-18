@@ -46,6 +46,56 @@ flowchart TB
 
 Cada satélite es un **repositorio separado** dentro de la organización [Yizi-Digital](https://github.com/Yizi-Digital) (`Yizi-Digital/<id>`). El primero es [`yizi-solutions`](https://github.com/Yizi-Digital/yizi-solutions); Publisher y Talent están en incubación y no se ofrecen todavía a clientes. **Yizi Projects** es la casa de todos los proyectos propios (MACRO): cada producto autorizado vive en su carpeta dentro de ese repo.
 
+### Organigrama
+
+Estado al 2026-11-18. Hoy hay **1 persona** (el CEO) y **11 agentes de IA**: 5 en el Consejo, 2 de área y 4 líderes de satélite. Lo mantiene Ultron; los roles humanos vienen de `talento/mapa-de-roles.md` (Termy).
+
+```mermaid
+flowchart TB
+    CEO["👤 CEO · Yefer<br/>autoridad final"]
+
+    subgraph CONSEJO["Consejo Ejecutivo · núcleo (N1)"]
+        direction LR
+        VIERNES["V.I.E.R.N.E.S<br/>CSO · estrategia"]
+        VISION["V.I.S.I.O.N<br/>CTO · tecnología"]
+        JARVIS["J.A.R.V.I.S<br/>CDO · marca y ventas digitales"]
+        EDITH["E.D.I.T.H<br/>CFO · finanzas"]
+        ULTRON["U.L.T.R.O.N<br/>COO · operaciones"]
+    end
+
+    subgraph AREA["Agentes de área · núcleo (N1)"]
+        direction LR
+        AIDA["A.I.D.A<br/>diseño de agentes"]
+        TERMY["T.E.R.M.Y<br/>talento humano"]
+    end
+
+    subgraph SAT["Satélites · líderes (N2)"]
+        direction LR
+        KAREN["K.A.R.E.N<br/>Yizi Solutions<br/>✅ activo"]
+        HERBIE["H.E.R.B.I.E<br/>Yizi Projects<br/>✅ activo · sin proyectos"]
+        HOMER["H.O.M.E.R<br/>Yizi Publisher<br/>⏸ incubación"]
+        JOCASTA["J.O.C.A.S.T.A<br/>Yizi Talent<br/>⏸ incubación"]
+    end
+
+    PROMOTOR["👤 Promotor de barrio<br/>(mapeado · aún no se contrata)"]
+
+    CEO --> CONSEJO
+    ULTRON --> AIDA
+    ULTRON --> TERMY
+    VISION -. patrocina .-> KAREN
+    VIERNES -. patrocina .-> HERBIE
+    JARVIS -. patrocina .-> HOMER
+    ULTRON -. patrocina .-> JOCASTA
+    KAREN -. coordina .-> PROMOTOR
+    TERMY -. perfil y contratación .-> PROMOTOR
+```
+
+- **Línea continua:** a quién reporta.
+- **Línea punteada:** quién patrocina un satélite o coordina a una persona.
+- **Apoyo externo previsto (aún sin contratar):** contador y abogado.
+
+Cuando cambie el equipo (un agente nuevo, un satélite que se activa o una persona contratada), Ultron actualiza este organigrama en el mismo cambio OpenSpec.
+
 ### Jerarquía de agentes
 
 | Nivel | Quién | Vive en |
