@@ -48,17 +48,12 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Guía de escritura (lenguaje simple) | `yizi-workflow/marca/guia-de-escritura.md` |
 | Satélites y su estado | `yizi-workflow/satelites/registro.yaml` |
 | Registro de consumo de IA | `yizi-workflow/finanzas/consumo-ia.md` |
-| Reglas vigentes (14 specs) | `yizi-workflow/openspec/specs/` |
+| Reglas vigentes (15 specs) | `yizi-workflow/openspec/specs/` |
 | Fichas de los agentes | `yizi-workflow/.claude/agents/` |
 | Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2) |
 | Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` |
 | Ficha de Lince (verificador) | `yizi-workflow/.claude/agents/lince.md` |
 | Marco legal del grupo | `yizi-workflow/openspec/specs/marco-legal/spec.md` |
-| toFinance · reevaluación frente a la competencia | `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md` |
-| toFinance · estudio de la competencia (CEO) | `yizi-projects/proyectos/tofinance/estudio-competencia-quipuk.md` |
-| toFinance · backlog: épicas, features e historias (Vera) | `yizi-projects/proyectos/tofinance/backlog.md` |
-| toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
-| toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
 
 ### Yizi Solutions · yizi-solutions (rama `karen/catalogo-inicial`)
 | Qué | Ruta |
@@ -87,3 +82,14 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Cómo nace un proyecto MACRO | `yizi-projects/proyectos/README.md` |
 | Equipo de 14 agentes (fichas) | `yizi-projects/.claude/agents/` |
 | Equipo y quién decide qué | `yizi-projects/AGENTS.md` |
+
+### toFinance · yizi-projects (rama `herbie/proyecto-tofinance`, PR #4)
+| Qué | Ruta |
+|---|---|
+| toFinance · reevaluación frente a la competencia | `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md` |
+| toFinance · estudio de la competencia (CEO) | `yizi-projects/proyectos/tofinance/estudio-competencia-quipuk.md` |
+| toFinance · backlog: épicas, features e historias (Vera) | `yizi-projects/proyectos/tofinance/backlog.md` |
+| toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
+| toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
+| toFinance · expediente MACRO | `yizi-projects/proyectos/tofinance/expediente.md` |
+| Talentos Cronos y Tempo (en espera) | `yizi-projects/openspec/changes/talentos-tofinance/` |
