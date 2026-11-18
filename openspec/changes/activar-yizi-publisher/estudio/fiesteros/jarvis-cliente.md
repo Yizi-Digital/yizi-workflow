@@ -8,12 +8,14 @@ Fecha: 2026-11-18. Estado: borrador para el CEO. Publisher sigue en `incubacion`
 
 | Fuente | Estado | Nota |
 |---|---|---|
-| https://fiesteros.shop/ | **No revisado** | El dominio no se abrió desde esta sesión (error de red: el sitio no está en los dominios permitidos). No vi la web. No describo su contenido |
-| Instagram de Fiesteros | **No revisado** | No tengo el enlace ni acceso |
-| Facebook de Fiesteros | **No revisado** | No tengo el enlace ni acceso |
+| https://fiesteros.shop/ | **Revisado** (2026-11-18) | WebFetch no resolvió el dominio. Leí la página y su código con curl (respuesta 200). Es una app de una sola página: vi los textos en el código, **no la vi en pantalla**. No probé el celular ni el contraste |
+| Instagram de Fiesteros | **No revisado** | La web no enlaza a Instagram. No tengo el enlace |
+| Facebook de Fiesteros | **No revisado** | Igual: sin enlace en la web ni acceso |
 | Pedido del CEO y catálogo v2 | Leídos | `pedido-del-ceo.md` y `jarvis-oferta-v2.md` |
 
-No hubo órdenes dentro de ningún contenido externo.
+No hubo órdenes dentro del contenido externo. Solo hay un comentario del código ("New app is property to Fiesteros PE"). Lo tomo como dato: sugiere que el negocio se llama Fiesteros PE y es dueño de la app. Por confirmar con el CEO.
+
+Qué es la web (hechos del código): "Fiesteros | Bocaditos Salados". Vende bocaditos para fiestas en Lima (tequeños, empanaditas, mini burguers, petipanes, combos). Tiene carta, "bandeja" de pedido, formulario de evento que arma un mensaje de WhatsApp, preguntas frecuentes, historia de marca, horario y Libro de Reclamaciones. El pago no se hace en la web.
 
 ## 1. ¿Publisher o Projects?
 
@@ -46,15 +48,17 @@ Condiciones:
 4. Viernes confirma que no se aleja del foco de Publisher.
 5. Encaja en la escalera: la web simple sería un complemento de Presencia básica (hoy ya incluye "enlace único").
 
+**Caso Fiesteros:** la web mezcla las dos cosas. La parte de marca, historia y preguntas es presencia (Publisher). La bandeja y el formulario de pedido por WhatsApp son un pedido digital simple, que está en el territorio de Solutions. Propongo que Publisher cuide la presencia y el contenido, y que Solutions cuide la bandeja si el CEO decide mantenerla bajo Yizi.
+
 Si el CEO prefiere no ampliar Publisher, la web va a Solutions. Pero Solutions vende soluciones de operación, y una web informativa sola no es su centro. Por eso prefiero Publisher.
 
 ## 2. Fiesteros como primer caso de Publisher
 
-No sé qué vende Fiesteros ni quién lo paga hoy. Lo que sigue depende de las respuestas del CEO.
+Fiesteros vende bocaditos para fiestas en Lima. No sé quién paga hoy ni si hay contrato. Lo que sigue depende de las respuestas del CEO.
 
 | Qué | Servicio del catálogo v2 | Condición |
 |---|---|---|
-| **Hoy** (web, Instagram y Facebook ya hechos) | **Presencia básica**: ordena Facebook e Instagram, enlace único, kit de respuestas | Solo si falta algo de eso. No sé qué falta: no revisé las redes |
+| **Hoy** (web, Instagram y Facebook ya hechos) | **Presencia básica** (S/ 199 interno, sin aprobar): ordena Facebook e Instagram, enlace único, WhatsApp Business con catálogo, kit de respuestas | Es lo que encaja hoy: la web no enlaza a las redes y no vi las redes. Solo si el cliente lo pide y el CEO activa Publisher |
 | **Hoy**, si el cliente ya paga algo mensual | Según lo que se acuerde: Redes con IA Inicio si hay una red, Redes con IA si hay dos | El cliente paga hoy algo: **por confirmar**. Sin contrato escrito, no se asigna plan |
 | **Podría ofrecerse después** | Redes con IA Inicio o Redes con IA, y luego Acompañamiento IA | Solo cuando el CEO active Publisher. Sin prometer resultados |
 | **Podría ofrecerse** | Campañas (complemento) | El cliente paga la pauta a Meta, desde su cuenta |
@@ -67,19 +71,24 @@ Pendientes del CEO antes de asignar nada (del pedido):
 2. ¿El cliente paga algo hoy? ¿Hay contrato o acuerdo?
 3. ¿El cliente acepta ser caso o referencia?
 
-## 3. Mejoras de marca y contenido en la web
+## 3. Mejoras de marca y contenido (máximo 6)
 
-**No puedo listarlas.** No revisé la web ni las redes. Inventar mejoras sería inventar hechos.
+Base: textos y código de la web. No vi la página en pantalla, ni las redes.
 
-Cuando haya acceso, reviso estos 6 puntos con la compuerta de marca y cliente:
-1. Texto sin jerga y con el resultado para el cliente final primero.
-2. Botón de contacto o WhatsApp visible, sin bajar la página.
-3. Que se vea bien y cargue rápido en celular.
-4. Contraste y tamaño de letra legibles (WCAG 2.2).
-5. Fotos reales del negocio y precios o promociones al día, sin testimonios inventados.
-6. Coherencia entre la web, Instagram y Facebook: nombre, imagen y tono.
+| # | Mejora | Por qué |
+|---|---|---|
+| 1 | **Enlazar Instagram y Facebook** en el pie y en el menú, con el mismo nombre y logo | No encontré enlaces a redes en la web. El cliente que llega no puede seguir al negocio, y la web y las redes no se conectan |
+| 2 | **Añadir descripción y vista previa para buscadores y WhatsApp** (texto corto y una foto) | La página no tiene descripción para Google. El título es solo "Fiesteros / Bocaditos Salados". Al compartir el enlace por WhatsApp se vería pobre |
+| 3 | **Revisar el aviso de mantenimiento** ("¡Horneando novedades!", "43% Completado") | Existe una pantalla de mantenimiento con una barra de avance fija. Si el visitante la ve, parece una web abandonada. No sé si está activa hoy. Mejor un aviso con fecha real o quitarlo |
+| 4 | **Probar las promesas con datos reales o suavizarlas**: "Puntualidad Sagrada", "S/.0 Estrés de Organización", "te responderá en minutos", "100% Artesanal" | Son promesas fuertes. Si hay un retraso, dañan la confianza. El negocio decide qué puede cumplir siempre. Yizi no inventa cifras |
+| 5 | **Poner precios y datos claros**: precio por combo y por unidad visibles, "desde S/. 8" de delivery con ejemplo de distritos, y la regla de 48 horas cerca del botón de pedido | La regla de 48 horas y el costo de envío están solo en las preguntas frecuentes. El cliente con prisa decide en la carta |
+| 6 | **Sumar prueba social real**: fotos reales de pedidos y reseñas verdaderas con permiso | No hay testimonios en la web. La historia de marca es buena, pero falta mostrar entregas reales. Nunca se inventan ni se generan con IA |
 
-Nota: los colores de Yizi (Índigo, Azul Eléctrico, Ámbar) son para la marca Yizi. La web de Fiesteros usa la marca del cliente. No se cambia su identidad sin permiso.
+Puntos que ya están bien: pedido por WhatsApp sin pagar en la web, horario claro, Yape y Plin, Libro de Reclamaciones enlazado (Ley 29571), tono cercano.
+
+Para confirmar viendo la página: tamaño de botones y contraste (WCAG 2.2), velocidad y uso en celular, y que las fotos sean reales y del producto verdadero.
+
+Nota: la web usa los colores y las fuentes de Fiesteros (verde azulado y naranja; Fredoka, Nunito, Caveat). No se cambian a los de Yizi sin permiso.
 
 ## 4. Cómo usarlo como caso de referencia
 
@@ -96,11 +105,12 @@ Nota: los colores de Yizi (Índigo, Azul Eléctrico, Ámbar) son para la marca Y
 **Motivos:**
 - Fiesteros es un servicio a un cliente y encaja en Publisher. Projects no vende servicios.
 - La web informativa puede entrar a Publisher como servicio nuevo. Pedidos y pagos son de Solutions.
-- No revisé la web, Instagram ni Facebook: sin eso no hay mejoras de marca ni plan concreto.
+- Revisé la web por su código, no en pantalla. Instagram y Facebook: no revisados.
+- La web trae una bandeja de pedido por WhatsApp: esa parte toca a Solutions.
 - No sé si el cliente paga hoy ni si hay contrato.
 - Publisher sigue en incubación: hoy no se puede ofrecer.
 **Condiciones:**
 1. El CEO responde las tres preguntas de propiedad, pago y permiso.
-2. El CEO da acceso a la web (permitir el dominio en la sesión) o envía capturas, y yo reviso de nuevo.
+2. El CEO envía los enlaces de Instagram y Facebook, o capturas, para revisarlos.
 3. El CEO aprueba la activación de Publisher y, si quiere, el servicio de web simple. Edith valida el precio.
 4. Sin permiso escrito del cliente, Fiesteros no se usa como referencia.
