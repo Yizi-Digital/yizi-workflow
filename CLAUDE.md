@@ -31,5 +31,8 @@ Toda respuesta al CEO sigue la Guía de escritura (`marca/guia-de-escritura.md`)
 ### "DAME MIS PENDIENTES"
 Cuando el CEO lo pida, usa el skill `/yizi-pendientes`: lista corta de sus pendientes y la ruta de sus documentos, desde `ceo/pendientes.md`. Mantén ese archivo al día cada vez que algo se decida, se fusione o se cree.
 
+### Un PR por repositorio
+Mantén como máximo un pull request abierto por repositorio y por flujo. Suma los cambios nuevos a ese PR; abre otro solo cuando el anterior se fusione o el CEO pida un flujo separado (spec `ciclo-sdd`).
+
 ### Permisos
 `.claude/settings.json` permite los comandos de OpenSpec y de lectura de git, pide confirmación para `git push`, `git merge` y `git reset --hard`, y bloquea `push --force`, `rm -rf` y la lectura de `.env`. No los esquives: las reglas de la sección 3 de AGENTS.md aplican igual cuando un comando no está bloqueado.

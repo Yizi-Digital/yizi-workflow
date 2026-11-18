@@ -22,7 +22,8 @@
     "./.claude/agents/viernes.md",
     "./.claude/agents/ultron.md",
     "./.claude/agents/aida.md",
-    "./.claude/agents/termy.md"
+    "./.claude/agents/termy.md",
+    "./.claude/agents/lince.md"
   ],
   "skills": [
     "./.agents/skills/yizi-consejo",

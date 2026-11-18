@@ -28,7 +28,6 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ### Más adelante
 - [ ] Decidir cuándo activar Yizi Publisher y Yizi Talent.
 - [ ] Llevar las consultas al contador y al abogado cuando tenga ese talento.
-- [ ] Activar a Lince, Ábaco y Chaski (antes de los pilotos; cambio aparte).
 
 ## 2. Mis documentos
 
@@ -47,7 +46,7 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Fichas de los agentes | `yizi-workflow/.claude/agents/` |
 | Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2) |
 | Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` |
-| Diseño de Lince, Ábaco y Chaski | `yizi-workflow/openspec/changes/archive/2026-11-18-completar-fichas/fichas-nuevas/` |
+| Ficha de Lince (verificador) | `yizi-workflow/.claude/agents/lince.md` |
 
 ### Yizi Solutions · yizi-solutions (rama `karen/catalogo-inicial`)
 | Qué | Ruta |
@@ -67,6 +66,8 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Aviso y entrevista (borrador) | `yizi-solutions/equipo/aviso-y-entrevista-promotor.md` |
 | Cotización de contador, abogado y facturador | `yizi-solutions/equipo/cotizacion-asesores-externos.md` |
 | Plantilla de la demo | `yizi-solutions/demo/plantilla-demo.md` |
+| Ficha de Ábaco (analista de pilotos) | `yizi-solutions/.claude/agents/abaco.md` |
+| Ficha de Chaski (El Guía en modo ayuda) | `yizi-solutions/producto/agentes/chaski.md` |
 
 ### Yizi Projects · yizi-projects
 | Qué | Ruta |
