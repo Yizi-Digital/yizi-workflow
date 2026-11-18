@@ -38,8 +38,12 @@
 
 ## Decisión del CEO
 
-- Decisión: PENDIENTE
-- Fecha: —
+- Decisión: **APROBADO** (activar Yizi Publisher). El CEO: "Sí, activemos".
+- Fecha: 2026-11-18
+- Horas: "Vale, usemos 5" (5 h por semana).
+- Responder mensajes del público: "No lo dejen fuera, dejémoslo en la mira como propuesta. Que de cierta forma nuestra agencia sea un Community Manager del cliente." Queda fuera de los planes actuales y registrado como propuesta futura.
+- Acompañamiento IA: PENDIENTE (el CEO pidió que se le explique).
+- Anulaciones de compuertas BLOQUEADAS: ninguna (no hubo bloqueos).
 - Para decidir:
   1. Activar Publisher y el orden de arranque (pilotos de Solutions primero, luego 1 piloto propio).
   2. Precios propuestos por Edith y tope de activación de S/ 300.
