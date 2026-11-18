@@ -88,7 +88,7 @@ satelites:
     proyectos:
       - id: tofinance
         nombre: toFinance (marca propia, respaldo "toFinance por Yizi")
-        estado: incubacion
-        fase: 0 (sin código; tope 4 h/semana del CEO, 6 semanas, S/ 100)
+        estado: propuesto
+        fase: 0 en pausa (reevaluación frente a la competencia, pedida por el CEO el 2026-11-18)
         autorizado: 2026-11-18 (Ruta B; MVP sujeto a Ruta A)
         carpeta: https://github.com/Yizi-Digital/yizi-projects/tree/main/proyectos/tofinance
