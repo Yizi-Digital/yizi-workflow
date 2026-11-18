@@ -26,6 +26,7 @@
   ],
   "skills": [
     "./.agents/skills/yizi-consejo",
-    "./.agents/skills/yizi-satelite"
+    "./.agents/skills/yizi-satelite",
+    "./.agents/skills/yizi-pendientes"
   ]
 }
