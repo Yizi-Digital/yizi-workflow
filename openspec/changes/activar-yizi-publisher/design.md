@@ -177,3 +177,12 @@ Fuente: `estudio/aida-equipo-v2.md`. Nombres aprobados por el CEO: Homer el 2026
 7. ¿El plan de IA del CEO permite el uso para clientes? No verificado; Edith cuenta el costo de la API por prudencia.
 8. Proveedor de imágenes con IA: costo, derechos y uso de datos. Lo decide Vision antes del primer cliente (tarea 5.5d); ver la tabla de D2.
 9. ¿Publisher arranca como caso interno (las redes de Yizi) antes del piloto externo?
+
+### Propuesta futura: Community Manager del cliente — [Jarvis]
+
+**Decisión del CEO (2026-11-18):** no dejar fuera la respuesta a mensajes del público; dejarla en la mira como propuesta. Así Yizi sería, de cierta forma, el Community Manager del cliente. Esto aclara la pregunta abierta 2: hoy no se ofrece, pero queda como propuesta.
+
+- **Qué sería:** un complemento que responde mensajes y comentarios del público del cliente. La IA (Ágora) redacta la respuesta; una persona de Yizi la aprueba antes de enviarla. Con horario fijo de atención y tope de mensajes al mes. Sin respuestas automáticas sin revisión.
+- **Disparador para reconsiderarlo:** cuando entre el rol humano "apoyo de atención", o cuando el registro de minutos reales (D1) mida cuántas horas pide la bandeja de mensajes en 2 o 3 clientes. Se reconsidera con un cambio OpenSpec propio.
+- **Por qué no entra hoy:** (1) las horas del CEO ya están tomadas por los 3 pilotos de Solutions y por Publisher (D7); (2) responder a tiempo no tiene tope natural y rompería el margen (D1); (3) la política de mensajes de WhatsApp no está verificada (pregunta abierta 5).
+- **Hasta entonces:** cada plan entrega un banco de respuestas y una plantilla de IA; el dueño responde. Si un cliente lo pide, se registra como señal para Viernes. Sin precio ni texto comercial.
