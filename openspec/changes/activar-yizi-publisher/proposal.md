@@ -7,8 +7,8 @@
 | Tipo | estrategico |
 | Tamaño | L (cambio de estado de un satélite, gasto, varios dominios y una spec del núcleo) |
 | Compuertas | Consejo completo (Vision, Jarvis, Edith, Viernes, Ultron) + aprobación del CEO |
-| Aprobación | Pendiente. Pedido del CEO del 2026-11-18: "si va por ahí, activemos Yizi Publisher… pero no nos alejemos de la visión de incluir IA y hacer que todo el mundo la use" |
-| Insumos | `estudio/`: pedido del CEO, oferta de Jarvis, economía de Edith, herramientas de Vision, agentes de Aida, personas de Termy y frontera de Karen |
+| Aprobación | Pendiente. Pedido del CEO del 2026-11-18: "si va por ahí, activemos Yizi Publisher… pero no nos alejemos de la visión de incluir IA y hacer que todo el mundo la use". Decisiones ya tomadas por el CEO el 2026-11-18: nombres del equipo ("Está bien los nombres") y frontera ("que nuestra frontera y servicios actuales sean solo lo que podemos hacer con IA") |
+| Insumos | `estudio/`: pedido del CEO, oferta de Jarvis (v2 vigente), economía de Edith, herramientas de Vision, equipo de Aida (v2 vigente), personas de Termy y frontera de Karen |
 
 ## Why
 
@@ -24,11 +24,12 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 
 - **Estado:** Yizi Publisher pasa de `incubacion` a `activo` en `satelites/registro.yaml`, con su repositorio `https://github.com/Yizi-Digital/yizi-publisher`.
 - **IA en el centro:** cada servicio de Publisher incluye una lección corta en la que el cliente hace una pieza propia con IA. Es parte fija del servicio, no un extra.
-- **Spec `satelites`:** se añade el requisito "Yizi Publisher activo con IA en el centro".
-- **Catálogo inicial:** 4 servicios en escalera (de Jarvis), con precios propuestos por Edith. Ningún precio llega a un cliente sin la aprobación del CEO.
+- **Frontera "solo con IA" (decisión del CEO, 2026-11-18):** Publisher solo ofrece lo que Yizi hace en remoto con IA, con el material que el cliente graba con su celular. Fotos, video, eventos e influencers en el local quedan **mapeados y no se ofrecen**. Si un cliente los pide, se registra una señal para Viernes.
+- **Spec `satelites`:** se añade el requisito "Yizi Publisher activo con IA en el centro", con la frontera "solo con IA".
+- **Catálogo inicial:** 5 servicios en escalera (`estudio/jarvis-oferta-v2.md`), con precios propuestos por Edith. Sale el embudo de ventas por WhatsApp: no hay embudo en la fase 1. Ningún precio llega a un cliente sin la aprobación del CEO.
 - **Flujo:** sin código propio, con herramientas oficiales de Meta y Google y doble confirmación humana por pieza (de Vision).
 - **Frontera con Solutions:** la herramienta que el negocio usa cada día es de Solutions; el servicio que atrae y vende es de Publisher (de Karen).
-- **Equipo:** Homer, líder N2 con nombre aprobado (2026-11-17), recibe su ficha. El resto del equipo de agentes queda **pendiente de la propuesta de Aida** (`estudio/aida-equipo-v2.md`), sin nombres en este cambio.
+- **Equipo (nombres aprobados por el CEO, `estudio/aida-equipo-v2.md`):** Homer, líder N2 (aprobado el 2026-11-17). Activos al arrancar, N3 bajo Homer (aprobados el 2026-11-18): Ágora (Community Manager), Faro (presencia local y reseñas), Quirón (El Guía Yizi en modo enseñar IA) y Prisma (diseño y video con IA). Diseñados, con disparador: Sagita (anuncios) y Kepler (medición). Las 5 fichas de arranque se crean en `yizi-publisher`.
 - **Génesis** del repositorio `yizi-publisher` desde la plantilla del núcleo (`/yizi-satelite`).
 - **Organigrama:** `README.md`, `AGENTS.md`, `ceo/pendientes.md`, `agentes/mapa-de-agentes.md` y `talento/mapa-de-roles.md` al día.
 
@@ -36,9 +37,16 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 
 1. **Primero, los 3 pilotos de Solutions.** El CEO los hace él solo; Publisher no les quita horas.
 2. En el Diagnóstico Flash de cada piloto se **anota** la necesidad de presencia digital, sin ofrecerla.
-3. Mientras tanto, los agentes preparan el satélite: ficha de Homer, catálogo, precios y textos.
+3. Mientras tanto, los agentes preparan el satélite: fichas de Homer, Ágora, Faro, Quirón y Prisma, catálogo, precios y textos.
 4. **Publisher arranca con 1 piloto propio**, de preferencia entre los clientes del Paquete Base, cuando el CEO lo decida con la evidencia de los pilotos.
 5. Opción, no recomendación principal: usar Publisher primero como caso interno (las redes de Yizi).
+
+### Decisiones pendientes del CEO
+
+| # | Decisión | Recomendación de Jarvis |
+|---|---|---|
+| 1 | ¿Se suma "Acompañamiento IA" (S/ 69 al mes, propuesta de Edith)? | Sí, solo como último escalón: para quien ya publica solo, nunca al inicio |
+| 2 | ¿Los planes incluyen responder los mensajes del público? | No. El dueño responde; Yizi le da un banco de respuestas y le enseña a usar la IA |
 
 ### Capacidad
 
@@ -52,7 +60,7 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 - Las reglas del núcleo: confirmación humana antes de publicar o cobrar, sin custodia de dinero de terceros (`marco-legal`), nombres internos ocultos ante clientes.
 - Yizi Solutions sigue siendo la línea principal y su catálogo no se mueve, salvo lo que la frontera asigna a Publisher.
 - Yizi Talent sigue en `incubacion`. Yizi Projects y el límite de un proyecto MACRO no cambian.
-- No se contrata a nadie. El perfil humano de Termy queda como borrador.
+- No se contrata a nadie. Los perfiles humanos de Publisher (creador de contenido de barrio, fotógrafo o videógrafo) quedan mapeados en `talento/mapa-de-roles.md` y no se ofrecen.
 
 ## Capabilities
 
@@ -65,6 +73,7 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 ## Impact
 
 - **Núcleo:** `satelites/registro.yaml`, `README.md`, `AGENTS.md`, `ceo/pendientes.md`, `agentes/mapa-de-agentes.md`, `talento/mapa-de-roles.md`, ficha de Jarvis (patrocina un satélite activo).
+- **Agentes:** el grupo pasa de 26 a 31 agentes activos (Homer y 4 N3). Con Sagita y Kepler llegaría a 33 (cifras de Aida).
 - **Satélite:** repositorio `Yizi-Digital/yizi-publisher` (ya creado vacío por el CEO). Se llena desde la plantilla; subir pide confirmación del CEO.
 - **Costo (Edith, estimación):**
   - Activación: tope de **S/ 300 en 2 meses** (S/ 160 sin anuncios propios). Alarma a los S/ 250 sin clientes.
@@ -77,7 +86,10 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 ## Out of Scope
 
 - Integración propia por API de Meta, Google o WhatsApp (fase 2, con un cambio aparte).
-- Crear las fichas del equipo de agentes distinto de Homer: espera la propuesta de Aida y un cambio en el satélite.
+- Activar a Sagita y Kepler: esperan su disparador (Aida, sección 2.3).
+- Embudo de ventas por WhatsApp (fase 2, con API propia).
+- Servicios presenciales: fotos, video, eventos o influencers en el local. Solo mapeados.
+- Responder por el dueño los mensajes del público, salvo que el CEO decida lo contrario.
 - Publicar avisos o contratar al creador de contenido de barrio.
 - Activar Yizi Talent.
 - Publicar precios o textos comerciales hacia afuera.
