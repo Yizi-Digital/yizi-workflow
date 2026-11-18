@@ -1,14 +1,20 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-18 (núcleo y Yizi Projects al día).
+Última actualización: 2026-11-18 (toFinance en fase 0).
 
 ## 1. Mis pendientes
 
 ### Decidir
+- [ ] toFinance: fecha de inicio de la semana 0 (desde ahí corren las 6 semanas).
+- [ ] toFinance: a quién entrevistar (15 personas), cuándo y qué incentivo dar (dentro de S/ 100).
+- [ ] toFinance: aprobar los nombres de los talentos nativos que propone Aida (en curso).
+- [ ] toFinance: aprobar el manual de marca v2 (Iris, en curso) y revisar la revisión legal (Temis, en curso).
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
+- [ ] yizi-workflow · PR #13 · Lince, agentes del producto, un PR por repo, marco legal y toFinance en el registro.
+- [ ] yizi-projects · PR de toFinance (se abre cuando terminen Aida, Iris y Temis).
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
 
 ### Hacer yo
@@ -47,6 +53,7 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2) |
 | Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` |
 | Ficha de Lince (verificador) | `yizi-workflow/.claude/agents/lince.md` |
+| Marco legal del grupo | `yizi-workflow/openspec/specs/marco-legal/spec.md` |
 
 ### Yizi Solutions · yizi-solutions (rama `karen/catalogo-inicial`)
 | Qué | Ruta |
