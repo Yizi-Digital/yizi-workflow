@@ -12,7 +12,7 @@
 ## Respuesta corta
 
 1. **Sí, Publisher puede traer caja antes que Solutions.** Un cliente de "Redes con IA" deja unos S/ 230 de caja al mes. Equivale al margen de unos 20 negocios de Solutions (MC medio de S/ 11.69).
-2. **Pero no escala.** Cada cliente consume unas 5 horas del CEO al mes. Con 10 horas por semana (supuesto), el tope es de **unos 6 clientes**.
+2. **Pero no escala.** Cada cliente consume unas 5 horas del CEO al mes. Con las 5 horas por semana que confirmó el CEO (2026-11-18), el tope es de **unos 3 clientes** equivalentes.
 3. **Precios propuestos, con IGV:** Presencia básica S/ 199 (pago único), Redes con IA Inicio S/ 159 al mes, Redes con IA S/ 289 al mes, Campañas S/ 129 al mes (más S/ 99 de alta) y Acompañamiento IA S/ 69 al mes. Todos superan el margen mínimo del 40 %.
 4. **Punto de equilibrio:** 1 cliente cubre los costos fijos propios de Publisher (S/ 75). **4 clientes** cubren también la parte administrativa del RUC (S/ 425 en total).
 5. **El presupuesto de anuncios lo paga el cliente a Meta, directo.** Nunca pasa por Yizi (spec `marco-legal`).
@@ -39,7 +39,7 @@ Consulté las fuentes el 2026-11-18. Muchas páginas no abrieron en la red de es
 | Precio de Canva Pro y Metricool | **Visto en buscador. No verificado** | Sección 2.2 |
 | Mínimo de gasto en Meta Ads | **No verificado.** Las fuentes se contradicen | Sección 2.4 |
 | Horas por cliente | **Estimación de Edith** | Sección 2.1. Se miden con los primeros clientes |
-| Horas por semana que el CEO puede dar a Publisher | **Supuesto: 10 h.** El CEO lo confirma | Sección 4 |
+| Horas por semana que el CEO puede dar a Publisher | **Confirmado por el CEO: 5 h** (2026-11-18) | Sección 4 |
 
 ---
 
@@ -212,26 +212,30 @@ Fórmula: clientes = costo fijo ÷ MC por cliente, redondeado hacia arriba.
 
 ### 4.2 Capacidad del CEO y tope de clientes
 
-**Supuesto:** el CEO da **10 horas por semana** a Publisher (unas 43 horas al mes). Reservo un 30 % para vender, administrar y aprender. Quedan **unas 30 horas productivas al mes**. El CEO confirma la cifra real.
+**Dato confirmado:** el CEO da **5 horas por semana** a Publisher (2026-11-18), unas 21.7 horas al mes (5 × 52 ÷ 12). Reservo un 30 % para vender, diagnosticar, administrar y aprender. Quedan **unas 15 horas productivas al mes**.
 
-| Mezcla de clientes | Horas al mes | ¿Cabe en 30 h? |
+| Mezcla de clientes | Horas al mes | ¿Cabe en 15 h? |
 |---|---|---|
-| 6 de Redes con IA | 30 | Justo |
-| 4 de Redes con IA + 2 de Campañas + 1 Presencia básica | 29 | Sí |
-| 10 de Redes con IA Inicio | 30 | Justo |
+| 3 de Redes con IA | 15 | Justo |
+| 5 de Redes con IA Inicio | 15 | Justo |
+| 2 de Redes con IA + 1 de Redes con IA Inicio + 2 de Acompañamiento IA | 15 | Justo |
 
-**Tope propuesto: el equivalente a 6 clientes de Redes con IA (30 horas al mes)** hasta que haya un segundo humano.
+**Tope propuesto: el equivalente a 3 clientes de Redes con IA (15 horas al mes)** hasta que haya un segundo humano. Estimación: las horas por plan aún no están medidas.
 
-Ejemplo de un mes con la segunda mezcla (4 Redes + 2 Campañas + 1 Presencia):
+Ejemplo de un mes con 3 clientes de Redes con IA:
 
 | Concepto | PEN |
 |---|---|
-| Ingreso con IGV | S/ 1,613 |
-| Caja después de IGV, comisión e IA | S/ 1,285 |
-| Menos costos fijos (S/ 425) | **S/ 860 de caja libre al mes** |
-| MC después de costear las horas del CEO a S/ 20 y los costos fijos | S/ 280 |
+| Ingreso con IGV | S/ 867 |
+| Caja después de IGV, comisión e IA | unos S/ 690 |
+| Menos costos fijos propios (S/ 75) | **unos S/ 615 de caja libre al mes** |
+| Menos costos fijos con la parte administrativa (S/ 425) | unos S/ 265 de caja libre al mes |
+| MC después de costear las horas del CEO a S/ 20 y los costos fijos propios (S/ 75) | unos S/ 315 |
+| MC después de costear las horas del CEO a S/ 20 y los costos fijos con la parte administrativa (S/ 425) | **unos −S/ 35** |
 
-Si el CEO quiere pasar de 6 clientes, hay dos caminos:
+**Alerta:** con 15 horas, Publisher cubre sus costos propios, pero no cubre solo la parte administrativa del RUC (hacen falta 4 clientes de Redes con IA, sección 3.5). Eso solo pesa si Publisher cobra antes que Solutions.
+
+Si el CEO quiere pasar de 3 clientes, hay dos caminos:
 1. Pasar clientes al Acompañamiento IA o a talleres grupales (una clase para varios dueños).
 2. Sumar una persona. Termy define el perfil; Edith revisa el costo. **Hoy no se contrata** (decisión 22).
 
@@ -281,18 +285,18 @@ En orden de prioridad:
 
 ### Edith · Costo y presupuesto
 **Veredicto:** CONDICIONADO
-**Costo estimado:** Activación con tope de **S/ 300** en 2 meses (S/ 160 sin anuncios propios). Costo fijo de **S/ 75 al mes** propio, o **S/ 425** con la parte administrativa del RUC. CV por cliente de S/ 23 a S/ 115 al mes según el plan. Márgenes de **47 % a 60 %**. Supuestos: C_h de S/ 20 (estimación), 1 a 5 horas por cliente (estimación), IA con Sonnet 5.5 y Haiku 5.5 a precio de API verificado, TC 3.419 (SUNAT), factor ×1.4286 de peor caso, Izipay al 3.44 % + IGV (verificado con reserva), Canva a S/ 44.90 (no verificado) y 10 horas por semana del CEO (supuesto).
+**Costo estimado:** Activación con tope de **S/ 300** en 2 meses (S/ 160 sin anuncios propios). Costo fijo de **S/ 75 al mes** propio, o **S/ 425** con la parte administrativa del RUC. CV por cliente de S/ 23 a S/ 115 al mes según el plan. Márgenes de **47 % a 60 %**. Supuestos: C_h de S/ 20 (estimación), 1 a 5 horas por cliente (estimación), IA con Sonnet 5.5 y Haiku 5.5 a precio de API verificado, TC 3.419 (SUNAT), factor ×1.4286 de peor caso, Izipay al 3.44 % + IGV (verificado con reserva), Canva a S/ 44.90 (no verificado) y 5 horas por semana del CEO (confirmadas el 2026-11-18).
 **Motivos:**
 - Todos los precios propuestos superan el margen mínimo del 40 %, y la mayoría se acerca a la meta del 50 %.
 - Con 3 o 4 clientes se cubren los costos fijos. Solutions necesita unos 143.
 - Se cobra desde el mes 1 sin construir nada. La activación se recupera en el primer mes.
-- El ingreso no escala: el tope es de unos 6 clientes con las horas actuales del CEO.
+- El ingreso no escala: el tope es de unos 3 clientes con las 5 horas por semana del CEO. Con ese tope no se cubre solo la parte administrativa del RUC (S/ 425).
 - Una hora de más por cliente deja casi todos los planes bajo el 40 %. Las horas no están medidas.
 **Condiciones:**
 1. El contador confirma el RUC 10 (RMT, emisión electrónica y actividad de marketing) antes del primer cobro.
 2. El presupuesto de anuncios lo paga siempre el cliente a Meta, desde su propia cuenta. Yizi no recibe, no adelanta y no cobra un porcentaje de la pauta.
 3. Cada plan tiene alcance cerrado y tope de horas. El CEO anota los minutos reales; si un plan pasa su tope dos meses seguidos, Edith revisa el precio.
-4. Tope de 6 clientes equivalentes (30 horas al mes) mientras el CEO sea la única persona. El CEO fija el orden frente a los pilotos de Solutions.
+4. Tope de 3 clientes equivalentes (15 horas al mes) mientras el CEO sea la única persona. El CEO fija el orden frente a los pilotos de Solutions.
 5. Tope de activación de S/ 300, con alarma a los S/ 250 sin clientes.
 6. Jarvis consigue al menos 3 cotizaciones reales de Lima antes de publicar los precios.
 

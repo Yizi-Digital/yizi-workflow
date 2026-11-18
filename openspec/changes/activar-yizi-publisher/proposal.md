@@ -52,9 +52,8 @@ La condición del CEO marca el encaje: Publisher no es una agencia más. **Cada 
 
 ### Capacidad
 
-- **Supuesto de Edith:** el CEO da 10 horas por semana a Publisher. Quedan unas 30 horas productivas al mes.
-- **Tope:** unos **6 clientes** equivalentes de "Redes con IA" mientras el CEO sea la única persona.
-- El CEO confirma sus horas reales. **Recomendación de Ultron:** máximo 5 horas por semana hasta cerrar los pilotos de Solutions. Edith recalcula el tope con las horas confirmadas.
+- **Horas confirmadas:** el CEO da 5 horas por semana a Publisher (2026-11-18). Quedan unas 15 horas productivas al mes (estimación de Edith).
+- **Tope:** unos **3 clientes** equivalentes de "Redes con IA" mientras el CEO sea la única persona (recalculado por Edith, D7).
 - El CEO anota los minutos reales de cada cliente desde el primer cliente.
 - **Regla de pausa:** si el CEO pierde horas de Solutions, el trabajo de Publisher se pausa.
 

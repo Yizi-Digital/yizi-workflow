@@ -17,7 +17,7 @@
 1. **Una agencia de marketing tiene unos 15 roles.** Para Publisher propongo **6 agentes N3** bajo Homer. Otros roles se fusionan o los cubre una persona.
 2. **El CEO aprobó los 6 nombres el 2026-11-18.** Las alternativas quedan descartadas.
 3. **Frontera de hoy: solo lo que se hace con IA.** No hay visitas ni grabación en el local. El cliente envía fotos y videos desde su celular, o usamos material que ya tiene. La IA crea o edita las piezas.
-4. **Al arrancar se activan 4.** Edith pone un tope de unos 6 clientes mientras el CEO trabaja solo:
+4. **Al arrancar se activan 4.** Edith pone un tope de unos 3 clientes (con 5 horas por semana del CEO) mientras el CEO trabaja solo:
    - **Á.G.O.R.A (Ágora):** el Community Manager, el rol que usted ya conoce.
    - **F.A.R.O (Faro):** presencia local. Google, WhatsApp Business y reseñas.
    - **Q.U.I.R.O.N (Quirón):** enseña IA al cliente. Ante el cliente es siempre El Guía Yizi.
@@ -106,15 +106,15 @@ Los 6 nombres: **aprobados por el CEO el 2026-11-18** ("Está bien los nombres")
 
 ### 2.2 Activos al arrancar
 
-**Por qué 4.** Edith calcula un tope de unos 6 clientes con 30 horas productivas del CEO al mes (supuesto: 10 horas por semana). La IA cuesta menos de S/ 5 por cliente; lo que limita es el tiempo del CEO. Con 6 clientes no hay volumen para 6 agentes, pero sí para 4. Los 4 de arranque cubren los servicios que se venden primero: Presencia Base (Faro), Contenido y Redes con IA (Ágora y Prisma) y la lección de IA de cada servicio (Quirón).
+**Por qué 4.** Edith calcula un tope de unos 3 clientes con 15 horas productivas del CEO al mes (5 horas por semana, confirmadas el 2026-11-18). La IA cuesta menos de S/ 5 por cliente; lo que limita es el tiempo del CEO. Con 3 a 6 clientes no hay volumen para 6 agentes, pero sí para 4. Los 4 de arranque cubren los servicios que se venden primero: Presencia Base (Faro), Contenido y Redes con IA (Ágora y Prisma) y la lección de IA de cada servicio (Quirón).
 
 **Decisión de Aida: Prisma sube al arranque.** Razones:
 1. **Con la frontera solo IA, el disparador anterior ya no aplica.** Prisma esperaba al Creador de contenido de barrio. Ese rol hoy no existe y no se ofrece.
-2. **Sin Prisma, el CEO arma cada pieza en Canva.** Eso gasta el recurso que limita el tope de 6 clientes: sus horas.
+2. **Sin Prisma, el CEO arma cada pieza en Canva.** Eso gasta el recurso que limita el tope de 3 clientes: sus horas.
 3. **Las piezas son el centro del servicio.** "Contenido y Redes con IA" no se puede vender sin imágenes y videos editados.
 4. **El costo extra es bajo.** Prisma usa Ligero y Estándar, dentro de los menos de S/ 5 de IA por cliente que calcula Edith.
 
-**Lo que no cambia.** El tope sigue en unos 6 clientes. Prisma puede bajar las horas del CEO por cliente, pero ese ahorro está **sin medir**. Edith lo mide con los primeros clientes antes de subir el tope.
+**Lo que no cambia.** El tope sigue en unos 3 clientes. Prisma puede bajar las horas del CEO por cliente, pero ese ahorro está **sin medir**. Edith lo mide con los primeros clientes antes de subir el tope.
 
 #### Á.G.O.R.A (Ágora) · Community Manager
 

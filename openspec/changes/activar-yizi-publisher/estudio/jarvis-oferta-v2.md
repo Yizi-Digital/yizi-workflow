@@ -137,7 +137,7 @@ Cómo sería el complemento "Bandeja de mensajes" si el CEO lo aprueba más adel
 | Piloto | Medir los minutos reales en los primeros clientes antes de poner precio |
 | Aviso al cliente | Decir cuándo responde una persona y cuándo una persona con ayuda de IA. Ver sección 4 |
 
-Esto también protege el tope de 6 clientes equivalentes (30 horas al mes) que Edith propone mientras el CEO sea la única persona.
+Esto también protege el tope de 3 clientes equivalentes (15 horas al mes) que Edith propone con las 5 horas por semana del CEO mientras el CEO sea la única persona.
 
 ## 4. Transparencia: cuándo decir que algo fue hecho o editado con IA
 

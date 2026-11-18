@@ -172,7 +172,7 @@ Fuente: `estudio/aida-equipo-v2.md`. Nombres aprobados por el CEO: Homer el 2026
 | Riesgo | Mitigación |
 |---|---|
 | Publisher quita horas a los pilotos de Solutions | Orden de Karen: pilotos primero, 1 piloto de Publisher después |
-| El ingreso no escala (lineal en horas del CEO) | Tope de 6 clientes; escalón de salida; perfil humano con disparador |
+| El ingreso no escala (lineal en horas del CEO) | Tope de 3 clientes equivalentes (15 horas al mes); escalón de salida; perfil humano con disparador |
 | Una hora de más por cliente rompe el margen | Alcance cerrado, tope de horas y registro de minutos reales |
 | Publisher se vuelve "agencia genérica" y diluye la marca | La lección de IA es parte fija de cada servicio; requisito en la spec `satelites` |
 | El cliente aprende y se va | Escalera hacia el Acompañamiento IA; un cliente que se gradúa libera horas |
