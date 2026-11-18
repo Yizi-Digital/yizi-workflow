@@ -48,7 +48,7 @@ Cada satélite es un **repositorio separado** dentro de la organización [Yizi-D
 
 ### Organigrama
 
-Estado al 2026-11-18. Hoy hay **1 persona** (el CEO). Agentes de IA: **26 activos**: 5 del Consejo, 3 de área (Aida, Termy, Lince), 2 líderes de satélite (Karen, Herbie), Ábaco y Chaski en Yizi Solutions y 14 en el equipo de Yizi Projects. Homer y Jocasta tienen nombre aprobado, pero sus satélites están en incubación y aún no tienen ficha. Los roles humanos sin contratar aparecen solo como **perfiles**, sin nombres. Lo mantiene Ultron en cada cambio de agentes (spec `jerarquia-agentes`).
+Estado al 2026-11-18. Hoy hay **1 persona** (el CEO). Agentes de IA: **26 activos**: 5 del Consejo, 3 de área (Aida, Termy, Lince), 2 líderes de satélite (Karen, Herbie), Ábaco y Chaski en Yizi Solutions y 14 en el equipo de Yizi Projects. Jocasta tiene nombre aprobado, pero su satélite está en incubación y aún no tiene ficha. El CEO aprobó el 2026-11-18 el equipo de Yizi Publisher: Homer (líder), Ágora, Faro, Quirón y Prisma se activan con Publisher, y Sagita y Kepler con un disparador. Siguen sin ficha y **no cuentan como activos** hasta que el CEO apruebe el cambio `activar-yizi-publisher`. Al activarse Publisher, el grupo pasa a **31 agentes activos**, y a **33** con Sagita y Kepler. Los roles humanos sin contratar aparecen solo como **perfiles**, sin nombres. Lo mantiene Ultron en cada cambio de agentes (spec `jerarquia-agentes`).
 
 ```mermaid
 flowchart TB
@@ -104,9 +104,24 @@ flowchart TB
         end
     end
 
+    subgraph PUB["Yizi Publisher · en incubación · aprobados, se activan con Publisher"]
+        HOMER["H.O.M.E.R<br/>líder (N2)"]
+        subgraph PUBACT["Se activan al arrancar (N3)"]
+            direction LR
+            AGORA["Á.G.O.R.A · Community Manager"]
+            FARO["F.A.R.O · presencia local y reseñas"]
+            QUIRON["Q.U.I.R.O.N · El Guía Yizi en modo enseñar IA"]
+            PRISMA["P.R.I.S.M.A · diseño y video con IA"]
+        end
+        subgraph PUBDIS["Se activan con disparador (N3)"]
+            direction LR
+            SAGITA["S.A.G.I.T.A · anuncios y embudo"]
+            KEPLER["K.E.P.L.E.R · analista de marketing"]
+        end
+        PUBPER["👤 Perfiles humanos mapeados, no se ofrecen hoy<br/>creador de contenido, fotógrafo o videógrafo, ilustrador, apoyo de atención, ejecutivo de cuentas"]
+    end
+
     subgraph INC["En incubación"]
-        direction LR
-        HOMER["H.O.M.E.R<br/>Yizi Publisher"]
         JOCASTA["J.O.C.A.S.T.A<br/>Yizi Talent"]
     end
 
@@ -124,6 +139,9 @@ flowchart TB
     VIERNES -. patrocina .-> HERBIE
     JARVIS -. patrocina .-> HOMER
     ULTRON -. patrocina .-> JOCASTA
+    HOMER --> PUBACT
+    HOMER -.-> PUBDIS
+    HOMER -.-> PUBPER
     KAREN --> ABACO
     KAREN -. coordina .-> PROMOTOR
     HERBIE --> GOB
