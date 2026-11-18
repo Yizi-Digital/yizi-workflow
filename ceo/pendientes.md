@@ -1,7 +1,7 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-18 (núcleo al día: PR #5 a #10 fusionados).
+Última actualización: 2026-11-18 (núcleo y Yizi Projects al día).
 
 ## 1. Mis pendientes
 
@@ -9,7 +9,6 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
-- [ ] yizi-projects · PR #2 · equipo de 14 agentes.
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
 
 ### Hacer yo
@@ -73,5 +72,5 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Qué | Ruta |
 |---|---|
 | Cómo nace un proyecto MACRO | `yizi-projects/proyectos/README.md` |
-| Equipo de 14 agentes (fichas) | `yizi-projects/.claude/agents/` (rama `herbie/equipo-de-proyectos`) |
-| Equipo y quién decide qué | `yizi-projects/AGENTS.md` (rama `herbie/equipo-de-proyectos`) |
+| Equipo de 14 agentes (fichas) | `yizi-projects/.claude/agents/` |
+| Equipo y quién decide qué | `yizi-projects/AGENTS.md` |
