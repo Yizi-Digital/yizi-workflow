@@ -1,16 +1,15 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-18 (toFinance en reevaluación).
+Última actualización: 2026-11-18 (toFinance en Discovery indefinido, nuevo rumbo aprobado).
 
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] toFinance: decidir si gira a "la caja de la casa y del negocio de barrio" (los 5 responsables lo recomiendan), sigue como estaba o se archiva. Ver `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md`.
-- [ ] toFinance: fijar los umbrales del punto de control 1 (propuesta: seguir si 9 de 15 confirman el problema y 5 de 15 pagarían S/ 9.90 o más).
+- [ ] toFinance (Discovery indefinido): las 15 entrevistas. Decidir cuándo, a quién (al menos 10 comerciantes, bodegueros o dueños de micronegocio) y qué incentivo dar (dentro de S/ 100). Temis prepara el consentimiento antes de la primera.
+- [ ] toFinance: al reanudar, fijar los umbrales del punto de control 1 (propuesta: seguir si 9 de 15 confirman el problema y 5 de 15 pagarían S/ 9.90 o más).
 - [ ] toFinance: leer la revisión legal (Temis) y llevar las preguntas al abogado. Riesgo clave: Apple podría exigir una empresa (no RUC 10) para publicar en iOS.
 - [ ] toFinance: decidir si se permiten los sitios oficiales peruanos (gob.pe, sbs.gob.pe, El Peruano) para que Temis verifique las normas.
-- [ ] toFinance (si gira): fecha de la semana 0 y entrevistas (al menos 10 de 15 a comerciantes, incentivo dentro de S/ 100).
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
@@ -57,6 +56,7 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Marco legal del grupo | `yizi-workflow/openspec/specs/marco-legal/spec.md` |
 | toFinance · reevaluación frente a la competencia | `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md` |
 | toFinance · estudio de la competencia (CEO) | `yizi-projects/proyectos/tofinance/estudio-competencia-quipuk.md` |
+| toFinance · backlog: épicas, features e historias (Vera) | `yizi-projects/proyectos/tofinance/backlog.md` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
 | toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
 
