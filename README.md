@@ -48,11 +48,11 @@ Cada satélite es un **repositorio separado** dentro de la organización [Yizi-D
 
 ### Organigrama
 
-Estado al 2026-11-18. Hoy hay **1 persona** (el CEO) y **11 agentes de IA**: 5 en el Consejo, 2 de área y 4 líderes de satélite. Lo mantiene Ultron; los roles humanos vienen de `talento/mapa-de-roles.md` (Termy).
+Estado al 2026-11-18. Hoy hay **1 persona** (el CEO). Agentes de IA: **11 activos en `main`**, **14 del equipo de Yizi Projects por activar** (pull request abierto) y **3 aprobados** que se activarán antes de los pilotos. Los roles humanos sin contratar aparecen solo como **perfiles**, sin nombres. Lo mantiene Ultron en cada cambio de agentes (spec `jerarquia-agentes`).
 
 ```mermaid
 flowchart TB
-    CEO["👤 CEO · Yefer<br/>autoridad final"]
+    CEO["👤 CEO<br/>autoridad final"]
 
     subgraph CONSEJO["Consejo Ejecutivo · núcleo (N1)"]
         direction LR
@@ -67,34 +67,78 @@ flowchart TB
         direction LR
         AIDA["A.I.D.A<br/>diseño de agentes"]
         TERMY["T.E.R.M.Y<br/>talento humano"]
+        LINCE["L.I.N.C.E<br/>verificador<br/>🟡 aprobado"]
     end
 
-    subgraph SAT["Satélites · líderes (N2)"]
+    subgraph SOL["Yizi Solutions · ✅ activo"]
+        KAREN["K.A.R.E.N<br/>líder (N2)"]
+        ABACO["Á.B.A.C.O<br/>analista de pilotos (N3)<br/>🟡 aprobado"]
+        CHASKI["C.H.A.S.K.I<br/>El Guía Yizi en modo ayuda<br/>(agente del producto) 🟡 aprobado"]
+        PROMOTOR["👤 Perfil: Promotor de barrio<br/>por contratar"]
+    end
+
+    subgraph PRJ["Yizi Projects · ✅ activo · sin proyectos"]
+        HERBIE["H.E.R.B.I.E<br/>líder (N2)"]
+        subgraph GOB["Gobierno de proyectos (N3)"]
+            direction LR
+            ATLAS["A.T.L.A.S · PMO"]
+            ORION["O.R.I.O.N · Program Manager"]
+            VERA["V.E.R.A · Product Owner"]
+            KAIZEN["K.A.I.Z.E.N · Scrum Master"]
+        end
+        subgraph TEC["Equipo técnico (N3)"]
+            direction LR
+            DEDALO["D.E.D.A.L.O · Arquitecto"]
+            PIXEL["P.I.X.E.L · Frontend"]
+            FORJA["F.O.R.J.A · Backend"]
+            KIPU["K.I.P.U · Bases de datos"]
+            IRIS["I.R.I.S · UI/UX"]
+            HERMES["H.E.R.M.E.S · DevOps e Infra"]
+        end
+        subgraph IND["Revisión independiente (N3)"]
+            direction LR
+            CERBERO["C.E.R.B.E.R.O · Ciberseguridad"]
+            ARGOS["A.R.G.O.S · QA"]
+            TALOS["T.A.L.O.S · QE"]
+            TEMIS["T.E.M.I.S · Legal"]
+        end
+    end
+
+    subgraph INC["En incubación"]
         direction LR
-        KAREN["K.A.R.E.N<br/>Yizi Solutions<br/>✅ activo"]
-        HERBIE["H.E.R.B.I.E<br/>Yizi Projects<br/>✅ activo · sin proyectos"]
-        HOMER["H.O.M.E.R<br/>Yizi Publisher<br/>⏸ incubación"]
-        JOCASTA["J.O.C.A.S.T.A<br/>Yizi Talent<br/>⏸ incubación"]
+        HOMER["H.O.M.E.R<br/>Yizi Publisher"]
+        JOCASTA["J.O.C.A.S.T.A<br/>Yizi Talent"]
     end
 
-    PROMOTOR["👤 Promotor de barrio<br/>(mapeado · aún no se contrata)"]
+    subgraph EXT["👤 Perfiles externos · por contratar"]
+        direction LR
+        CONTADOR["Contador"]
+        ABOGADO["Abogado"]
+    end
 
     CEO --> CONSEJO
     ULTRON --> AIDA
     ULTRON --> TERMY
+    ULTRON --> LINCE
     VISION -. patrocina .-> KAREN
     VIERNES -. patrocina .-> HERBIE
     JARVIS -. patrocina .-> HOMER
     ULTRON -. patrocina .-> JOCASTA
+    KAREN --> ABACO
     KAREN -. coordina .-> PROMOTOR
-    TERMY -. perfil y contratación .-> PROMOTOR
+    HERBIE --> GOB
+    HERBIE --> TEC
+    HERBIE --> IND
+    ATLAS --> ORION --> VERA
+    ORION --> KAIZEN
+    CEO -. contrata .-> EXT
 ```
 
 - **Línea continua:** a quién reporta.
 - **Línea punteada:** quién patrocina un satélite o coordina a una persona.
-- **Apoyo externo previsto (aún sin contratar):** contador y abogado.
-
-Cuando cambie el equipo (un agente nuevo, un satélite que se activa o una persona contratada), Ultron actualiza este organigrama en el mismo cambio OpenSpec.
+- **🟡 aprobado:** el CEO aprobó el nombre y se activa en un cambio aparte.
+- **👤 Perfil:** rol humano sin contratar. No lleva nombre de persona hasta que se contrate (spec `jerarquia-agentes`).
+- **Equipo de Yizi Projects:** reporta formalmente a Herbie. En el día a día: Atlas → Orion → Vera y Kaizen → equipo técnico. Dédalo, Cerbero, Argos y Talos tienen línea técnica o de calidad con Vision.
 
 ### Jerarquía de agentes
 
