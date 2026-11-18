@@ -85,4 +85,10 @@ satelites:
     repo: https://github.com/Yizi-Digital/yizi-projects
     # Proyectos MACRO autorizados. Cada uno vive en proyectos/<id>/ del repo.
     # Límite: limites.macro_simultaneos_max (en incubacion o activo).
-    proyectos: []
+    proyectos:
+      - id: tofinance
+        nombre: toFinance (marca propia, respaldo "toFinance por Yizi")
+        estado: incubacion
+        fase: 0 (sin código; tope 4 h/semana del CEO, 6 semanas, S/ 100)
+        autorizado: 2026-11-18 (Ruta B; MVP sujeto a Ruta A)
+        carpeta: https://github.com/Yizi-Digital/yizi-projects/tree/main/proyectos/tofinance

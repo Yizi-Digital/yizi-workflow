@@ -84,7 +84,7 @@ Los artefactos se escriben en español; los encabezados de OpenSpec y las palabr
 
 ```
 openspec/config.yaml        Contexto y reglas de Yizi para OpenSpec
-openspec/specs/             LA VERDAD VIGENTE: las 14 capacidades del núcleo
+openspec/specs/             LA VERDAD VIGENTE: las 15 capacidades del núcleo
 openspec/changes/           Cambios en curso (y archive/ con el historial)
 .claude/agents/             Fichas de los agentes del Consejo (legibles por cualquier IA)
 .agents/skills/             Skills: openspec-* (flujo SDD) y yizi-* (consejo, satélites)
@@ -116,5 +116,6 @@ satelites/plantilla/        Plantilla para crear un satélite nuevo
 | `autoridad-macro` | Viernes (decide el CEO) |
 | `diseno-agentes` | Aida |
 | `talento-humano` | Termy |
+| `marco-legal` | Viernes (con el abogado externo) |
 
 Antes de proponer algo, revisa qué existe: `openspec list --specs`.
