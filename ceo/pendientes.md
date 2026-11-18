@@ -6,14 +6,13 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] Aprobar los nombres: Argos (QA), Talos (QE), Lince (verificador), Yupana (analista), Chaski (Guía en modo ayuda).
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
-- [ ] yizi-workflow · PR #6 · estudio de talentos.
+- [ ] yizi-workflow · PR #9 · fichas completadas + estudio de talentos (incluye el #6; al fusionarlo, cierra el #6).
 - [ ] yizi-workflow · PR #7 · aprobación por lotes y respaldo.
-- [ ] yizi-workflow · PR de fichas completadas (se abre al aprobar los nombres).
-- [ ] yizi-projects · PR del equipo de proyectos (se abre al aprobar los nombres).
+- [ ] yizi-workflow · PR #8 · este archivo de pendientes.
+- [ ] yizi-projects · PR #2 · equipo de 14 agentes.
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
 
 ### Hacer yo
@@ -49,9 +48,9 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Registro de consumo de IA | `yizi-workflow/finanzas/consumo-ia.md` |
 | Reglas vigentes (14 specs) | `yizi-workflow/openspec/specs/` |
 | Fichas de los agentes | `yizi-workflow/.claude/agents/` |
-| Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2 en rama `yizi/estudio-talentos`) |
-| Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` (rama `yizi/estudio-talentos`) |
-| Fichas completadas y 3 agentes nuevos | `yizi-workflow/openspec/changes/completar-fichas/` (rama `yizi/completar-fichas`) |
+| Mapa de personas que faltan | `yizi-workflow/talento/mapa-de-roles.md` (v2 en rama `yizi/completar-fichas`) |
+| Mapa de agentes que faltan | `yizi-workflow/agentes/mapa-de-agentes.md` (rama `yizi/completar-fichas`) |
+| Diseño de Lince, Ábaco y Chaski | `yizi-workflow/openspec/changes/archive/2026-11-18-completar-fichas/fichas-nuevas/` (rama `yizi/completar-fichas`) |
 
 ### Yizi Solutions · yizi-solutions (rama `karen/catalogo-inicial`)
 | Qué | Ruta |
@@ -76,4 +75,5 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Qué | Ruta |
 |---|---|
 | Cómo nace un proyecto MACRO | `yizi-projects/proyectos/README.md` |
-| Equipo de 14 agentes (diseño y fichas) | `yizi-projects/openspec/changes/equipo-de-proyectos/` (rama `herbie/equipo-de-proyectos`) |
+| Equipo de 14 agentes (fichas) | `yizi-projects/.claude/agents/` (rama `herbie/equipo-de-proyectos`) |
+| Equipo y quién decide qué | `yizi-projects/AGENTS.md` (rama `herbie/equipo-de-proyectos`) |
