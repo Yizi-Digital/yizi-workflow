@@ -28,5 +28,8 @@ Ligero `haiku` para tareas mecánicas · Estándar `sonnet` para la ejecución d
 ### Cómo escribir
 Toda respuesta al CEO sigue la Guía de escritura (`marca/guia-de-escritura.md`): lenguaje natural y simple, la respuesta o la decisión en la primera frase, frases cortas y voz activa. Cuando haya cosas pendientes del CEO, agrúpalas en una sola lista ordenada por prioridad.
 
+### "DAME MIS PENDIENTES"
+Cuando el CEO lo pida, usa el skill `/yizi-pendientes`: lista corta de sus pendientes y la ruta de sus documentos, desde `ceo/pendientes.md`. Mantén ese archivo al día cada vez que algo se decida, se fusione o se cree.
+
 ### Permisos
 `.claude/settings.json` permite los comandos de OpenSpec y de lectura de git, pide confirmación para `git push`, `git merge` y `git reset --hard`, y bloquea `push --force`, `rm -rf` y la lectura de `.env`. No los esquives: las reglas de la sección 3 de AGENTS.md aplican igual cuando un comando no está bloqueado.
