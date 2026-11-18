@@ -10,6 +10,8 @@
 
 **Regla de cifras.** No hay datos medidos de Publisher. Todo umbral de este estudio es **propuesta de Termy, sin medir**. Edith valida el pago. El abogado confirma el contrato.
 
+**Nota del CEO (2026-11-18).** Hoy Yizi no tiene fotógrafos ni artistas para ir a los locales. **El servicio de Publisher es solo remoto, con IA.** El primer rol humano (creador de contenido de barrio) se activa solo cuando se cumple su disparador (D1 o D4) y el CEO aprueba. Hasta entonces no se ofrece fotografía, video ni visitas. Los perfiles futuros están en `talento/mapa-de-roles.md`, sección 3.7, con estado "mapeado, no se ofrece hoy".
+
 ## 1. La respuesta corta
 
 1. **El CEO puede empezar solo con agentes.** Lo hace con pocos clientes, un cliente a la vez y con confirmación suya antes de publicar.
