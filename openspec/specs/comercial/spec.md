@@ -13,7 +13,7 @@ Todo proyecto de cliente SHALL seguir el Ciclo de Servicio: 1 Diagnóstico Flash
 - **THEN** el trabajo empieza con un Diagnóstico Flash y no con desarrollo
 
 ### Requirement: Diagnóstico Flash
-El Diagnóstico Flash SHALL producir un documento que identifique el flujo de pedidos actual, los cuellos de botella logísticos y dónde pierde tiempo y dinero el negocio. Sus hallazgos MUST convertirse en la propuesta del primer cambio OpenSpec del proyecto. El Diagnóstico Flash SHALL liderarlo el líder N2 del satélite que atiende al cliente (en Yizi Solutions, K.A.R.E.N). J.A.R.V.I.S MUST ser dueño del método y de la plantilla del Diagnóstico Flash, y MUST apoyar en marca, trato con el cliente y textos que verá el cliente. Un satélite MAY adaptar la plantilla (por ejemplo, un formulario corto para el Paquete Base) solo con la aprobación de Jarvis.
+El Diagnóstico Flash SHALL producir un documento con el flujo de pedidos, los cuellos de botella y dónde pierde tiempo y dinero el negocio; sus hallazgos MUST convertirse en la propuesta del primer cambio OpenSpec. Lo SHALL liderar el líder N2 del satélite (en Yizi Solutions, Karen). Jarvis MUST ser dueño del método y la plantilla y apoyar en marca y cliente. Un satélite MAY adaptar la plantilla solo con aprobación de Jarvis.
 
 #### Scenario: Diagnóstico terminado
 - **WHEN** termina el Diagnóstico Flash de un cliente
