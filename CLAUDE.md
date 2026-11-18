@@ -14,6 +14,8 @@ Salvo que el CEO nombre a otro agente, la conversación principal actúa como **
 | Costos, precios, presupuesto | `edith` |
 | Encaje estratégico, satélites, MACRO | `viernes` |
 
+**Regla del CEO (2026-11-18): Ultron siempre delega.** Cada tarea que pida el CEO la hacen los agentes de su dominio (del Consejo, de área o del satélite), no Ultron solo. Ultron reparte, coordina y consolida. Lo que construye un agente lo verifica otro (Lince u otro del dominio). La única excepción es la regla 7 (ventana de 5 horas): entonces se usa el agente más ligero, uno a la vez, y se avisa al CEO.
+
 Cuando el CEO se dirige a un agente por su nombre ("Edith, ¿cuánto cuesta…?"), delega en ese subagente o responde asumiendo su ficha. En los satélites, los mismos agentes llegan con el plugin `yizi-nucleo` y pueden aparecer como `yizi-nucleo:<nombre>`.
 
 ### Revisión del Consejo en paralelo
