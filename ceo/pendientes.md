@@ -1,14 +1,16 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-18 (toFinance en Discovery indefinido, nuevo rumbo aprobado).
+Última actualización: 2026-11-18 (plan de comidas y mercado pasa a Discovery).
 
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] App de compras del barrio: ¿guardarla como señal, con ruta futura a un módulo "Pedidos del barrio" en Yizi Solutions? (Viernes recomienda sí.)
-- [ ] Cupo MACRO: ¿toFinance en pausa ocupa el cupo? ¿Autorizo el cambio pequeño en el núcleo para aclararlo? (Viernes recomienda sí.)
-- [ ] ¿Sumo 2 preguntas a las entrevistas de toFinance y 3 al Diagnóstico Flash, sin dinero extra?
+- [ ] Cupo MACRO: aprobar la regla de Viernes (toFinance ocupa el cupo; un Discovery de señal con tope no lo ocupa; máximo 1 a la vez).
+- [ ] Plan de comidas y mercado (Discovery): aprobar el tope de 6 semanas, 12 h y S/ 80.
+- [ ] Plan de comidas y mercado: aprobar que siga separado de toFinance, con entrevistas compartidas.
+- [ ] Plan de comidas y mercado: fijar hipótesis y regla de cierre antes de la primera entrevista.
+- [ ] Plan de comidas y mercado: aprobar la ruta de restaurantes como módulo de Yizi Solutions, después del Paquete Base.
 - [ ] toFinance (Discovery indefinido): las 15 entrevistas. Decidir cuándo, a quién (al menos 10 comerciantes, bodegueros o dueños de micronegocio) y qué incentivo dar (dentro de S/ 100). Temis prepara el consentimiento antes de la primera.
 - [ ] toFinance: al reanudar, fijar los umbrales del punto de control 1 (propuesta: seguir si 9 de 15 confirman el problema y 5 de 15 pagarían S/ 9.90 o más).
 - [ ] toFinance: leer la revisión legal (Temis) y llevar las preguntas al abogado. Riesgo clave: Apple podría exigir una empresa (no RUC 10) para publicar en iOS.
@@ -92,6 +94,8 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | toFinance · reevaluación frente a la competencia | `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md` |
 | toFinance · estudio de la competencia (CEO) | `yizi-projects/proyectos/tofinance/estudio-competencia-quipuk.md` |
 | toFinance · backlog: épicas, features e historias (Vera) | `yizi-projects/proyectos/tofinance/backlog.md` |
+| Plan de comidas y mercado · enfoque de Discovery (Viernes) | `yizi-projects/proyectos/idea-mercado-barrio/discovery/enfoque-discovery.md` |
+| Plan de comidas y mercado · backlog (Vera) | `yizi-projects/proyectos/idea-mercado-barrio/discovery/backlog.md` |
 | App de compras del barrio · evaluación (Viernes) | `yizi-projects/proyectos/idea-mercado-barrio/evaluacion.md` |
 | App de compras del barrio · 6 informes | `yizi-projects/proyectos/idea-mercado-barrio/estudio/` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
