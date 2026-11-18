@@ -13,11 +13,20 @@ Todo proyecto de cliente SHALL seguir el Ciclo de Servicio: 1 Diagnóstico Flash
 - **THEN** el trabajo empieza con un Diagnóstico Flash y no con desarrollo
 
 ### Requirement: Diagnóstico Flash
-El Diagnóstico Flash SHALL producir un documento que identifique el flujo de pedidos actual, los cuellos de botella logísticos y dónde pierde tiempo y dinero el negocio. Sus hallazgos MUST convertirse en la propuesta del primer cambio OpenSpec del proyecto.
+El Diagnóstico Flash SHALL producir un documento con el flujo de pedidos, los cuellos de botella y dónde pierde tiempo y dinero el negocio; sus hallazgos MUST convertirse en la propuesta del primer cambio OpenSpec. Lo SHALL liderar el líder N2 del satélite (en Yizi Solutions, Karen). Jarvis MUST ser dueño del método y la plantilla y apoyar en marca y cliente. Un satélite MAY adaptar la plantilla solo con aprobación de Jarvis.
 
 #### Scenario: Diagnóstico terminado
 - **WHEN** termina el Diagnóstico Flash de un cliente
 - **THEN** existe una propuesta OpenSpec cuyo apartado Why cita los cuellos de botella encontrados
+
+#### Scenario: Quién lidera un diagnóstico en Yizi Solutions
+- **WHEN** un negocio de barrio empieza el Diagnóstico Flash en Yizi Solutions
+- **THEN** Karen lidera el diagnóstico y firma el documento como responsable
+- **AND** Jarvis revisa que la plantilla, los textos y el trato con el cliente siguen la marca
+
+#### Scenario: Un satélite quiere cambiar la plantilla
+- **WHEN** Karen propone un formulario más corto para el Diagnóstico Flash
+- **THEN** el formulario se usa solo después de que Jarvis lo aprueba
 
 ### Requirement: Sprint Inicial
 El Sprint Inicial SHALL entregar en días una solución mínima (por ejemplo, una landing o webapp con menú interactivo y rutas automatizadas) que estandarice la recepción de pedidos. Su alcance MUST limitarse a lo aprobado en las specs del cambio.
