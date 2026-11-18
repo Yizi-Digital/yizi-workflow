@@ -6,6 +6,9 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ## 1. Mis pendientes
 
 ### Decidir
+- [ ] App de compras del barrio: ¿guardarla como señal, con ruta futura a un módulo "Pedidos del barrio" en Yizi Solutions? (Viernes recomienda sí.)
+- [ ] Cupo MACRO: ¿toFinance en pausa ocupa el cupo? ¿Autorizo el cambio pequeño en el núcleo para aclararlo? (Viernes recomienda sí.)
+- [ ] ¿Sumo 2 preguntas a las entrevistas de toFinance y 3 al Diagnóstico Flash, sin dinero extra?
 - [ ] toFinance (Discovery indefinido): las 15 entrevistas. Decidir cuándo, a quién (al menos 10 comerciantes, bodegueros o dueños de micronegocio) y qué incentivo dar (dentro de S/ 100). Temis prepara el consentimiento antes de la primera.
 - [ ] toFinance: al reanudar, fijar los umbrales del punto de control 1 (propuesta: seguir si 9 de 15 confirman el problema y 5 de 15 pagarían S/ 9.90 o más).
 - [ ] toFinance: leer la revisión legal (Temis) y llevar las preguntas al abogado. Riesgo clave: Apple podría exigir una empresa (no RUC 10) para publicar en iOS.
@@ -89,6 +92,8 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | toFinance · reevaluación frente a la competencia | `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md` |
 | toFinance · estudio de la competencia (CEO) | `yizi-projects/proyectos/tofinance/estudio-competencia-quipuk.md` |
 | toFinance · backlog: épicas, features e historias (Vera) | `yizi-projects/proyectos/tofinance/backlog.md` |
+| App de compras del barrio · evaluación (Viernes) | `yizi-projects/proyectos/idea-mercado-barrio/evaluacion.md` |
+| App de compras del barrio · 6 informes | `yizi-projects/proyectos/idea-mercado-barrio/estudio/` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
 | toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
 | toFinance · expediente MACRO | `yizi-projects/proyectos/tofinance/expediente.md` |
