@@ -6,6 +6,10 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ## 1. Mis pendientes
 
 ### Decidir
+- [ ] Yizi Publisher: ¿apruebo el plan `activar-yizi-publisher` (Consejo: 5 CONDICIONADO, condiciones ya incorporadas)?
+- [ ] Publisher: mis horas reales por semana (Ultron recomienda máximo 5 hasta cerrar los pilotos).
+- [ ] Publisher: "Acompañamiento IA" S/ 69 como último escalón (Jarvis: sí) y responder mensajes fuera de los planes (Jarvis: sí).
+- [ ] Fiesteros: decir a nombre de quién están el dominio, Vercel e Instagram/Facebook; si el cliente paga hoy; y si acepta ser caso de referencia (sin contraseñas).
 - [ ] Cupo MACRO: aprobar la regla de Viernes (toFinance ocupa el cupo; un Discovery de señal con tope no lo ocupa; máximo 1 a la vez).
 - [ ] Plan de comidas y mercado (Discovery): aprobar el tope de 6 semanas, 12 h y S/ 80.
 - [ ] Plan de comidas y mercado: aprobar que siga separado de toFinance, con entrevistas compartidas.
@@ -98,6 +102,8 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Plan de comidas y mercado · backlog (Vera) | `yizi-projects/proyectos/idea-mercado-barrio/discovery/backlog.md` |
 | App de compras del barrio · evaluación (Viernes) | `yizi-projects/proyectos/idea-mercado-barrio/evaluacion.md` |
 | App de compras del barrio · 6 informes | `yizi-projects/proyectos/idea-mercado-barrio/estudio/` |
+| Yizi Publisher · plan de activación y Consejo | `yizi-workflow/openspec/changes/activar-yizi-publisher/` |
+| Fiesteros · estudio (Vision, Jarvis, Temis, Edith) | `yizi-workflow/openspec/changes/activar-yizi-publisher/estudio/fiesteros/` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
 | toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
 | toFinance · expediente MACRO | `yizi-projects/proyectos/tofinance/expediente.md` |

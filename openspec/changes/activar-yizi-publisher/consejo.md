@@ -17,7 +17,7 @@
 | Viernes | Alineación estratégica | CONDICIONADO | Reescribir la descripción de Publisher y el rol de Homer en el registro; `activo` no autoriza vender antes de 8.1-8.3; MUST NOT en la spec |
 | Ultron | Operabilidad | CONDICIONADO | CEO confirma horas (máx. 5 h/semana hasta cerrar pilotos); no activar hasta el Diagnóstico Flash del tercer piloto; dividir tareas grandes; Quirón en jerarquia-agentes; pausa si se pierden horas de Solutions |
 
-**Resumen:** ninguna compuerta está BLOQUEADA. Las cinco piden ajustes al plan. Viernes los incorpora antes de la decisión del CEO.
+**Resumen:** ninguna compuerta está BLOQUEADA. Las cinco piden ajustes al plan. Viernes los incorporó el 2026-11-18 (proposal, design, tasks y spec; validación estricta OK). Queda sin verificar: derechos y datos de los proveedores de IA (tarea 5.5d).
 
 ## Detalle
 
