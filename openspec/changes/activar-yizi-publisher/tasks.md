@@ -15,7 +15,7 @@
 - [x] 1.1 Registrar en `consejo.md` los veredictos de Vision, Jarvis, Edith, Viernes y Ultron
 - [x] 1.2 El CEO aprueba la activación, el orden de arranque (pilotos de Solutions primero) y el tope de S/ 300
 - [x] 1.3 El CEO confirma sus horas reales por semana para Publisher (Ultron recomienda máximo 5 horas hasta cerrar los pilotos)
-- [ ] 1.3b Edith recalcula el tope de clientes con las horas confirmadas y lo anota en `design.md` (D7)
+- [x] 1.3b Edith recalcula el tope de clientes con las horas confirmadas y lo anota en `design.md` (D7)
 - [x] 1.4 El CEO aprueba los nombres del equipo (2026-11-18): Homer, Ágora, Faro, Quirón, Prisma, Sagita y Kepler
 - [x] 1.5 El CEO fija la frontera "solo con IA" (2026-11-18): solo remoto; lo presencial se mapea y no se ofrece
 - [ ] 1.6 El CEO decide si suma "Acompañamiento IA" (S/ 69); Jarvis recomienda solo como último escalón

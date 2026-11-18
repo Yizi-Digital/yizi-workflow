@@ -143,10 +143,26 @@ Fuente: `estudio/aida-equipo-v2.md`. Nombres aprobados por el CEO: Homer el 2026
 - Primero, los 3 pilotos de Solutions. Publisher arranca después con **1 piloto propio**.
 - **Punto de control:** Publisher no pasa a `activo` (3.1) hasta que termine el Diagnóstico Flash del tercer piloto de Solutions.
 - **`activo` no autoriza vender.** Publisher no ofrece ni cobra nada antes de cerrar 8.1 (RUC 10), 8.2 (contrato) y 8.3 (piloto propio elegido).
-- **Horas del CEO:** el CEO confirma sus horas reales (1.3). Recomendación de Ultron: máximo 5 horas por semana para Publisher hasta cerrar los pilotos de Solutions. Edith recalcula el tope de clientes con las horas confirmadas.
+- **Horas del CEO:** el CEO confirmó **5 horas por semana** para Publisher (1.3, 2026-11-18). Son horas de trabajo del CEO en Publisher: dirigir y revisar a los agentes, aprobar piezas, dar la lección al cliente, vender, diagnosticar y administrar.
 - **Regla de pausa:** si el CEO pierde horas de Solutions por Publisher, el trabajo de Publisher se pausa hasta recuperar el plan de Solutions.
 - **Preparación después de los pilotos:** los agentes preparan el satélite (fichas, catálogo, flujo) después de los pilotos. Si la ventana de 5 horas está justa, trabaja un agente a la vez (regla 7).
-- Tope: unos **6 clientes** equivalentes (30 horas al mes), con el supuesto de 10 horas por semana del CEO. Con 5 horas por semana serían unos 3 (estimación; Edith lo recalcula).
+- **Tope recalculado por Edith (1.3b, estimación):** **3 clientes equivalentes de Redes con IA (15 horas al mes)** mientras el CEO sea la única persona.
+
+  | Paso | Cálculo | Resultado |
+  |---|---|---|
+  | Horas al mes | 5 h × 52 semanas ÷ 12 meses | unas 21.7 h |
+  | Reserva para vender, diagnosticar, administrar y aprender | 30 % | unas 6.5 h |
+  | Horas productivas con clientes | 21.7 − 6.5 | **unas 15 h** |
+
+  | Mezcla de clientes (horas de `estudio/edith-economia.md`, 2.1) | Horas al mes | ¿Cabe en 15 h? |
+  |---|---|---|
+  | 3 de Redes con IA (5 h cada uno) | 15 | Justo |
+  | 5 de Redes con IA Inicio (3 h cada uno) | 15 | Justo |
+  | 2 de Redes con IA + 1 de Redes con IA Inicio + 2 de Acompañamiento IA | 15 | Justo |
+
+  - El primer mes de un cliente nuevo de Presencia básica (4 h, pago único) ocupa casi el lugar de un cliente mensual.
+  - Supuestos: horas por plan sin medir y reserva del 30 %. Edith recalcula el tope con los minutos reales de los 2 primeros meses.
+  - El tope anterior (6 clientes, 30 horas al mes) suponía 10 horas por semana. Ya no aplica.
 - Para crecer: pasar clientes al escalón de salida, dar talleres grupales o sumar una persona (Termy y Edith).
 
 *Alternativa descartada:* abrir Publisher en paralelo a los pilotos. Quita horas al CEO y mezcla la medición del Paquete Base.
