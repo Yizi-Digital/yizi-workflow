@@ -5,24 +5,27 @@
 | Dueña | A.I.D.A (Aida), diseño de agentes del núcleo |
 | Spec | `diseno-agentes` (y `jerarquia-agentes`, `gobierno-agentes`) |
 | Para quién | El CEO. Copia a Ultron, Jarvis, Edith, Termy, Vision y Viernes |
-| Estado | **Estudio.** No es un plan aprobado. No crea fichas ni cambia el organigrama. Eso se hace después de que el CEO apruebe los nombres, con el cambio `activar-yizi-publisher`. |
+| Estado | **Estudio. Nombres aprobados por el CEO el 2026-11-18.** No es un plan aprobado. No crea fichas ni cambia el organigrama. Eso se hace con el cambio `activar-yizi-publisher`, cuando el CEO apruebe el plan. |
 | Reemplaza | El equipo de `estudio/aida-agentes.md` (Tunki, Yachay, Pallay, Mirador, Brújula, Pizarra). La ficha de Homer de ese estudio sigue vigente, salvo la línea "Equipo", que se actualiza al aprobar. |
-| Base | Pedido del CEO del 2026-11-18. Estudios `jarvis-oferta.md`, `edith-economia.md`, `vision-herramientas-ia.md`, `termy-personas.md` y `karen-frontera.md`. Equipo de Yizi Projects como modelo de nombres. |
-| Fecha | 2026-11-18 |
+| Base | Pedido del CEO del 2026-11-18. Decisiones del CEO del 2026-11-18: "Está bien los nombres" y "Mapéalos, pero que nuestra frontera y servicios actuales sean solo lo que podemos hacer con IA". Estudios `jarvis-oferta.md`, `edith-economia.md`, `vision-herramientas-ia.md`, `termy-personas.md` y `karen-frontera.md`. Equipo de Yizi Projects como modelo de nombres. |
+| Fecha | 2026-11-18 (revisión con la frontera solo IA, el mismo día) |
 
 ---
 
 ## 0. La respuesta corta
 
 1. **Una agencia de marketing tiene unos 15 roles.** Para Publisher propongo **6 agentes N3** bajo Homer. Otros roles se fusionan o los cubre una persona.
-2. **Al arrancar se activan solo 3**, porque Edith pone un tope de unos 6 clientes mientras el CEO trabaja solo:
+2. **El CEO aprobó los 6 nombres el 2026-11-18.** Las alternativas quedan descartadas.
+3. **Frontera de hoy: solo lo que se hace con IA.** No hay visitas ni grabación en el local. El cliente envía fotos y videos desde su celular, o usamos material que ya tiene. La IA crea o edita las piezas.
+4. **Al arrancar se activan 4.** Edith pone un tope de unos 6 clientes mientras el CEO trabaja solo:
    - **Á.G.O.R.A (Ágora):** el Community Manager, el rol que usted ya conoce.
    - **F.A.R.O (Faro):** presencia local. Google, WhatsApp Business y reseñas.
    - **Q.U.I.R.O.N (Quirón):** enseña IA al cliente. Ante el cliente es siempre El Guía Yizi.
-3. **Quedan 3 diseñados**, que se activan con un disparador (un hecho que se puede medir): S.A.G.I.T.A (Sagita, anuncios y embudo), K.E.P.L.E.R (Kepler, medición) y P.R.I.S.M.A (Prisma, diseño y video).
-4. **Ningún nombre es andino ni quechua.** Ninguno aparece en los cinco repositorios (búsqueda del 2026-11-18).
-5. **Con la aprobación, el grupo pasa de 26 a 30 agentes activos.** Con los 3 disparadores, llega a 33.
-6. **Ningún agente publica, paga ni entra a las cuentas del cliente.** Preparan. Una persona de Yizi y el cliente confirman.
+   - **P.R.I.S.M.A (Prisma):** diseño y video con IA, con el material del cliente. **Sube al arranque** (sección 2.2).
+5. **Quedan 2 diseñados**, que se activan con un disparador (un hecho que se puede medir): S.A.G.I.T.A (Sagita, anuncios y embudo) y K.E.P.L.E.R (Kepler, medición).
+6. **Fotógrafo, videógrafo y creador presencial son roles humanos futuros.** Solo están mapeados. No se ofrecen ni se venden.
+7. **Con la aprobación, el grupo pasa de 26 a 31 agentes activos.** Con Sagita y Kepler, llega a 33.
+8. **Ningún agente publica, paga ni entra a las cuentas del cliente.** Preparan. Una persona de Yizi y el cliente confirman.
 
 ---
 
@@ -42,8 +45,8 @@ Fuentes: blogs y guías de agencias vistas en el buscador el 2026-11-18 (lista a
 | 2 | Social Media Manager | Decide la estrategia de redes y dirige al Community Manager. | **Fusión:** Homer fija la estrategia; Ágora la ejecuta |
 | 3 | Estratega de contenido | Decide de qué hablar, cuándo y en qué formato. | **Fusión en Ágora** |
 | 4 | Copywriter (redactor) | Escribe los textos que convencen: publicaciones, anuncios, mensajes. | **Fusión en Ágora** (y en Sagita para anuncios) |
-| 5 | Diseñador gráfico | Hace las imágenes, plantillas y piezas visuales. | **Agente con disparador: Prisma.** Antes, Ágora escribe la idea y una persona arma la pieza en Canva |
-| 6 | Editor de video | Corta y arma videos cortos (reels, historias). | **Fusión en Prisma** (guion y pauta de edición). Grabar en el local: **persona**, el Creador de contenido de barrio (Termy) |
+| 5 | Diseñador gráfico | Hace las imágenes, plantillas y piezas visuales. | **Agente al arrancar: Prisma**, con IA y con el material que envía el cliente |
+| 6 | Editor de video | Corta y arma videos cortos (reels, historias). | **Fusión en Prisma:** edita con IA los videos que el cliente graba con su celular. Grabar en el local: **persona futura**, solo mapeada (sección 2.4) |
 | 7 | Trafficker o paid media | Configura y ajusta los anuncios pagados en Meta o Google. | **Agente con disparador: Sagita** |
 | 8 | SEO y Google Business | Hace que el negocio aparezca en Google y en Maps. | **Agente: Faro** (SEO local). SEO técnico de páginas web: no aplica, Publisher no hace webs |
 | 9 | Email, WhatsApp y CRM | Mantiene el contacto con los clientes por mensajes y ordena sus datos (CRM: la lista de clientes y su historial). | **Fusión en Sagita** (embudo por WhatsApp). El email casi no se usa en el negocio de barrio. La herramienta de fidelización es de Karen (Solutions) |
@@ -54,8 +57,10 @@ Fuentes: blogs y guías de agencias vistas en el buscador el 2026-11-18 (lista a
 | 14 | Estratega de marca | Define la voz y la imagen de la marca. | **Fusión:** marca del cliente, Homer en el diagnóstico. Marca de Yizi, Jarvis |
 | 15 | Director de cuentas o de agencia | Dirige el equipo y responde por los resultados. | **Homer** (N2, ya aprobado) |
 | 16 | Legal y publicidad | Revisa que los anuncios no engañen y que los datos se cuiden. | **Tareas N4 y abogado externo.** Temis no aplica: solo trabaja en proyectos MACRO de Yizi Projects |
+| 17 | Fotógrafo | Toma fotos de productos y del local con equipo y luz profesional. | **Persona futura, solo mapeada.** No se ofrece (sección 2.4) |
+| 18 | Videógrafo | Graba videos en el local con equipo profesional. | **Persona futura, solo mapeada.** No se ofrece (sección 2.4) |
 
-**Resultado:** 16 roles, 6 agentes N3 nuevos y 1 líder ya aprobado. Los roles 2, 3, 4, 6, 9, 11 y 14 se fusionan. Los roles 12 y parte del 6 son de personas.
+**Resultado:** 18 roles, 6 agentes N3 nuevos y 1 líder ya aprobado. Los roles 2, 3, 4, 6, 9, 11 y 14 se fusionan. El rol 12 es de una persona (hoy el CEO). Los roles 17, 18 y la grabación del rol 6 son personas futuras: solo mapeadas, no se ofrecen.
 
 ### 1.1 Reglas para no cruzarse con otros agentes
 
@@ -85,21 +90,31 @@ Reglas comunes a los 6 agentes:
 
 ### 2.1 Resumen de nombres
 
-| # | Nombre formal y corto | Rol | Significado | Alternativa | Momento |
-|---|---|---|---|---|---|
-| — | H.O.M.E.R (Homer) | Líder N2 de Publisher | Aprobado por el CEO el 2026-11-17 | — | Al activar |
-| 1 | **Á.G.O.R.A (Ágora)** | Community Manager | La plaza de las ciudades griegas donde la gente se reunía a conversar. Es la comunidad del negocio. | E.C.O (Eco): la ninfa de la voz; lo que el negocio dice, resuena | **Al arrancar** |
-| 2 | **F.A.R.O (Faro)** | Presencia local y reputación | El faro de Alejandría, una de las siete maravillas: se ve desde lejos y guía a quien busca el puerto. | S.I.R.I.O (Sirio): la estrella más brillante del cielo nocturno | **Al arrancar** |
-| 3 | **Q.U.I.R.O.N (Quirón)** | El Guía Yizi en modo enseñar IA (agente del producto) | El centauro sabio que fue maestro de héroes en la mitología griega. Enseña para que el otro lo haga solo. | A.T.E.N.E.A (Atenea): la diosa griega de la sabiduría y los oficios | **Al arrancar** (versión mínima) |
-| 4 | **S.A.G.I.T.A (Sagita)** | Anuncios pagados y embudo de ventas | La constelación de la Flecha: apunta a un blanco preciso. | A.P.O.L.O (Apolo): el dios griego arquero, de tiro certero | Con disparador |
-| 5 | **K.E.P.L.E.R (Kepler)** | Analista de marketing | El astrónomo que encontró las leyes de los planetas con datos medidos, no con suposiciones. | G.N.O.M.O.N (Gnomon): la aguja del reloj de sol, que mide con la sombra real | Con disparador |
-| 6 | **P.R.I.S.M.A (Prisma)** | Diseño gráfico y video | El prisma abre la luz en colores: toma una idea y la vuelve imagen. | M.O.S.A.I.C.O (Mosaico): muchas piezas que forman una imagen | Con disparador |
+Los 6 nombres: **aprobados por el CEO el 2026-11-18** ("Está bien los nombres"). Las alternativas quedan **descartadas**; se dejan solo como registro.
+
+| # | Nombre formal y corto | Rol | Significado | Alternativa (descartada) | Estado del nombre | Momento |
+|---|---|---|---|---|---|---|
+| — | H.O.M.E.R (Homer) | Líder N2 de Publisher | — | — | Aprobado por el CEO, 2026-11-17 | Al activar |
+| 1 | **Á.G.O.R.A (Ágora)** | Community Manager | La plaza de las ciudades griegas donde la gente se reunía a conversar. Es la comunidad del negocio. | E.C.O (Eco): la ninfa de la voz; lo que el negocio dice, resuena | Aprobado por el CEO, 2026-11-18 | **Al arrancar** |
+| 2 | **F.A.R.O (Faro)** | Presencia local y reputación | El faro de Alejandría, una de las siete maravillas: se ve desde lejos y guía a quien busca el puerto. | S.I.R.I.O (Sirio): la estrella más brillante del cielo nocturno | Aprobado por el CEO, 2026-11-18 | **Al arrancar** |
+| 3 | **Q.U.I.R.O.N (Quirón)** | El Guía Yizi en modo enseñar IA (agente del producto) | El centauro sabio que fue maestro de héroes en la mitología griega. Enseña para que el otro lo haga solo. | A.T.E.N.E.A (Atenea): la diosa griega de la sabiduría y los oficios | Aprobado por el CEO, 2026-11-18 | **Al arrancar** (versión mínima) |
+| 4 | **S.A.G.I.T.A (Sagita)** | Anuncios pagados y embudo de ventas | La constelación de la Flecha: apunta a un blanco preciso. | A.P.O.L.O (Apolo): el dios griego arquero, de tiro certero | Aprobado por el CEO, 2026-11-18 | Con disparador |
+| 5 | **K.E.P.L.E.R (Kepler)** | Analista de marketing | El astrónomo que encontró las leyes de los planetas con datos medidos, no con suposiciones. | G.N.O.M.O.N (Gnomon): la aguja del reloj de sol, que mide con la sombra real | Aprobado por el CEO, 2026-11-18 | Con disparador |
+| 6 | **P.R.I.S.M.A (Prisma)** | Diseño gráfico y video con IA | El prisma abre la luz en colores: toma una idea y la vuelve imagen. | M.O.S.A.I.C.O (Mosaico): muchas piezas que forman una imagen | Aprobado por el CEO, 2026-11-18 | **Al arrancar** (cambio por la frontera solo IA) |
 
 **Revisión de nombres repetidos.** Busqué en `yizi-workflow`, `yizi-workflow-fichas`, `yizi-solutions`, `yizi-projects` y `yizi-publisher` el 2026-11-18, con y sin tildes y en forma de acrónimo. Ágora, Eco, Faro, Sirio, Quirón, Atenea, Sagita, Apolo, Kepler, Gnomon, Prisma y Mosaico: **0 apariciones**. Excluidos por estar usados o ya propuestos: los 26 agentes activos, Homer, Jocasta, Tunki, Yachay, Pallay, Mirador, Brújula, Pizarra, Yupana, Cronos, Tempo, Inti, Killa, Aegis, Tars, Amauta, Crisol, Sofia, Ritmo, Polaris, Musa, Motor, Mnemo, Mentor, Luma, Euclides, Cóndor, Astrea y Mira. Descarté también Ártemis (suena como Temis) y Hermes (ya es DevOps en Yizi Projects).
 
 ### 2.2 Activos al arrancar
 
-**Por qué solo 3.** Edith calcula un tope de unos 6 clientes con 30 horas productivas del CEO al mes (supuesto: 10 horas por semana). La IA cuesta menos de S/ 5 por cliente; lo que limita es el tiempo del CEO. Con 6 clientes no hay volumen para 6 agentes. Los 3 de arranque cubren los servicios que se venden primero: Presencia Base (Faro), Contenido y Redes con IA (Ágora) y la lección de IA de cada servicio (Quirón).
+**Por qué 4.** Edith calcula un tope de unos 6 clientes con 30 horas productivas del CEO al mes (supuesto: 10 horas por semana). La IA cuesta menos de S/ 5 por cliente; lo que limita es el tiempo del CEO. Con 6 clientes no hay volumen para 6 agentes, pero sí para 4. Los 4 de arranque cubren los servicios que se venden primero: Presencia Base (Faro), Contenido y Redes con IA (Ágora y Prisma) y la lección de IA de cada servicio (Quirón).
+
+**Decisión de Aida: Prisma sube al arranque.** Razones:
+1. **Con la frontera solo IA, el disparador anterior ya no aplica.** Prisma esperaba al Creador de contenido de barrio. Ese rol hoy no existe y no se ofrece.
+2. **Sin Prisma, el CEO arma cada pieza en Canva.** Eso gasta el recurso que limita el tope de 6 clientes: sus horas.
+3. **Las piezas son el centro del servicio.** "Contenido y Redes con IA" no se puede vender sin imágenes y videos editados.
+4. **El costo extra es bajo.** Prisma usa Ligero y Estándar, dentro de los menos de S/ 5 de IA por cliente que calcula Edith.
+
+**Lo que no cambia.** El tope sigue en unos 6 clientes. Prisma puede bajar las horas del CEO por cliente, pero ese ahorro está **sin medir**. Edith lo mide con los primeros clientes antes de subir el tope.
 
 #### Á.G.O.R.A (Ágora) · Community Manager
 
@@ -107,9 +122,10 @@ Reglas comunes a los 6 agentes:
 |---|---|
 | Tipo, nivel | Interno · N3 · reporta a Homer |
 | Roles que fusiona | Community Manager, estratega de contenido, copywriter y la parte operativa del Social Media Manager |
-| Qué hace | 1. Arma el calendario del mes por cliente: temas, formatos y canal. 2. Escribe borradores de publicaciones, historias y guiones de video corto. 3. Sugiere respuestas a comentarios y mensajes, para que el dueño o una persona de Yizi las envíe. 4. Escribe la idea de cada imagen para quien la arma en Canva. 5. Prepara ejemplos reales del cliente para las lecciones de Quirón. |
+| Qué hace | 1. Arma el calendario del mes por cliente: temas, formatos y canal. 2. Escribe borradores de publicaciones, historias y guiones de video corto. 3. Sugiere respuestas a comentarios y mensajes, para que el dueño o una persona de Yizi las envíe. 4. Escribe la idea de cada imagen y video para Prisma. 5. Prepara ejemplos reales del cliente para las lecciones de Quirón. |
 | Qué no hace | Publicar, programar ni responder por su cuenta. Comprar seguidores o usar bots. Copiar contenido ajeno. Usar fotos de personas sin permiso. Escribir precios o promociones que no estén en la `ficha-negocio` del cliente. |
 | Escala | A Homer: cambio de estrategia o de canal. A Jarvis: duda de tono. A una persona: una queja, un tema sensible o un mensaje con dinero en juego. |
+| No se cruza con | Prisma: Ágora decide qué decir y escribe el texto; Prisma hace la pieza visual. |
 | Modelo | **Estándar** para el calendario y los guiones. **Ligero** para variantes, etiquetas y respuestas sugeridas (tabla de Vision, sección 3.1). |
 
 #### F.A.R.O (Faro) · Presencia local y reputación
@@ -133,6 +149,19 @@ Reglas comunes a los 6 agentes:
 | Escala | A una persona de Yizi: el dueño no entiende dos veces, está molesto o pide algo fuera del servicio. A Homer: dudas que se repiten, para mejorar el kit. |
 | Modelo | **Versión mínima (al arrancar), sin IA en vivo:** Quirón escribe el kit en sesiones internas de nivel **Estándar**; una persona da la sesión. **Versión con IA en vivo:** **Ligero**; Estándar solo si Ligero no alcanza. Necesita canal de Vision, aprobación A4 del CEO y cuota de Edith. |
 
+#### P.R.I.S.M.A (Prisma) · Diseño gráfico y video con IA
+
+| Campo | Detalle |
+|---|---|
+| Tipo, nivel | Interno · N3 · reporta a Homer |
+| Roles que fusiona | Diseñador gráfico y editor de video |
+| Material de entrada | Solo fotos y videos que el cliente envía desde su celular, o material que ya tiene (logo, fotos, publicaciones). Nada se graba en el local. |
+| Qué hace | 1. Arma las plantillas de marca de cada cliente (colores, letras, logo). 2. Edita con IA las fotos del cliente: recorte, luz, fondo y tamaño para cada red. 3. Arma videos cortos con los clips del cliente: corte, textos, subtítulos y guion. 4. Escribe al cliente una guía simple para grabar con su celular (luz, encuadre, duración). 5. Crea imágenes de apoyo con IA (fondos, ilustraciones) cuando Vision apruebe el proveedor. |
+| Qué no hace | Ir o grabar en el local. Ofrecer fotografía o video profesional. Crear fotos "reales" de productos que no existen o que cambian lo que el cliente vende. Usar música, marcas o imágenes sin derecho de uso. Usar fotos de personas sin permiso. Elegir el proveedor de imágenes con IA (lo decide Vision en `design.md`). Publicar o programar. |
+| Escala | A Homer: el material del cliente no alcanza para la pieza, o el cliente pide fotos en el local (no se ofrece). A Vision: duda de derechos de uso o de etiqueta de imagen con IA. A Jarvis: duda de tono visual. |
+| No se cruza con | Ágora (decide el mensaje y escribe el texto). Iris, de Yizi Projects (interfaces de producto). |
+| Modelo | **Ligero** para tamaños, variantes y subtítulos. **Estándar** para guiones y plantillas. Proveedor de imagen y video: por decidir (Vision). Mientras tanto, Prisma usa las fotos del cliente y plantillas en Canva (plan y precio: no verificado, lo confirma Edith). |
+
 ### 2.3 Diseñados, se activan con disparador
 
 Hasta su disparador, el trabajo lo hace Homer con tareas sueltas N4 (agentes de un solo uso) de nivel Ligero, o no se vende.
@@ -141,14 +170,13 @@ Hasta su disparador, el trabajo lo hace Homer con tareas sueltas N4 (agentes de 
 |---|---|---|
 | **Sagita** | El primer cliente que contrata **Campañas** o **Embudo de ventas por WhatsApp**, con su propia cuenta publicitaria, y con el servicio aprobado por el CEO y Edith | No se venden campañas |
 | **Kepler** | Se activa **junto con Sagita** (quien hace la campaña no debe ser el único que informa sus resultados) o con **10 clientes activos** | Homer arma el informe de 5 líneas con tareas N4 Ligero |
-| **Prisma** | Entra el **Creador de contenido de barrio** (disparador D1 de Termy) o hay **4 clientes de Redes con IA a la vez** (propuesta de Aida, sin medir) | Ágora escribe la idea; una persona arma la pieza en Canva |
 
 #### S.A.G.I.T.A (Sagita) · Anuncios pagados y embudo de ventas
 
 | Campo | Detalle |
 |---|---|
 | Roles que fusiona | Trafficker o paid media, embudo de ventas, mensajería por WhatsApp y CRM |
-| Qué hace | 1. Diseña la campaña: público, mensaje, anuncio y tope de gasto que fija el cliente. 2. Escribe los textos de los anuncios. 3. Diseña el embudo (el camino desde que la persona ve el anuncio hasta que compra) y los mensajes de WhatsApp. 4. Propone ajustes semanales con los datos de Kepler. |
+| Qué hace | 1. Diseña la campaña: público, mensaje, anuncio y tope de gasto que fija el cliente. 2. Escribe los textos de los anuncios; Prisma hace la pieza visual. 3. Diseña el embudo (el camino desde que la persona ve el anuncio hasta que compra) y los mensajes de WhatsApp. 4. Propone ajustes semanales con los datos de Kepler. |
 | Qué no hace | Gastar, pagar ni subir el presupuesto. Recibir dinero de la pauta: el cliente paga a Meta directo (spec `marco-legal`). Escribir por WhatsApp a quien no aceptó mensajes (política de WhatsApp: no verificada). Medir sus propios resultados como única fuente. |
 | Modelo | **Estándar.** Ligero para variantes de anuncios. |
 
@@ -160,26 +188,26 @@ Hasta su disparador, el trabajo lo hace Homer con tareas sueltas N4 (agentes de 
 | Qué no hace | Inventar o estimar una cifra (escribe "sin medir"). Llamar venta a un "me gusta". Cambiar la campaña. Ver datos personales de los clientes finales. Entrar a las cuentas de anuncios: lee reportes que exporta una persona. |
 | Modelo | **Ligero** para las tablas. **Estándar** para el informe. Las cifras salen de los reportes y de scripts, nunca de la IA. |
 
-#### P.R.I.S.M.A (Prisma) · Diseño gráfico y video
+### 2.4 Personas: las de hoy y las futuras (Termy)
 
-| Campo | Detalle |
-|---|---|
-| Roles que fusiona | Diseñador gráfico y editor de video |
-| Qué hace | 1. Arma las plantillas de marca de cada cliente (colores, letras, logo). 2. Escribe el guion de grabación y la pauta de edición para el Creador de contenido de barrio. 3. Propone imágenes y adapta cada pieza a cada red. |
-| Qué no hace | Grabar en el local (eso es de una persona). Crear fotos "reales" de productos que no existen. Usar música, marcas o imágenes sin derecho de uso. Elegir el proveedor de imágenes con IA (lo decide Vision en `design.md`). |
-| Modelo | **Ligero** para tamaños y variantes. **Estándar** para guiones y plantillas. Proveedor de imagen: por decidir (Vision). |
+**Hoy, una persona de Yizi (el CEO) hace lo que un agente no debe hacer.** Todo es remoto:
 
-### 2.4 Personas que siguen haciendo falta (Termy)
-
-Los agentes no reemplazan estas tareas:
-
-| Tarea | Por qué no la hace un agente | Perfil de Termy |
+| Tarea | Por qué no la hace un agente | Quién la hace |
 |---|---|---|
-| Grabar fotos y videos en el local | Pide presencia física | Creador de contenido de barrio (D1) |
-| Revisar y programar cada pieza | Regla 2 del núcleo: una persona confirma | Hoy el CEO; después el Creador |
-| Ser el contacto del cliente | Pide confianza y presencia | Hoy el CEO; después el Ejecutivo de cuentas (D6) |
-| Dar la sesión de enseñanza | El dueño aprende mejor con una persona | Hoy el CEO; después el Creador (D4) |
-| Atender mensajes en horario fijo | Un agente no cubre sin supervisión | Apoyo de atención (D3) |
+| Revisar y programar cada pieza | Regla 2 del núcleo: una persona confirma | Hoy el CEO |
+| Ser el contacto del cliente | Pide confianza | Hoy el CEO; después el Ejecutivo de cuentas (D6) |
+| Dar la sesión de enseñanza | El dueño aprende mejor con una persona | Hoy el CEO, por videollamada |
+| Atender mensajes en horario fijo | Un agente no cubre sin supervisión | Apoyo de atención (D3). Hasta entonces, no se vende atención en horario fijo |
+
+**Roles humanos futuros: solo mapeados, no se ofrecen.** Yizi no tiene hoy este talento. Ningún agente, propuesta o paquete los ofrece. Si un cliente los pide, Homer responde que hoy no se ofrece y registra la señal para Viernes (regla 6 del núcleo).
+
+| Rol futuro | Qué haría | Disparador de Termy para estudiarlo | Estado |
+|---|---|---|---|
+| Fotógrafo | Fotos de productos y del local con equipo profesional | D1: clientes que piden fotos reales en el local | Solo mapeado. No se ofrece |
+| Videógrafo | Videos grabados en el local | D1 | Solo mapeado. No se ofrece |
+| Creador de contenido presencial (de barrio) | Graba en el local y enseña al dueño en persona | D1 o D4 | Solo mapeado. No se ofrece |
+
+Activar cualquiera de estos roles pide su propio cambio OpenSpec, el perfil de Termy, el costo de Edith y la aprobación del CEO. Si entra uno, Prisma sigue siendo dueño de la edición; la persona solo graba.
 
 ---
 
@@ -190,12 +218,12 @@ Los agentes no reemplazan estas tareas:
 | Quién | Qué pone |
 |---|---|
 | **Quirón** | El camino de aprendizaje, el kit de plantillas y la lección de 15 minutos de cada servicio. Más adelante, la ayuda en vivo. |
-| **Ágora y Faro** | Los ejemplos reales del negocio del cliente para cada lección. |
-| **Una persona de Yizi** (hoy el CEO) | La sesión con el dueño, por videollamada o en el local. |
+| **Ágora, Faro y Prisma** | Los ejemplos reales del negocio del cliente para cada lección. Prisma enseña a grabar mejor con el celular. |
+| **Una persona de Yizi** (hoy el CEO) | La sesión con el dueño, por videollamada. No hay sesiones en el local. |
 | **Jarvis** | Aprueba la voz de El Guía Yizi. |
 | **Vision y Edith** | Aprueban las herramientas de IA que se recomiendan y su costo. |
 
-**Cómo aparece ante clientes.** El cliente nunca ve los nombres Homer, Ágora, Faro, Quirón ni otro nombre interno. Ve solo a **El Guía Yizi** en los kits, las guías y la ayuda en vivo, y a la persona de Yizi que lo atiende. Esta regla va en cada ficha como un MUST NOT.
+**Cómo aparece ante clientes.** El cliente nunca ve los nombres Homer, Ágora, Faro, Quirón, Prisma ni otro nombre interno. Ve solo a **El Guía Yizi** en los kits, las guías y la ayuda en vivo, y a la persona de Yizi que lo atiende. Esta regla va en cada ficha como un MUST NOT.
 
 **Pendiente en la spec.** El cambio de `jerarquia-agentes` sobre agentes del producto (abierto desde Chaski) debe cubrir también a Quirón. Lo lleva Ultron.
 
@@ -216,24 +244,32 @@ flowchart TB
         AGORA["Á.G.O.R.A<br/>Community Manager"]
         FARO["F.A.R.O<br/>presencia local y reseñas"]
         QUIRON["Q.U.I.R.O.N<br/>El Guía Yizi en modo enseñar IA<br/>(agente del producto)"]
+        PRISMA["P.R.I.S.M.A<br/>diseño y video con IA"]
     end
 
     subgraph DIS["Diseñados, se activan con disparador (N3)"]
         direction LR
         SAGITA["S.A.G.I.T.A<br/>anuncios y embudo"]
         KEPLER["K.E.P.L.E.R<br/>analista de marketing"]
-        PRISMA["P.R.I.S.M.A<br/>diseño y video"]
     end
 
-    subgraph PER["Perfiles humanos por contratar (Termy)"]
+    subgraph PER["Perfiles humanos con disparador (Termy)"]
         direction LR
-        CREADOR["Perfil: Creador de contenido de barrio"]
-        EJECUTIVO["Perfil: Ejecutivo de cuentas"]
+        EJECUTIVO["Perfil: Ejecutivo de cuentas (D6)"]
+        ATENCION["Perfil: Apoyo de atención (D3)"]
+    end
+
+    subgraph FUT["Roles humanos futuros: solo mapeados, no se ofrecen"]
+        direction LR
+        FOTO["Fotógrafo"]
+        VIDEO["Videógrafo"]
+        CREADOR["Creador de contenido presencial"]
     end
 
     HOMER --> ACT
     HOMER -.-> DIS
     HOMER -.-> PER
+    HOMER -.-> FUT
 ```
 
 ### 4.1 Cómo cambia el conteo de agentes del grupo
@@ -243,24 +279,25 @@ Hoy hay **26 agentes activos** (README del núcleo, 2026-11-18).
 | Momento | Cambio | Agentes activos |
 |---|---|---|
 | Hoy | — | **26** |
-| El CEO aprueba `activar-yizi-publisher` y Publisher pasa a `activo` | + Homer, Ágora, Faro y Quirón | **30** |
-| Primer cliente de Campañas o Embudo | + Sagita y Kepler | 32 |
-| Entra el Creador de contenido, o 4 clientes de Redes con IA | + Prisma | **33** |
+| El CEO aprueba `activar-yizi-publisher` y Publisher pasa a `activo` | + Homer, Ágora, Faro, Quirón y Prisma | **31** |
+| Primer cliente de Campañas o Embudo (o 10 clientes activos, para Kepler) | + Sagita y Kepler | **33** |
 
-Jocasta (Yizi Talent) sigue con nombre aprobado y sin ficha. No cuenta. Cada activación con disparador necesita su propio cambio OpenSpec aprobado por el CEO.
+Jocasta (Yizi Talent) sigue con nombre aprobado y sin ficha. No cuenta. Los roles humanos futuros no cuentan: no son agentes. Cada activación con disparador necesita su propio cambio OpenSpec aprobado por el CEO.
 
 ---
 
 ## 5. Qué necesito del CEO
 
+Ya decidido el 2026-11-18: los 6 nombres y la frontera solo IA.
+
 En orden de prioridad:
 
-1. **Aprobar el equipo:** 3 agentes al arrancar y 3 con disparador.
-2. **Elegir los 6 nombres** o sus alternativas.
-3. **Confirmar los disparadores** de Sagita, Kepler y Prisma.
-4. **Aprobar que Quirón salga primero sin IA en vivo** (kit y sesión con una persona).
+1. **Aprobar el equipo:** 4 agentes al arrancar (Ágora, Faro, Quirón y Prisma) y 2 con disparador (Sagita y Kepler).
+2. **Confirmar los disparadores** de Sagita y Kepler.
+3. **Aprobar que Quirón salga primero sin IA en vivo** (kit y sesión por videollamada con una persona).
+4. **Confirmar que fotógrafo, videógrafo y creador presencial quedan solo mapeados** y no se ofrecen.
 
-Después de su aprobación: yo escribo las 6 fichas y la línea "Equipo" de Homer; Ultron actualiza el organigrama del README; Lince verifica.
+Después de su aprobación: yo escribo las 6 fichas y la línea "Equipo" de Homer; Ultron actualiza el organigrama del README; Lince verifica. Aviso a Edith (sumar Prisma al cálculo de horas), a Vision (proveedor de imagen y video con IA), a Jarvis (la oferta no incluye visitas al local) y a Termy (D1 y D4 quedan como roles futuros).
 
 ---
 
