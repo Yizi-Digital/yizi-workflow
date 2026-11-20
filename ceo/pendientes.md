@@ -6,9 +6,7 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] Publisher: confirmar la subida del repositorio (rama `homer/genesis` de Yizi-Digital/yizi-publisher). Lince ya lo verificó.
-- [ ] Publisher: ¿con los clientes, "tú" o "usted"?
-- [ ] Reuniones por voz: ¿arranco la fase 1 (dictado `/voice` + lectura con una voz por agente, sin costo extra)?
+- [ ] App "Sala Yizi" (reuniones por voz): aprobar el cambio OpenSpec antes de construirla (Ultron lo prepara con Vision).
 - [ ] Cupo MACRO: aprobar la regla de Viernes (toFinance ocupa el cupo; un Discovery de señal con tope no lo ocupa; máximo 1 a la vez).
 - [ ] Plan de comidas y mercado (Discovery): aprobar el tope de 6 semanas, 12 h y S/ 80.
 - [ ] Plan de comidas y mercado: aprobar que siga separado de toFinance, con entrevistas compartidas.
@@ -26,6 +24,7 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
 
 ### Hacer yo
+- [ ] Sala Yizi: crear una API key en la Consola de Anthropic, comprar crédito prepago y apagar la recarga automática; instalar Xcode.
 - [ ] Fiesteros: renombrar el repo a `fiesteros-web`, pasar Vercel a un equipo Pro y conectarlo, proteger `main` y confirmar que `@fiesteros.pe` es la cuenta correcta.
 - [ ] Crear la cuenta de Google de Yizi con verificación en dos pasos (carpetas privadas de clientes de Publisher).
 - [ ] Probar `claude --agent edith` en mi computadora (la primera vez en modo interactivo, aceptando la carpeta como confiable).
@@ -106,6 +105,7 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | App de compras del barrio · 6 informes | `yizi-projects/proyectos/idea-mercado-barrio/estudio/` |
 | Yizi Publisher · plan de activación y Consejo | `yizi-workflow/openspec/changes/activar-yizi-publisher/` |
 | Fiesteros · estudio (Vision, Jarvis, Temis, Edith) | `yizi-workflow/openspec/changes/activar-yizi-publisher/estudio/fiesteros/` |
+| Sala Yizi · prompt para construir la app (Vision, revisado por Aida y Edith) | `yizi-workflow/agentes/reuniones-por-voz/prompt-app-reuniones-mac.md` |
 | Reuniones por voz · opciones (Vision) y costo (Edith) | `yizi-workflow/agentes/reuniones-por-voz/` |
 | Agentes que conversan como personas · plan aprobado | `yizi-workflow/openspec/changes/agentes-conversan-como-personas/` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
