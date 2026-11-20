@@ -17,7 +17,7 @@ El contrato exacto de la API está en [`CONTRATO-API.md`](CONTRATO-API.md).
 - 2 GB de disco libre (4 GB si añades el modelo *turbo*).
 - Internet solo durante la instalación.
 
-## Instalación en 3 pasos
+## Instalación en 3 pasos (y 2 de comprobación)
 
 1. Descomprime el ZIP y abre la Terminal en esa carpeta:
    ```bash
@@ -27,13 +27,22 @@ El contrato exacto de la API está en [`CONTRATO-API.md`](CONTRATO-API.md).
    ```bash
    ./install.sh
    ```
-   El ZIP `yizi-voz-local.zip` ya trae Kokoro y Whisper *small*: este paso solo comprueba sus sumas y no los descarga. El ZIP sin modelos los descarga aquí (unos 840 MB).
+   Qué descarga este paso según el ZIP:
+   - `yizi-voz-local-parte1-codigo-y-voz.zip` ya trae Kokoro (texto a voz). `install.sh` comprueba su suma y **descarga Whisper *small*** (484 MB, voz a texto) en tu Mac.
+   - `yizi-voz-local-sin-modelos.zip` descarga los dos modelos (unos 840 MB).
+   - En una Mac con chip Apple (M1 o posterior), usa `./install.sh --mlx`. Añade la voz a texto con Metal, más rápida, y descarga Whisper *large-v3-turbo* MLX (1,6 GB). Whisper *small* se instala igual, como respaldo.
    Si macOS bloquea el script: `chmod +x install.sh run.sh scripts/*.sh` y vuelve a intentarlo.
 3. Arranca el servidor:
    ```bash
    ./run.sh
    ```
-   Verás `Yizi Voz Local 1.0.0 en http://127.0.0.1:8765`. Prueba todo con `scripts/probar.sh` en otra ventana (`ESCUCHAR=1 scripts/probar.sh` reproduce el audio).
+   Verás `Yizi Voz Local 1.0.0 en http://127.0.0.1:8765`.
+4. Comprueba que los dos modelos están cargados. En otra ventana:
+   ```bash
+   curl -s http://127.0.0.1:8765/health
+   ```
+   Debe decir `"status":"ok"`, `"stt":{"ready":true,...}` y `"tts":{"ready":true,"engine":"kokoro",...}`. En `stt.backend` verás `mlx-whisper` si instalaste con `--mlx`, o `faster-whisper` si no. Con `"status":"degraded"`, el campo `error` dice qué falta. Por ejemplo, si falta Whisper, vuelve a ejecutar `./install.sh`.
+5. Prueba todo con `scripts/probar.sh` (`ESCUCHAR=1 scripts/probar.sh` reproduce el audio).
 
 ### Opciones de instalación
 
