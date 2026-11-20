@@ -27,7 +27,7 @@ El contrato exacto de la API está en [`CONTRATO-API.md`](CONTRATO-API.md).
    ```bash
    ./install.sh
    ```
-   El ZIP `yizi-voz-local.zip` ya trae Kokoro (texto a voz). Whisper *small* (484 MB) se descarga en este paso.
+   El ZIP `yizi-voz-local.zip` ya trae Kokoro y Whisper *small*: este paso solo comprueba sus sumas y no los descarga. El ZIP sin modelos los descarga aquí (unos 840 MB).
    Si macOS bloquea el script: `chmod +x install.sh run.sh scripts/*.sh` y vuelve a intentarlo.
 3. Arranca el servidor:
    ```bash
