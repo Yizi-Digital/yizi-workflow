@@ -59,9 +59,9 @@ Fuente de las fichas: `estudio/aida-equipo-v2.md` (secciones 2.2 y 2.3) y la fic
 - [x] 5.2 Escribir la frontera "solo con IA" en el satélite: lo que sí se hace, lo mapeado y la regla de señal para Viernes
 - [ ] 5.3 Jarvis consigue 3 cotizaciones reales de Lima, sin datos del CEO ni de Yizi
 - [ ] 5.4 Con las 3 cotizaciones, el CEO aprueba los precios de Edith o pide ajustes; Edith los registra. Hasta entonces son propuesta
-- [ ] 5.5a Vision escribe el flujo de 7 pasos y sus estados; la aprobación del cliente es simple y funciona en el celular (WhatsApp o enlace corto)
-- [ ] 5.5b Vision escribe la lista de revisión y la guía de accesos sin contraseñas
-- [ ] 5.5c Vision define el registro de aprobaciones (dónde vive; quién, cuándo, qué versión y canal) y la lista de salida del cliente (se quitan accesos, se entrega su material y el cliente firma)
+- [x] 5.5a Vision escribe el flujo de 7 pasos y sus estados; la aprobación del cliente es simple y funciona en el celular (WhatsApp o enlace corto)
+- [x] 5.5b Vision escribe la lista de revisión y la guía de accesos sin contraseñas
+- [x] 5.5c Vision define el registro de aprobaciones (dónde vive; quién, cuándo, qué versión y canal) y la lista de salida del cliente (se quitan accesos, se entrega su material y el cliente firma)
 - [ ] 5.5d Vision verifica, antes del primer cliente, costo, derechos de uso y política de datos de cada proveedor de IA de D2, y elige el de imágenes
 - [x] 5.6a Jarvis redacta el kit de plantillas de IA para el cliente, pensado para el celular; una persona de Yizi lo revisa
 - [x] 5.6b Jarvis redacta la guía "Graba así con tu celular" y el mensaje corto de aprobación por WhatsApp; una persona de Yizi los revisa
