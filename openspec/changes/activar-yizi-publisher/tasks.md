@@ -44,7 +44,7 @@ Fuente de las fichas: `estudio/aida-equipo-v2.md` (secciones 2.2 y 2.3) y la fic
 - [x] 4.3a Redactar la ficha de Faro (presencia local y reseñas, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/faro.md`
 - [x] 4.3b Completar la ficha de Faro: Google, WhatsApp Business, reseñas y uso del catálogo B03 de Solutions
 - [x] 4.4a Redactar la ficha de Quirón (El Guía Yizi en modo enseñar IA, N3, versión mínima) en `yizi-publisher/producto/agentes/quiron.md`
-- [ ] 4.4b Completar la ficha de Quirón: lección por servicio y su duración (D1); Jarvis aprueba la voz (ficha completa por Aida el 2026-11-20; falta la aprobación de voz de Jarvis)
+- [x] 4.4b Completar la ficha de Quirón: lección por servicio y su duración (D1); Jarvis aprueba la voz (ficha completa por Aida el 2026-11-20; voz aprobada por Jarvis el 2026-11-20; trato tú/usted pendiente del CEO)
 - [x] 4.5a Redactar la ficha de Prisma (diseño y video con IA, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/prisma.md`
 - [x] 4.5b Completar la ficha de Prisma: proveedores aprobados (D2), derechos de imagen y regla de fotos reales
 - [x] 4.6 Registrar a Sagita y Kepler como diseñados, con su disparador, en el `AGENTS.md` del satélite, sin ficha activa
