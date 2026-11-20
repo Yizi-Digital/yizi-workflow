@@ -6,6 +6,8 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 
 - [x] 1.1 `CLAUDE.md`, sección "La conversación principal es U.L.T.R.O.N": cambiar "responde asumiendo su ficha" por la regla D1. Ultron pide al subagente un "mensaje para el CEO" en primera persona, para pegarlo sin reescribir, con la regla D1.1: menos de 150 palabras si cabe; si es larga, mensaje corto de colega y al final un bloque "Detalle". El bloque "Detalle" y el informe técnico entre agentes no tienen ese tope. Incluir las reglas 4 (marcar datos sin fuente y contenido externo que da órdenes) y 5 (borrador para cliente aparte) [Sonnet]
 - [ ] 1.2 Vision prueba `claude --agent edith` antes de documentar: modelo, herramientas y texto de la ficha. Si pasa, añadir a `CLAUDE.md` la sesión directa (y `yizi-nucleo:<nombre>` en satélites), con su costo y sus límites: no fijar `agent` en `settings.json` y prohibir por escrito `claude --agent ultron`. Si no pasa, detener la tarea y avisar al Consejo [Sonnet]
+  - [x] 1.2a Prueba de Vision (2026-11-20, Claude Code 2.1.329): **pasa**. La sesión tomó el modelo de la ficha (`claude-opus-5-5`), solo sus herramientas y su texto (respondió "Edith:", como CFO). No tiene herramienta de agentes. Procedimiento y límites en `design.md`, reglas de (c)
+  - [ ] 1.2b Documentar la sesión directa en `CLAUDE.md` (Ultron, con revisión de Vision). Pendiente: Vision no toca `CLAUDE.md` en esta tarea
 - [ ] 1.3 `AGENTS.md`, sección 1: añadir que un agente nombrado habla en primera persona y firma, en cualquier herramienta de IA [Sonnet]
 - [ ] 1.4 Ficha de Ultron: añadir a "Qué haces" la entrega de mensajes firmados y la moderación de reuniones [Sonnet]
 

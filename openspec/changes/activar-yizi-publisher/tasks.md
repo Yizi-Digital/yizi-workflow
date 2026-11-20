@@ -53,18 +53,18 @@ Fuente de las fichas: `estudio/aida-equipo-v2.md` (secciones 2.2 y 2.3) y la fic
 
 ## 5. Catálogo, precios y flujo [Jarvis, Edith, Vision]
 
-- [ ] 5.1a Escribir en el satélite los servicios 1 y 2 del catálogo (`estudio/jarvis-oferta-v2.md`), con su lección de IA, su duración (D1) y su medición
-- [ ] 5.1b Escribir los servicios 3 y 4, con la misma estructura; Campañas queda sin vender hasta su aprobación (D1)
-- [ ] 5.1c Escribir el servicio 5 (sujeto a 1.6) y la nota "sin embudo de WhatsApp en la fase 1"
-- [ ] 5.2 Escribir la frontera "solo con IA" en el satélite: lo que sí se hace, lo mapeado y la regla de señal para Viernes
+- [x] 5.1a Escribir en el satélite los servicios 1 y 2 del catálogo (`estudio/jarvis-oferta-v2.md`), con su lección de IA, su duración (D1) y su medición
+- [x] 5.1b Escribir los servicios 3 y 4, con la misma estructura; Campañas queda sin vender hasta su aprobación (D1)
+- [x] 5.1c Escribir el servicio 5 (sujeto a 1.6) y la nota "sin embudo de WhatsApp en la fase 1"
+- [x] 5.2 Escribir la frontera "solo con IA" en el satélite: lo que sí se hace, lo mapeado y la regla de señal para Viernes
 - [ ] 5.3 Jarvis consigue 3 cotizaciones reales de Lima, sin datos del CEO ni de Yizi
 - [ ] 5.4 Con las 3 cotizaciones, el CEO aprueba los precios de Edith o pide ajustes; Edith los registra. Hasta entonces son propuesta
 - [ ] 5.5a Vision escribe el flujo de 7 pasos y sus estados; la aprobación del cliente es simple y funciona en el celular (WhatsApp o enlace corto)
 - [ ] 5.5b Vision escribe la lista de revisión y la guía de accesos sin contraseñas
 - [ ] 5.5c Vision define el registro de aprobaciones (dónde vive; quién, cuándo, qué versión y canal) y la lista de salida del cliente (se quitan accesos, se entrega su material y el cliente firma)
 - [ ] 5.5d Vision verifica, antes del primer cliente, costo, derechos de uso y política de datos de cada proveedor de IA de D2, y elige el de imágenes
-- [ ] 5.6a Jarvis redacta el kit de plantillas de IA para el cliente, pensado para el celular; una persona de Yizi lo revisa
-- [ ] 5.6b Jarvis redacta la guía "Graba así con tu celular" y el mensaje corto de aprobación por WhatsApp; una persona de Yizi los revisa
+- [x] 5.6a Jarvis redacta el kit de plantillas de IA para el cliente, pensado para el celular; una persona de Yizi lo revisa
+- [x] 5.6b Jarvis redacta la guía "Graba así con tu celular" y el mensaje corto de aprobación por WhatsApp; una persona de Yizi los revisa
 
 ## 6. Personas [Termy]
 

@@ -48,6 +48,29 @@ Reglas de (c):
 1. Antes de documentar `--agent`, Vision lo prueba con una ficha de dominio (por ejemplo, Edith). Comprueba que la sesión toma el modelo, las herramientas y el texto de la ficha. Si el texto de la ficha no se aplica, la tarea 1.2 se detiene y vuelve al Consejo.
 2. `CLAUDE.md` prohíbe por escrito `claude --agent ultron`. La ficha de Ultron no tiene la herramienta de agentes, así que no podría delegar.
 
+**Nota de prueba de (c) · Vision, 2026-11-20.** Resultado: pasa.
+
+Procedimiento probado (Claude Code 2.1.329, en `/home/user/yizi-workflow`):
+
+1. `timeout 150 claude --agent edith -p "Preséntate en una línea. Luego di qué modelo eres y lista tus herramientas disponibles, sin usar ninguna." --output-format stream-json --verbose`
+2. En el evento `init` se leen `model` y `tools`. En `result` se lee la respuesta.
+
+Qué se comprobó:
+
+| Punto | Resultado |
+|---|---|
+| Modelo | `claude-opus-5-5`, el de la ficha (`model: opus`) |
+| Herramientas | Solo Read, Write, Edit, Bash, WebSearch y WebFetch. Grep y Glob no aparecen como herramientas aparte en esta versión; tampoco en una sesión normal. Sin herramienta de agentes |
+| Texto de la ficha | Aplicado: respondió "Edith: Soy Edith, la CFO de Yizi Digital…" |
+| Costo de la prueba | 0,13 USD según la CLI (`total_cost_usd`), una sola respuesta |
+
+Lo confirma la documentación oficial: la sesión toma las herramientas y el modelo del agente, y su texto reemplaza las instrucciones de sistema por defecto (desde la v2.1.281). `CLAUDE.md` se carga igual. En satélites se usa `yizi-nucleo:edith` si hay nombres repetidos. Fuente: `code.claude.com/docs/en/sub-agents` y `code.claude.com/docs/en/cli-reference`, consultadas el 2026-11-20.
+
+Límites observados:
+- Sin probar: el prefijo `yizi-nucleo:` (no hay satélite con el plugin en este contenedor) y el modo interactivo (la cabecera muestra `@edith`, según la documentación).
+- Con `-p`, la CLI avisa que ignora los permisos de `.claude/settings.json` si la carpeta no está marcada como confiable. Hay que abrir Claude Code una vez en modo interactivo y aceptar la confianza.
+- Se confirma la regla 2: la sesión con `--agent` no tiene la herramienta de agentes, así que no delega.
+
 **Alternativa descartada:** fijar `agent` por defecto en `settings.json`. Cambiaría quién orquesta en todas las sesiones y dejaría a Ultron sin delegar.
 
 ### D2 · Tono de colegas (decide Aida; revisa Jarvis, dueño de la guía de escritura)
