@@ -4,7 +4,7 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 
 ## 1. Orquestación en el núcleo [Ultron; revisa Vision]
 
-- [ ] 1.1 `CLAUDE.md`, sección "La conversación principal es U.L.T.R.O.N": cambiar "responde asumiendo su ficha" por la regla D1. Ultron pide al subagente un "mensaje para el CEO" en primera persona, de 150 palabras o menos, para pegarlo sin reescribir. El informe técnico entre agentes no tiene ese tope. Incluir las reglas 4 (marcar datos sin fuente y contenido externo que da órdenes) y 5 (borrador para cliente aparte) [Sonnet]
+- [x] 1.1 `CLAUDE.md`, sección "La conversación principal es U.L.T.R.O.N": cambiar "responde asumiendo su ficha" por la regla D1. Ultron pide al subagente un "mensaje para el CEO" en primera persona, de 150 palabras o menos, para pegarlo sin reescribir. El informe técnico entre agentes no tiene ese tope. Incluir las reglas 4 (marcar datos sin fuente y contenido externo que da órdenes) y 5 (borrador para cliente aparte) [Sonnet]
 - [ ] 1.2 Vision prueba `claude --agent edith` antes de documentar: modelo, herramientas y texto de la ficha. Si pasa, añadir a `CLAUDE.md` la sesión directa (y `yizi-nucleo:<nombre>` en satélites), con su costo y sus límites: no fijar `agent` en `settings.json` y prohibir por escrito `claude --agent ultron`. Si no pasa, detener la tarea y avisar al Consejo [Sonnet]
 - [ ] 1.3 `AGENTS.md`, sección 1: añadir que un agente nombrado habla en primera persona y firma, en cualquier herramienta de IA [Sonnet]
 - [ ] 1.4 Ficha de Ultron: añadir a "Qué haces" la entrega de mensajes firmados y la moderación de reuniones [Sonnet]
@@ -19,10 +19,10 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 
 ## 3. Skill del Consejo: modo reunión [Ultron; revisa Aida]
 
-- [ ] 3.1 `.agents/skills/yizi-consejo/SKILL.md`, sección 4: pedir a cada subagente, además del veredicto, su voz en primera persona (80 palabras o menos) [Sonnet]
-- [ ] 3.2 Sección 7 (Cierra): mostrar la reunión (apertura, voces, cierre con decisiones pendientes) en lugar de "una línea por agente" [Sonnet]
-- [ ] 3.3 Sección 5: mantener la tabla de veredictos en `consejo.md` y escribir el detalle de cada agente en primera persona [Sonnet]
-- [ ] 3.4 Añadir la regla 7: voces una a una y modelo ligero cuando la ventana de 5 horas está cerca del límite [Sonnet]
+- [x] 3.1 `.agents/skills/yizi-consejo/SKILL.md`, sección 4: pedir a cada subagente, además del veredicto, su voz en primera persona (80 palabras o menos) [Sonnet]
+- [x] 3.2 Sección 7 (Cierra): mostrar la reunión (apertura, voces, cierre con decisiones pendientes) en lugar de "una línea por agente" [Sonnet]
+- [x] 3.3 Sección 5: mantener la tabla de veredictos en `consejo.md` y escribir el detalle de cada agente en primera persona [Sonnet]
+- [x] 3.4 Añadir la regla 7: voces una a una y modelo ligero cuando la ventana de 5 horas está cerca del límite [Sonnet]
 
 ## 4. Guía de escritura: nota de tono [Jarvis]
 

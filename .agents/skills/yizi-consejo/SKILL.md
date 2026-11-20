@@ -40,9 +40,10 @@ Dominios: técnico → **Vision** · marca, textos, interfaz o cliente → **Jar
 **En Claude Code:** lanza en paralelo un subagente por compuerta (`vision`, `jarvis`, `edith`, `viernes`, `ultron`; si vienen del plugin pueden aparecer como `yizi-nucleo:<nombre>`). A cada uno pásale:
 - la ruta del cambio y la instrucción de leer `proposal.md`, `specs/`, `design.md` y `tasks.md`;
 - que revise **solo su compuerta** con el checklist de su ficha;
-- que devuelva su veredicto en el formato de su ficha (APROBADO, CONDICIONADO o BLOQUEADO, con motivos y condiciones).
+- que devuelva su veredicto en el formato de su ficha (APROBADO, CONDICIONADO o BLOQUEADO, con motivos y condiciones);
+- además, su **voz**: un mensaje en primera persona de 80 palabras o menos con veredicto, motivo y lo que pide (spec `conversacion-agentes`).
 
-**Si la ventana de 5 horas del plan de IA está cerca de agotarse** (spec `finanzas`): no lances subagentes en paralelo; revisa las compuertas una a una, empezando por la de mayor riesgo, y avisa al CEO si alguna queda pendiente.
+**Si la ventana de 5 horas del plan de IA está cerca de agotarse** (spec `finanzas`): no lances subagentes en paralelo; revisa las compuertas una a una, empezando por la de mayor riesgo, y avisa al CEO si alguna queda pendiente. Pide las voces una a una y con el modelo más ligero.
 
 **En otra herramienta de IA:** asume cada rol por turnos leyendo su ficha en `.claude/agents/<nombre>.md` y escribe cada veredicto por separado. No mezcles los criterios de un rol con los de otro.
 
@@ -68,7 +69,7 @@ Crea o actualiza `openspec/changes/<cambio>/consejo.md` con esta estructura:
 
 ## Detalle
 
-<pega aquí el veredicto completo de cada agente>
+<pega aquí el veredicto completo de cada agente, en su voz y en primera persona, con su firma>
 
 ## Decisión del CEO
 
@@ -93,7 +94,15 @@ Reglas:
 
 ## 7. Cierra
 
-Muestra al CEO:
-- una línea por agente con su veredicto;
-- las condiciones que deben cumplirse;
-- la pregunta concreta: "¿Apruebas este plan para implementar?" (o "¿Autorizas este proyecto MACRO?").
+Muestra al CEO la reunión (modo reunión):
+1. **Apertura de Ultron:** una línea con qué se revisa y quiénes están.
+2. **Voces:** cada agente habla en primera persona, firmado ("Edith: …"), con 80 palabras o menos. Pega cada voz sin reescribirla.
+3. **Desacuerdos:** si dos agentes no coinciden, cada uno dice su motivo. Ultron no elige por ellos: lo deja como decisión del CEO.
+4. **Cierre de Ultron:** las condiciones que deben cumplirse y las decisiones pendientes del CEO, en una lista ordenada por prioridad.
+5. La pregunta concreta: "¿Apruebas este plan para implementar?" (o "¿Autorizas este proyecto MACRO?").
+
+`consejo.md` conserva la tabla de veredictos; la reunión completa no se duplica allí.
+
+## 8. Regla 7 (ventana de 5 horas)
+
+Si el uso del plan está cerca del límite, las voces de la reunión van una a una y con el modelo más ligero. Avisa al CEO de las que falten.
