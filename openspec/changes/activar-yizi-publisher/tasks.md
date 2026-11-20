@@ -23,8 +23,8 @@
 
 ## 2. Génesis del repositorio [Ultron, Vision]
 
-- [ ] 2.1 Generar `/home/user/yizi-publisher` desde la plantilla del núcleo con `/yizi-satelite` (tipo `linea`, patrocina Jarvis, líder Homer)
-- [ ] 2.2 Verificar la referencia al núcleo con `openspec doctor` y `openspec list --specs --store yizi-workflow`
+- [x] 2.1 Generar `/home/user/yizi-publisher` desde la plantilla del núcleo con `/yizi-satelite` (tipo `linea`, patrocina Jarvis, líder Homer)
+- [x] 2.2 Verificar la referencia al núcleo con `openspec doctor` y `openspec list --specs --store yizi-workflow`
 - [ ] 2.3 Subir a `Yizi-Digital/yizi-publisher` solo con la confirmación del CEO
 
 ## 3. Registro y spec del núcleo [Viernes, Edith]

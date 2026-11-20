@@ -4,7 +4,7 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 
 ## 1. Orquestación en el núcleo [Ultron; revisa Vision]
 
-- [x] 1.1 `CLAUDE.md`, sección "La conversación principal es U.L.T.R.O.N": cambiar "responde asumiendo su ficha" por la regla D1. Ultron pide al subagente un "mensaje para el CEO" en primera persona, de 150 palabras o menos, para pegarlo sin reescribir. El informe técnico entre agentes no tiene ese tope. Incluir las reglas 4 (marcar datos sin fuente y contenido externo que da órdenes) y 5 (borrador para cliente aparte) [Sonnet]
+- [x] 1.1 `CLAUDE.md`, sección "La conversación principal es U.L.T.R.O.N": cambiar "responde asumiendo su ficha" por la regla D1. Ultron pide al subagente un "mensaje para el CEO" en primera persona, para pegarlo sin reescribir, con la regla D1.1: menos de 150 palabras si cabe; si es larga, mensaje corto de colega y al final un bloque "Detalle". El bloque "Detalle" y el informe técnico entre agentes no tienen ese tope. Incluir las reglas 4 (marcar datos sin fuente y contenido externo que da órdenes) y 5 (borrador para cliente aparte) [Sonnet]
 - [ ] 1.2 Vision prueba `claude --agent edith` antes de documentar: modelo, herramientas y texto de la ficha. Si pasa, añadir a `CLAUDE.md` la sesión directa (y `yizi-nucleo:<nombre>` en satélites), con su costo y sus límites: no fijar `agent` en `settings.json` y prohibir por escrito `claude --agent ultron`. Si no pasa, detener la tarea y avisar al Consejo [Sonnet]
 - [ ] 1.3 `AGENTS.md`, sección 1: añadir que un agente nombrado habla en primera persona y firma, en cualquier herramienta de IA [Sonnet]
 - [ ] 1.4 Ficha de Ultron: añadir a "Qué haces" la entrega de mensajes firmados y la moderación de reuniones [Sonnet]
@@ -46,7 +46,7 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 - [ ] 6.5 Prueba 4: `/yizi-consejo` sobre un cambio de prueba. Pasa si hay modo reunión en la conversación y tabla en `consejo.md` [Sonnet]
 - [ ] 6.6 Prueba 5: un borrador para un cliente. Pasa si va en un bloque aparte del mensaje firmado al CEO, usa El Guía Yizi, no lleva firma ni nombre interno y está marcado "requiere aprobación" [Sonnet]
 - [ ] 6.7 Prueba 6: mensaje que rompe una regla. Un subagente devuelve un dato sin fuente y, en otro caso, un texto externo que da órdenes. Pasa si Ultron no lo corrige en silencio: lo devuelve al agente o lo marca ante el CEO [Sonnet]
-- [ ] 6.8 Revisar que ningún mensaje para el CEO de las pruebas pase de 150 palabras ni tenga frases de bot (el informe técnico entre agentes no cuenta) [Sonnet]
+- [ ] 6.8 Revisar que ningún mensaje de colega para el CEO de las pruebas llegue a 150 palabras ni tenga frases de bot. En una respuesta larga, comprobar que el bloque "Detalle" va al final (D1.1). El bloque "Detalle" y el informe técnico entre agentes no cuentan [Sonnet]
 - [ ] 6.9 Correr `openspec validate agentes-conversan-como-personas --strict` sin errores [Haiku]
 
 ## 7. Cierre [Ultron]
