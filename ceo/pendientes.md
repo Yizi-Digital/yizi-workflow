@@ -6,10 +6,9 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] Yizi Publisher: ¿apruebo el plan `activar-yizi-publisher` (Consejo: 5 CONDICIONADO, condiciones ya incorporadas)?
-- [ ] Publisher: mis horas reales por semana (Ultron recomienda máximo 5 hasta cerrar los pilotos).
-- [ ] Publisher: "Acompañamiento IA" S/ 69 como último escalón (Jarvis: sí) y responder mensajes fuera de los planes (Jarvis: sí).
-- [ ] Fiesteros: decir a nombre de quién están el dominio, Vercel e Instagram/Facebook; si el cliente paga hoy; y si acepta ser caso de referencia (sin contraseñas).
+- [ ] Publisher: confirmar la subida del repositorio (rama `homer/genesis` de Yizi-Digital/yizi-publisher). Lince ya lo verificó.
+- [ ] Publisher: ¿con los clientes, "tú" o "usted"?
+- [ ] Reuniones por voz: ¿arranco la fase 1 (dictado `/voice` + lectura con una voz por agente, sin costo extra)?
 - [ ] Cupo MACRO: aprobar la regla de Viernes (toFinance ocupa el cupo; un Discovery de señal con tope no lo ocupa; máximo 1 a la vez).
 - [ ] Plan de comidas y mercado (Discovery): aprobar el tope de 6 semanas, 12 h y S/ 80.
 - [ ] Plan de comidas y mercado: aprobar que siga separado de toFinance, con entrevistas compartidas.
@@ -27,6 +26,9 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
 
 ### Hacer yo
+- [ ] Fiesteros: renombrar el repo a `fiesteros-web`, pasar Vercel a un equipo Pro y conectarlo, proteger `main` y confirmar que `@fiesteros.pe` es la cuenta correcta.
+- [ ] Crear la cuenta de Google de Yizi con verificación en dos pasos (carpetas privadas de clientes de Publisher).
+- [ ] Probar `claude --agent edith` en mi computadora (la primera vez en modo interactivo, aceptando la carpeta como confiable).
 - [ ] Revisar mi RUC 10 en SUNAT: régimen MYPE, actividad de software, activo y habido, emisión electrónica.
 - [ ] Abrir la cuenta de API de Claude a nombre de Yizi, con medio de pago y límite de gasto.
 - [ ] Abrir la cuenta de Meta (WhatsApp) en soles.
@@ -104,6 +106,8 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | App de compras del barrio · 6 informes | `yizi-projects/proyectos/idea-mercado-barrio/estudio/` |
 | Yizi Publisher · plan de activación y Consejo | `yizi-workflow/openspec/changes/activar-yizi-publisher/` |
 | Fiesteros · estudio (Vision, Jarvis, Temis, Edith) | `yizi-workflow/openspec/changes/activar-yizi-publisher/estudio/fiesteros/` |
+| Reuniones por voz · opciones (Vision) y costo (Edith) | `yizi-workflow/agentes/reuniones-por-voz/` |
+| Agentes que conversan como personas · plan aprobado | `yizi-workflow/openspec/changes/agentes-conversan-como-personas/` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
 | toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
 | toFinance · expediente MACRO | `yizi-projects/proyectos/tofinance/expediente.md` |
