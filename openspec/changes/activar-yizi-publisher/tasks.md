@@ -37,18 +37,18 @@
 
 Fuente de las fichas: `estudio/aida-equipo-v2.md` (secciones 2.2 y 2.3) y la ficha de Homer de `estudio/aida-agentes.md`, con su línea "Equipo" al día.
 
-- [ ] 4.1a Redactar la ficha de Homer (N2): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/homer.md`
-- [ ] 4.1b Completar la ficha de Homer: compuerta, equipo, liderazgo del Diagnóstico Flash único (D3) y formato de veredicto
-- [ ] 4.2a Redactar la ficha de Ágora (Community Manager, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/agora.md`
-- [ ] 4.2b Completar la ficha de Ágora: modelos por tarea, respuestas sugeridas que nunca se envían solas y revisión
-- [ ] 4.3a Redactar la ficha de Faro (presencia local y reseñas, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/faro.md`
-- [ ] 4.3b Completar la ficha de Faro: Google, WhatsApp Business, reseñas y uso del catálogo B03 de Solutions
-- [ ] 4.4a Redactar la ficha de Quirón (El Guía Yizi en modo enseñar IA, N3, versión mínima) en `yizi-publisher/producto/agentes/quiron.md`
-- [ ] 4.4b Completar la ficha de Quirón: lección por servicio y su duración (D1); Jarvis aprueba la voz
-- [ ] 4.5a Redactar la ficha de Prisma (diseño y video con IA, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/prisma.md`
-- [ ] 4.5b Completar la ficha de Prisma: proveedores aprobados (D2), derechos de imagen y regla de fotos reales
-- [ ] 4.6 Registrar a Sagita y Kepler como diseñados, con su disparador, en el `AGENTS.md` del satélite, sin ficha activa
-- [ ] 4.7 Cada ficha incluye: ningún agente publica, paga ni entra a cuentas del cliente; ante clientes solo existe El Guía Yizi; solo servicios remotos con IA
+- [x] 4.1a Redactar la ficha de Homer (N2): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/homer.md`
+- [x] 4.1b Completar la ficha de Homer: compuerta, equipo, liderazgo del Diagnóstico Flash único (D3) y formato de veredicto
+- [x] 4.2a Redactar la ficha de Ágora (Community Manager, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/agora.md`
+- [x] 4.2b Completar la ficha de Ágora: modelos por tarea, respuestas sugeridas que nunca se envían solas y revisión
+- [x] 4.3a Redactar la ficha de Faro (presencia local y reseñas, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/faro.md`
+- [x] 4.3b Completar la ficha de Faro: Google, WhatsApp Business, reseñas y uso del catálogo B03 de Solutions
+- [x] 4.4a Redactar la ficha de Quirón (El Guía Yizi en modo enseñar IA, N3, versión mínima) en `yizi-publisher/producto/agentes/quiron.md`
+- [ ] 4.4b Completar la ficha de Quirón: lección por servicio y su duración (D1); Jarvis aprueba la voz (ficha completa por Aida el 2026-11-20; falta la aprobación de voz de Jarvis)
+- [x] 4.5a Redactar la ficha de Prisma (diseño y video con IA, N3): quién es, qué hace y límites, en `yizi-publisher/.claude/agents/prisma.md`
+- [x] 4.5b Completar la ficha de Prisma: proveedores aprobados (D2), derechos de imagen y regla de fotos reales
+- [x] 4.6 Registrar a Sagita y Kepler como diseñados, con su disparador, en el `AGENTS.md` del satélite, sin ficha activa
+- [x] 4.7 Cada ficha incluye: ningún agente publica, paga ni entra a cuentas del cliente; ante clientes solo existe El Guía Yizi; solo servicios remotos con IA
 - [ ] 4.8 Ultron refleja a Quirón (agente del producto) en la spec `jerarquia-agentes` del núcleo, con un cambio OpenSpec aparte si hace falta
 
 ## 5. Catálogo, precios y flujo [Jarvis, Edith, Vision]
