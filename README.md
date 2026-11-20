@@ -48,7 +48,7 @@ Cada satélite es un **repositorio separado** dentro de la organización [Yizi-D
 
 ### Organigrama
 
-Estado al 2026-11-18. Hoy hay **1 persona** (el CEO). Agentes de IA: **11 activos en `main`**, **14 del equipo de Yizi Projects por activar** (pull request abierto) y **3 aprobados** que se activarán antes de los pilotos. Los roles humanos sin contratar aparecen solo como **perfiles**, sin nombres. Lo mantiene Ultron en cada cambio de agentes (spec `jerarquia-agentes`).
+Estado al 2026-11-18. Hoy hay **1 persona** (el CEO). Agentes de IA: **26 activos**: 5 del Consejo, 3 de área (Aida, Termy, Lince), 2 líderes de satélite (Karen, Herbie), Ábaco y Chaski en Yizi Solutions y 14 en el equipo de Yizi Projects. Jocasta tiene nombre aprobado, pero su satélite está en incubación y aún no tiene ficha. El CEO aprobó el 2026-11-18 el equipo de Yizi Publisher: Homer (líder), Ágora, Faro, Quirón y Prisma se activan con Publisher, y Sagita y Kepler con un disparador. Siguen sin ficha y **no cuentan como activos** hasta que el CEO apruebe el cambio `activar-yizi-publisher`. Al activarse Publisher, el grupo pasa a **31 agentes activos**, y a **33** con Sagita y Kepler. Los roles humanos sin contratar aparecen solo como **perfiles**, sin nombres. Lo mantiene Ultron en cada cambio de agentes (spec `jerarquia-agentes`).
 
 ```mermaid
 flowchart TB
@@ -67,13 +67,13 @@ flowchart TB
         direction LR
         AIDA["A.I.D.A<br/>diseño de agentes"]
         TERMY["T.E.R.M.Y<br/>talento humano"]
-        LINCE["L.I.N.C.E<br/>verificador<br/>🟡 aprobado"]
+        LINCE["L.I.N.C.E<br/>verificador"]
     end
 
     subgraph SOL["Yizi Solutions · ✅ activo"]
         KAREN["K.A.R.E.N<br/>líder (N2)"]
-        ABACO["Á.B.A.C.O<br/>analista de pilotos (N3)<br/>🟡 aprobado"]
-        CHASKI["C.H.A.S.K.I<br/>El Guía Yizi en modo ayuda<br/>(agente del producto) 🟡 aprobado"]
+        ABACO["Á.B.A.C.O<br/>analista de pilotos (N3)"]
+        CHASKI["C.H.A.S.K.I<br/>El Guía Yizi en modo ayuda<br/>(agente del producto)"]
         PROMOTOR["👤 Perfil: Promotor de barrio<br/>por contratar"]
     end
 
@@ -104,9 +104,24 @@ flowchart TB
         end
     end
 
+    subgraph PUB["Yizi Publisher · en incubación · aprobados, se activan con Publisher"]
+        HOMER["H.O.M.E.R<br/>líder (N2)"]
+        subgraph PUBACT["Se activan al arrancar (N3)"]
+            direction LR
+            AGORA["Á.G.O.R.A · Community Manager"]
+            FARO["F.A.R.O · presencia local y reseñas"]
+            QUIRON["Q.U.I.R.O.N · El Guía Yizi en modo enseñar IA"]
+            PRISMA["P.R.I.S.M.A · diseño y video con IA"]
+        end
+        subgraph PUBDIS["Se activan con disparador (N3)"]
+            direction LR
+            SAGITA["S.A.G.I.T.A · anuncios y embudo"]
+            KEPLER["K.E.P.L.E.R · analista de marketing"]
+        end
+        PUBPER["👤 Perfiles humanos mapeados, no se ofrecen hoy<br/>creador de contenido, fotógrafo o videógrafo, ilustrador, apoyo de atención, ejecutivo de cuentas"]
+    end
+
     subgraph INC["En incubación"]
-        direction LR
-        HOMER["H.O.M.E.R<br/>Yizi Publisher"]
         JOCASTA["J.O.C.A.S.T.A<br/>Yizi Talent"]
     end
 
@@ -124,6 +139,9 @@ flowchart TB
     VIERNES -. patrocina .-> HERBIE
     JARVIS -. patrocina .-> HOMER
     ULTRON -. patrocina .-> JOCASTA
+    HOMER --> PUBACT
+    HOMER -.-> PUBDIS
+    HOMER -.-> PUBPER
     KAREN --> ABACO
     KAREN -. coordina .-> PROMOTOR
     HERBIE --> GOB
@@ -136,7 +154,6 @@ flowchart TB
 
 - **Línea continua:** a quién reporta.
 - **Línea punteada:** quién patrocina un satélite o coordina a una persona.
-- **🟡 aprobado:** el CEO aprobó el nombre y se activa en un cambio aparte.
 - **👤 Perfil:** rol humano sin contratar. No lleva nombre de persona hasta que se contrate (spec `jerarquia-agentes`).
 - **Equipo de Yizi Projects:** reporta formalmente a Herbie. En el día a día: Atlas → Orion → Vera y Kaizen → equipo técnico. Dédalo, Cerbero, Argos y Talos tienen línea técnica o de calidad con Vision.
 
@@ -145,7 +162,7 @@ flowchart TB
 | Nivel | Quién | Vive en |
 |---|---|---|
 | **N0** | CEO (humano) | Todo el universo |
-| **N1** | Consejo Ejecutivo (Vision, Jarvis, Edith, Viernes, Ultron) y agentes de área (Aida, Termy) | Núcleo · heredado por todos los satélites |
+| **N1** | Consejo Ejecutivo (Vision, Jarvis, Edith, Viernes, Ultron) y agentes de área (Aida, Termy, Lince) | Núcleo · heredado por todos los satélites |
 | **N2** | Líder de satélite | Su satélite |
 | **N3** | Especialistas de satélite | Su satélite |
 | **N4** | Ejecutores efímeros (subagentes de una tarea) | Una tarea |

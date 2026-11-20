@@ -1,0 +1,137 @@
+{
+  "_nota": "Manifiesto de modelos. Cada archivo se descarga de una revision fija (o de la version publicada de kokoro-onnx) y se verifica con su suma SHA-256. Sumas de archivos grandes: API de Hugging Face. Las demas: calculadas por Vision al descargar el 2026-11-20.",
+  "paquetes": {
+    "whisper-small": {
+      "descripcion": "Voz a texto Whisper small, formato CTranslate2 para faster-whisper (CPU int8). Modelo por defecto.",
+      "licencia": "MIT",
+      "destino": "models/whisper/faster-whisper-small",
+      "por_defecto": true,
+      "archivos": [
+        {
+          "nombre": "config.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/config.json",
+          "tamano": 2370,
+          "sha256": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828"
+        },
+        {
+          "nombre": "model.bin",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+          "tamano": 483546902,
+          "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+        },
+        {
+          "nombre": "tokenizer.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+          "tamano": 2203239,
+          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+        },
+        {
+          "nombre": "vocabulary.txt",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+          "tamano": 459861,
+          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+        }
+      ]
+    },
+    "whisper-large-v3-turbo": {
+      "descripcion": "Voz a texto Whisper large-v3-turbo, formato CTranslate2. Mejor precision, 1,6 GB. Opcional.",
+      "licencia": "MIT",
+      "destino": "models/whisper/faster-whisper-large-v3-turbo",
+      "por_defecto": false,
+      "archivos": [
+        {
+          "nombre": "config.json",
+          "url": "https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json",
+          "tamano": 2263,
+          "sha256": "b0253ea6c0d3bea6b1e19e91a02acfd3b53f4467362efcb5a3e6b16c9b3a9b7e"
+        },
+        {
+          "nombre": "model.bin",
+          "url": "https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/model.bin",
+          "tamano": 1617884929,
+          "sha256": "e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da"
+        },
+        {
+          "nombre": "preprocessor_config.json",
+          "url": "https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json",
+          "tamano": 340,
+          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
+        },
+        {
+          "nombre": "tokenizer.json",
+          "url": "https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json",
+          "tamano": 2710337,
+          "sha256": "297b13372ac43916285644fb9687add3cc62ee2a1adb60da3dc25cc94c1871fd"
+        },
+        {
+          "nombre": "vocabulary.json",
+          "url": "https://huggingface.co/dropbox-dash/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json",
+          "tamano": 1068114,
+          "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1"
+        }
+      ]
+    },
+    "mlx-whisper-large-v3-turbo": {
+      "descripcion": "Voz a texto Whisper large-v3-turbo para mlx-whisper (Metal, solo Mac con Apple Silicon). 1,6 GB. Opcional.",
+      "licencia": "MIT (pesos de Whisper de OpenAI; la ficha de mlx-community no declara licencia: no verificado)",
+      "destino": "models/whisper/mlx-whisper-large-v3-turbo",
+      "por_defecto": false,
+      "solo_mac_arm64": true,
+      "archivos": [
+        {
+          "nombre": "config.json",
+          "url": "https://huggingface.co/mlx-community/whisper-large-v3-turbo/resolve/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb/config.json",
+          "tamano": 268,
+          "sha256": "b34fc29e4e11e0a25e812775dd67f4dd16fc2c8eb43d28ae25ff7d660ecb6379"
+        },
+        {
+          "nombre": "weights.safetensors",
+          "url": "https://huggingface.co/mlx-community/whisper-large-v3-turbo/resolve/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb/weights.safetensors",
+          "tamano": 1613977612,
+          "sha256": "951ed3fc1203e6a62467abb2144a96ce7eafca8fa77e3704fdb8635ff3e7f8a6"
+        }
+      ]
+    },
+    "mlx-whisper-small": {
+      "descripcion": "Voz a texto Whisper small para mlx-whisper (Metal, solo Mac con Apple Silicon). 480 MB. Opcional.",
+      "licencia": "MIT (pesos de Whisper de OpenAI; la ficha de mlx-community no declara licencia: no verificado)",
+      "destino": "models/whisper/mlx-whisper-small",
+      "por_defecto": false,
+      "solo_mac_arm64": true,
+      "archivos": [
+        {
+          "nombre": "config.json",
+          "url": "https://huggingface.co/mlx-community/whisper-small-mlx/resolve/45f3915923c7a79a5a5b5a7d909d39aeb0e5630e/config.json",
+          "tamano": 266,
+          "sha256": "e8f58e638208af66d5d5d67801259dc7a12d199e971967a9f9d33a8e3635668e"
+        },
+        {
+          "nombre": "weights.npz",
+          "url": "https://huggingface.co/mlx-community/whisper-small-mlx/resolve/45f3915923c7a79a5a5b5a7d909d39aeb0e5630e/weights.npz",
+          "tamano": 481307592,
+          "sha256": "55b6674c9b339702d486e2b1573839a66f8ec8f821ed2886993ef717a86b09f5"
+        }
+      ]
+    },
+    "kokoro": {
+      "descripcion": "Texto a voz Kokoro-82M v1.0 en ONNX (fp32) y su archivo de voces. Modelo por defecto.",
+      "licencia": "Apache-2.0",
+      "destino": "models/kokoro",
+      "por_defecto": true,
+      "archivos": [
+        {
+          "nombre": "kokoro-v1.0.onnx",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+          "tamano": 325532387,
+          "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
+        },
+        {
+          "nombre": "voices-v1.0.bin",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+          "tamano": 28214398,
+          "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+        }
+      ]
+    }
+  }
+}

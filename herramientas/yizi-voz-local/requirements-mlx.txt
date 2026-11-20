@@ -1,0 +1,3 @@
+# Solo Mac con Apple Silicon (arm64). Backend opcional de voz a texto con Metal.
+# Versión no fijada a mano: no se pudo probar en este entorno (Linux). install.sh la instala si aplica.
+mlx-whisper
