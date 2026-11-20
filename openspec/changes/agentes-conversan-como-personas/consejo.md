@@ -17,7 +17,7 @@
 | Viernes | Alineación estratégica | CONDICIONADO | Justificar con Agilidad Real y los principios humano-IA (o explicar la analogía con Empatía Operativa) |
 | Ultron | Operabilidad | CONDICIONADO | Prueba de Lince para "mensaje que rompe una regla"; tarea 1.1 pide al subagente un "mensaje para el CEO" en primera persona |
 
-**Resumen:** ninguna compuerta está BLOQUEADA. Aida incorpora las condiciones antes de la decisión del CEO.
+**Resumen:** ninguna compuerta está BLOQUEADA. Aida incorporó las condiciones el 2026-11-20 (validación estricta OK).
 
 ## Reunión (modo propuesto por el cambio)
 

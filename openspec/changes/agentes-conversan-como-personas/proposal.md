@@ -15,17 +15,22 @@ Hoy el CEO habla con Ultron, y Ultron resume en tercera persona lo que dijo cada
 
 El CEO quiere lo contrario: que cada agente le hable en primera persona, con su propia voz, como en una oficina real. Quiere también poder hablar con un agente sin intermediario.
 
-**Valores que lo justifican:** Empatía Operativa (el CEO trabaja con personas de su equipo, no con un tablero) y Robustez Invisible (el tono cambia; las reglas de seguridad no cambian).
+**Valores y principios que lo justifican:**
+
+- **Agilidad Real:** el CEO lee al agente directo, sin un resumen en medio. Hay menos pasos y menos texto entre la pregunta y la respuesta.
+- **Principios humano-IA:** "humano al mando" (el CEO habla con cada agente y decide él) y "verdad antes que velocidad" (cada agente firma lo que dice y responde por ello; nadie lo reescribe).
+- **Robustez Invisible:** el tono cambia; las reglas de seguridad no cambian.
+- **Empatía Operativa, por analogía:** este valor habla de entender la operación del cliente. Aquí lo aplicamos al CEO como usuario interno: trabaja con un equipo, no con un tablero.
 
 ## What Changes
 
-- **Respuesta directa:** Ultron entrega el mensaje de cada agente tal como lo escribió, en primera persona y firmado ("Edith: Te cuento…"). Ultron no lo reescribe en tercera persona.
+- **Respuesta directa:** Ultron pide a cada subagente un "mensaje para el CEO" en primera persona y lo pega sin reescribir, firmado ("Edith: Te cuento…"). El informe técnico entre agentes no cambia.
 - **Hablar con un agente por su nombre:** si el CEO nombra a un agente, ese agente responde con su voz. Ultron solo coordina.
-- **Sesión directa (opcional):** el CEO puede abrir Claude Code como un agente con `claude --agent <nombre>` para una conversación larga a solas.
+- **Sesión directa (opcional):** el CEO puede abrir Claude Code como un agente con `claude --agent <nombre>` para una conversación larga a solas. Vision lo prueba antes con una ficha. `--agent ultron` queda prohibido.
 - **Tono de colegas:** saludo breve, "yo", opinión con su motivo, desacuerdo respetuoso, reconocer errores, pedir lo que falta y cerrar con el siguiente paso. Sin frases de bot. Humano no es largo.
 - **"Cómo hablas":** cada ficha de agente añade una sección corta con su voz, sus expresiones y cómo da malas noticias.
 - **Modo reunión del Consejo:** en la conversación, cada agente habla en primera persona y Ultron modera y cierra con las decisiones pendientes. `consejo.md` conserva la tabla resumen.
-- **Límites:** los agentes dicen que son IA si alguien pregunta, no inventan vida privada y no cambian ninguna regla de `gobierno-agentes`. Ante clientes, la identidad sigue siendo El Guía Yizi.
+- **Límites:** los agentes dicen que son IA si alguien pregunta, no inventan vida privada y no cambian ninguna regla de `gobierno-agentes`. Ante clientes, la identidad sigue siendo El Guía Yizi: un borrador para un cliente va separado del mensaje al CEO, sin firma ni nombre interno, y marcado "requiere aprobación".
 - **Spec nueva:** `conversacion-agentes`.
 
 ## Capabilities
@@ -40,7 +45,7 @@ El CEO quiere lo contrario: que cada agente le hable en primera persona, con su 
 
 - Archivos: `CLAUDE.md` y `AGENTS.md` del núcleo, las 8 fichas del núcleo, la plantilla del líder de satélite, el skill `yizi-consejo` y `marca/guia-de-escritura.md` (nota de tono).
 - Satélites: Karen (Yizi Solutions) y Herbie (Yizi Projects) aplican "Cómo hablas" a sus fichas con un cambio propio en su repositorio.
-- Costo: sin gasto nuevo. Tokens extra: un saludo y una firma por mensaje. Estimación no medida; Edith la revisa en su compuerta.
+- Costo: sin gasto nuevo. Tokens extra: un saludo y una firma por mensaje. Estimación no medida. Cada tarea indica su modelo (Sonnet o Haiku; ninguna con Fable). Las sesiones `--agent` se anotan aparte en `finanzas/consumo-ia.md`.
 - Organigrama: no cambia. No se crea, activa ni retira ningún agente.
 
 ## Out of Scope
