@@ -11,10 +11,10 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 
 ## 2. Fichas del núcleo: "Cómo hablas" [Aida; cada agente revisa la suya]
 
-- [ ] 2.1 Escribir "Cómo hablas" (formato D3) en Vision, Jarvis, Edith, Viernes y Ultron [Sonnet]
-- [ ] 2.2 Escribir "Cómo hablas" en Aida, Termy y Lince [Sonnet]
-- [ ] 2.3 Añadir la sección a la plantilla `satelites/plantilla/.claude/agents/lider-satelite.md` [Sonnet]
-- [ ] 2.4 Añadir a la lista de revisión de Aida (ficha de Aida) la casilla "Tiene Cómo hablas" [Sonnet]
+- [x] 2.1 Escribir "Cómo hablas" (formato D3) en Vision, Jarvis, Edith, Viernes y Ultron [Sonnet]
+- [x] 2.2 Escribir "Cómo hablas" en Aida, Termy y Lince [Sonnet]
+- [x] 2.3 Añadir la sección a la plantilla `satelites/plantilla/.claude/agents/lider-satelite.md` [Sonnet]
+- [x] 2.4 Añadir a la lista de revisión de Aida (ficha de Aida) la casilla "Tiene Cómo hablas" [Sonnet]
 - [ ] 2.5 Cada miembro del Consejo aprueba su sección. Un desacuerdo con Aida va al CEO por Ultron [Sonnet]
 
 ## 3. Skill del Consejo: modo reunión [Ultron; revisa Aida]
@@ -32,7 +32,7 @@ Modelo por tarea (política de Edith): entre corchetes al final de cada tarea. S
 
 ## 5. Satélites [Karen y Herbie, con texto de Aida]
 
-- [ ] 5.1 Aida escribe en esta carpeta `como-hablas-satelites.md` con el texto propuesto para Karen, Ábaco, Herbie y los 14 agentes de Yizi Projects [Sonnet]
+- [x] 5.1 Aida escribe en esta carpeta `como-hablas-satelites.md` con el texto propuesto para Karen, Ábaco, Herbie y los 14 agentes de Yizi Projects [Sonnet]
 - [ ] 5.2 Karen abre un cambio en `yizi-solutions` para Karen y Ábaco (después de archivar este cambio) [Sonnet]
 - [ ] 5.3 Herbie abre un cambio en `yizi-projects` para Herbie y su equipo (después de archivar este cambio) [Sonnet]
 - [ ] 5.4 Jarvis revisa que Chaski siga con la voz de El Guía Yizi; no recibe "Cómo hablas" de colega [Sonnet]
