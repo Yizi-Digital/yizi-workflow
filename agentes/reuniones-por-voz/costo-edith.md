@@ -113,6 +113,10 @@ Reglas del gasto:
 3. Yo preparo la compra del crédito prepago; el CEO la ejecuta. Ninguna clave ni dato de pago va al repositorio.
 4. Retorno: es una herramienta interna, sin ingreso directo. Su retorno es tiempo del CEO. Por eso el tope es bajo. La señal de producto para clientes queda con Viernes.
 
+## 6b. Nota del 2026-11-20: motor principal con el plan del CEO
+
+Vision cambió el motor principal al plan de Claude (`claude -p`). Los topes en USD (3 por reunión, 30 al mes) valen solo para el respaldo con API key. Para el camino principal, los topes se miden en uso del plan: 40 turnos por reunión y 2 reuniones por día. Es un supuesto sin medir (30 turnos por reunión, S3 y S4); protege la ventana de 5 horas (regla 7). Cada reunión se anota en `finanzas/consumo-ia.md`. Con ese registro reviso los topes tras dos meses.
+
 ## 7. Veredicto
 
 ### Edith · Costo y presupuesto
