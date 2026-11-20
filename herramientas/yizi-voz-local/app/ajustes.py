@@ -43,6 +43,7 @@ class Ajustes:
     stt_compute_type: str = "int8"
     stt_hilos: int = 0
     stt_beam_size: int = 1
+    stt_prompt: str = ""
     tts_motor: str = "auto"
     tts_modelo: Path = field(default_factory=lambda: RAIZ / "models/kokoro/kokoro-v1.0.onnx")
     tts_voces: Path = field(default_factory=lambda: RAIZ / "models/kokoro/voices-v1.0.bin")
@@ -52,6 +53,7 @@ class Ajustes:
     vad_parcial_cada_ms: int = 800
     vad_max_segmento_s: float = 25.0
     vad_preroll_ms: int = 300
+    vad_min_final_ms: int = 400
     agentes: dict = field(default_factory=dict)
     voz_por_defecto: str = "vision"
     lexico: dict = field(default_factory=dict)
@@ -80,6 +82,7 @@ def cargar(ruta_config: Path | None = None) -> Ajustes:
     a.stt_compute_type = stt.get("compute_type", a.stt_compute_type)
     a.stt_hilos = int(stt.get("hilos", a.stt_hilos))
     a.stt_beam_size = int(stt.get("beam_size", a.stt_beam_size))
+    a.stt_prompt = str(stt.get("prompt") or "").strip()
 
     a.tts_motor = os.environ.get("YIZI_VOZ_TTS_MOTOR") or tts.get("motor", a.tts_motor)
     if tts.get("modelo"):
@@ -93,6 +96,7 @@ def cargar(ruta_config: Path | None = None) -> Ajustes:
     a.vad_parcial_cada_ms = int(vad.get("parcial_cada_ms", a.vad_parcial_cada_ms))
     a.vad_max_segmento_s = float(vad.get("max_segmento_s", a.vad_max_segmento_s))
     a.vad_preroll_ms = int(vad.get("preroll_ms", a.vad_preroll_ms))
+    a.vad_min_final_ms = int(vad.get("min_final_ms", a.vad_min_final_ms))
 
     a.agentes = {str(k).lower(): v or {} for k, v in (voces.get("agentes") or {}).items()}
     a.voz_por_defecto = str(voces.get("por_defecto", a.voz_por_defecto)).lower()

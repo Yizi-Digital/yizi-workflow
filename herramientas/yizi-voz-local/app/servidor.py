@@ -182,6 +182,8 @@ def crear_app(ajustes: Ajustes | None = None, stt: MotorTexto | None = None,
         try:
             autorizar(ws.headers)
         except ErrorApi:
+            # Se acepta y luego se cierra con 4401 para que el cliente vea el motivo (contrato 6.4).
+            await ws.accept()
             await ws.close(code=4401, reason="unauthorized")
             return
         s = estado["stt"]
@@ -192,7 +194,7 @@ def crear_app(ajustes: Ajustes | None = None, stt: MotorTexto | None = None,
             return
         idioma = ws.query_params.get("language") or a.stt_idioma
         seg = Segmentador(SileroStream(), a.vad_umbral, a.vad_silencio_fin_ms, a.vad_parcial_cada_ms,
-                          a.vad_max_segmento_s, a.vad_preroll_ms)
+                          a.vad_max_segmento_s, a.vad_preroll_ms, min_final_ms=a.vad_min_final_ms)
         cola: asyncio.Queue = asyncio.Queue()
         ocupado = {"parcial": False}
         enviar_lock = asyncio.Lock()
@@ -206,6 +208,10 @@ def crear_app(ajustes: Ajustes | None = None, stt: MotorTexto | None = None,
                 ev = await cola.get()
                 if ev is None:
                     return
+                if ev.extra.get("discarded"):
+                    await enviar({"type": "final", "segment_id": ev.segmento, "text": "", "start": ev.inicio,
+                                  "end": ev.fin, "processing_ms": 0, "discarded": True})
+                    continue
                 t = time.perf_counter()
                 try:
                     texto = await asyncio.to_thread(s.transcribir, ev.audio, idioma, ev.tipo == "need_partial")

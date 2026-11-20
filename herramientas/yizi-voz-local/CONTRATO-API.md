@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |---|---|
-| Versión del contrato | 1.0 (2026-11-20) |
+| Versión del contrato | 1.0.1 (2026-11-20): cierre 4401 tras aceptar, `discarded` en `final`, `prompt` por defecto. Todo compatible con 1.0 |
 | Dueño | Vision (CTO) |
 | Regla de cambio | Nada de este contrato cambia sin avisar antes a quien construye Sala Yizi. Los campos nuevos se añaden; los existentes no se quitan ni cambian de tipo. |
 | Base | `http://127.0.0.1:8765` (puerto en `config/config.yaml` o variable `YIZI_VOZ_PUERTO`) |
@@ -101,7 +101,7 @@ Petición: `multipart/form-data`.
 |---|---|---|---|---|
 | `file` | archivo | Sí | — | WAV, M4A/AAC, MP3, OGG/Opus, FLAC, WebM (lo que decodifique FFmpeg). Máximo 25 MB |
 | `language` | string | No | `es` | Código ISO 639-1 |
-| `prompt` | string | No | — | Texto de contexto (nombres propios, jerga) |
+| `prompt` | string | No | `stt.prompt` de `config.yaml` (nombres de los agentes) | Texto de contexto (nombres propios, jerga). También se usa en el WebSocket |
 | `response_format` | string | No | `json` | `json` o `text` |
 | `model` | string | No | — | Se acepta y se ignora |
 
@@ -118,7 +118,7 @@ Respuesta `200` con `json`:
 
 ### 6.1 Conexión
 - Parámetro opcional en la URL: `?language=es`.
-- Si hay token: cabecera `Authorization: Bearer <token>` en el *handshake*. Sin token válido, el servidor cierra con el código **4401**.
+- Si hay token: cabecera `Authorization: Bearer <token>` en el *handshake*. Sin token válido, el servidor acepta la conexión y la cierra enseguida con el código **4401** (motivo `unauthorized`), sin enviar mensajes.
 - Si el modelo de voz a texto no está listo, el servidor envía un mensaje `error` con `stt_unavailable` y cierra con **1011**.
 
 ### 6.2 Lo que envía el cliente
@@ -139,7 +139,7 @@ Respuesta `200` con `json`:
 | `speech_start` | `segment_id`, `start` | El detector de voz (Silero VAD) oye voz. Úsalo para la **interrupción** (barge-in) |
 | `partial` | `segment_id`, `text`, `start`, `end`, `processing_ms` | Cada ~800 ms mientras se habla. El texto puede cambiar en el siguiente parcial |
 | `speech_end` | `segment_id`, `end` | Tras 600 ms de silencio (fin de turno) o 25 s de voz seguida |
-| `final` | `segment_id`, `text`, `start`, `end`, `processing_ms` | Texto definitivo del segmento. Llega después de `speech_end` |
+| `final` | `segment_id`, `text`, `start`, `end`, `processing_ms`; opcional `discarded: true` | Texto definitivo del segmento. Llega después de `speech_end`. Si el segmento tuvo menos de 400 ms de voz (`vad.min_final_ms`), llega con `text: ""` y `discarded: true`: ignóralo (suele ser un ruido) |
 | `error` | `code`, `message` | `invalid_message`, `transcription_failed`, `stt_unavailable` |
 | `closed` | — | Respuesta a `close`, justo antes de cerrar |
 
@@ -158,4 +158,4 @@ Respuesta `200` con `json`:
 
 ## 7. Ajustes que cambian el comportamiento (sin cambiar el contrato)
 
-`config/config.yaml`, sección `vad`: `umbral` (0.5), `silencio_fin_ms` (600), `parcial_cada_ms` (800), `max_segmento_s` (25), `preroll_ms` (300).
+`config/config.yaml`, sección `vad`: `umbral` (0.5), `silencio_fin_ms` (600), `parcial_cada_ms` (800), `max_segmento_s` (25), `preroll_ms` (300), `min_final_ms` (400). Sección `stt`: `prompt`.

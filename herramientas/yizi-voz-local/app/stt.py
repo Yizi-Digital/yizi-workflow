@@ -68,6 +68,7 @@ class MotorTexto:
         if not self.listo:
             raise RuntimeError(f"El modelo de voz a texto no está cargado: {self.error}")
         idioma = idioma or self.a.stt_idioma
+        prompt = prompt or self.a.stt_prompt or None  # nombres propios para que Whisper los escriba bien
         if len(audio) < FRECUENCIA * 0.1:
             return ""
         with self._candado:

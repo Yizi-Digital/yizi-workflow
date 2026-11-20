@@ -25,7 +25,7 @@ class Segmentador:
     """Recibe PCM float32 16 kHz por trozos y emite eventos según la detección de voz."""
 
     def __init__(self, vad, umbral=0.5, silencio_fin_ms=600, parcial_cada_ms=800,
-                 max_segmento_s=25.0, preroll_ms=300, min_voz_ms=250):
+                 max_segmento_s=25.0, preroll_ms=300, min_voz_ms=250, min_final_ms=400):
         self.vad = vad
         self.umbral = umbral
         self.umbral_bajo = max(0.05, umbral - 0.15)
@@ -34,6 +34,8 @@ class Segmentador:
         self.v_max = int(max_segmento_s * FRECUENCIA / VENTANA)
         self.v_preroll = max(0, int(preroll_ms / 32))
         self.v_min_voz = max(1, int(min_voz_ms / 32))
+        self.v_min_final = max(0, int(min_final_ms / 32))
+        self.voz_en_segmento = 0
         self.pendiente = np.zeros(0, dtype=np.float32)
         self.previas: list[np.ndarray] = []
         self.segmento_actual: list[np.ndarray] = []
@@ -65,6 +67,7 @@ class Segmentador:
                     self.hablando = True
                     self.n_segmento += 1
                     self.segmento_actual = list(self.previas)
+                    self.voz_en_segmento = self.voz
                     self.previas = []
                     self.silencio = 0
                     self.desde_parcial = 0
@@ -72,6 +75,8 @@ class Segmentador:
                     eventos.append(Evento("speech_start", self.n_segmento, inicio=self.t_inicio))
                 continue
             self.segmento_actual.append(v)
+            if p >= self.umbral:
+                self.voz_en_segmento += 1
             self.desde_parcial += 1
             self.silencio = self.silencio + 1 if p < self.umbral_bajo else 0
             if self.silencio >= self.v_silencio or len(self.segmento_actual) >= self.v_max:
@@ -85,7 +90,9 @@ class Segmentador:
     def _cerrar(self) -> list[Evento]:
         audio = np.concatenate(self.segmento_actual) if self.segmento_actual else np.zeros(0, np.float32)
         ev = [Evento("speech_end", self.n_segmento, inicio=self.t_inicio, fin=self._t()),
-              Evento("need_final", self.n_segmento, audio=audio, inicio=self.t_inicio, fin=self._t())]
+              Evento("need_final", self.n_segmento, audio=audio, inicio=self.t_inicio, fin=self._t(),
+                     extra={"discarded": self.voz_en_segmento < self.v_min_final})]
+        self.voz_en_segmento = 0
         self.hablando = False
         self.segmento_actual = []
         self.silencio = 0

@@ -17,6 +17,8 @@ stt:
   compute_type: int8     # int8 es lo más rápido en CPU
   hilos: 0               # 0 = automático
   beam_size: 1           # 1 = más rápido; 5 = algo más preciso
+  # Contexto para Whisper: nombres propios que debe escribir bien. Se usa si la petición no trae "prompt".
+  prompt: "Reunión de Yizi con Ultron, Vision, Jarvis, Edith, Viernes, Aida, Termy, Lince, Karen, Herbie y Homer."
 
 tts:
   motor: auto            # auto | kokoro | say   (auto: Kokoro; si falta, `say` en macOS)
@@ -30,3 +32,4 @@ vad:                     # Detección de voz del WebSocket de dictado
   parcial_cada_ms: 800   # Cada cuánto se envía un texto parcial
   max_segmento_s: 25
   preroll_ms: 300
+  min_final_ms: 400      # Segmentos con menos voz que esto se descartan (final vacío con "discarded": true)

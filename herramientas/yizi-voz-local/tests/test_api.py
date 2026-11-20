@@ -107,9 +107,14 @@ def test_token(monkeypatch):
         assert c.get("/health").status_code == 200  # salud sin token
         assert c.get("/v1/voices").status_code == 401
         assert c.get("/v1/voices", headers={"Authorization": "Bearer secreto-de-prueba"}).status_code == 200
-        with pytest.raises(Exception):
-            with c.websocket_connect("/v1/stream/transcribe") as ws:
+        from starlette.websockets import WebSocketDisconnect
+
+        with c.websocket_connect("/v1/stream/transcribe") as ws:
+            with pytest.raises(WebSocketDisconnect) as e:
                 ws.receive_json()
+        assert e.value.code == 4401
+        with c.websocket_connect("/v1/stream/transcribe", headers={"Authorization": "Bearer secreto-de-prueba"}) as ws:
+            assert ws.receive_json()["type"] == "ready"
 
 
 def test_websocket_silencio(cliente):
@@ -118,3 +123,33 @@ def test_websocket_silencio(cliente):
         ws.send_bytes(np.zeros(16000, dtype="<i2").tobytes())
         ws.send_text(json.dumps({"type": "close"}))
         assert ws.receive_json()["type"] == "closed"
+
+
+class VadFalso:
+    def __init__(self, probs):
+        self.probs = iter(probs)
+
+    def probabilidad(self, v):
+        return next(self.probs, 0.0)
+
+    def reiniciar(self):
+        pass
+
+
+def test_segmento_corto_se_descarta():
+    from app.flujo import Segmentador
+
+    # 8 ventanas de voz (256 ms) y luego silencio: menos de 400 ms -> descartado
+    s = Segmentador(VadFalso([0.9] * 8 + [0.0] * 40), min_final_ms=400)
+    ev = s.alimentar(np.zeros(512 * 48, dtype=np.float32))
+    finales = [e for e in ev if e.tipo == "need_final"]
+    assert len(finales) == 1 and finales[0].extra["discarded"] is True
+    # 30 ventanas de voz (960 ms): se transcribe
+    s = Segmentador(VadFalso([0.9] * 30 + [0.0] * 40), min_final_ms=400)
+    ev = s.alimentar(np.zeros(512 * 70, dtype=np.float32))
+    assert [e.extra["discarded"] for e in ev if e.tipo == "need_final"] == [False]
+
+
+def test_prompt_por_defecto():
+    a = ajustes.cargar()
+    assert "Edith" in a.stt_prompt and "Yizi" in a.stt_prompt
