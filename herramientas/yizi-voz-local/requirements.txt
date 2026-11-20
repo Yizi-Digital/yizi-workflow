@@ -1,0 +1,18 @@
+# Dependencias fijadas (probadas en Linux x86_64 con Python 3.11 el 2026-11-20).
+fastapi==0.165.0
+starlette==1.10.0
+pydantic==2.14.4
+uvicorn==0.54.0
+websockets==17.4
+python-multipart==0.0.34
+PyYAML==6.0.3
+numpy==2.4.6
+onnxruntime==1.32.0; sys_platform != "darwin" or platform_machine == "arm64"
+# Mac Intel: la ultima version con ruedas para x86_64 es 1.23.2 (PyPI, 2026-11-20)
+onnxruntime==1.23.2; sys_platform == "darwin" and platform_machine == "x86_64"
+faster-whisper==1.2.1
+ctranslate2==4.9.0
+av==18.1.0
+tokenizers==0.23.3
+huggingface_hub==2.4.0
+certifi==2026.10.23

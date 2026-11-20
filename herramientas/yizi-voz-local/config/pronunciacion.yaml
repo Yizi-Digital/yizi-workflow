@@ -1,0 +1,29 @@
+# Cómo decir palabras que las reglas del español no aciertan.
+# Clave: palabra tal como se escribe (sin distinguir mayúsculas). Valor: cómo suena, escrito en español.
+palabras:
+  Yizi: yísi
+  Ultron: últron
+  Vision: visión
+  Jarvis: yárvis
+  Edith: édit
+  Termy: térmi
+  Herbie: jérbi
+  Homer: jómer
+  Karen: káren
+  Chaski: cháski
+  CEO: si i óu
+  CTO: si ti óu
+  CFO: si ef óu
+  COO: si o óu
+  CSO: si es óu
+  CDO: si di óu
+  IA: i a
+  API: a pe i
+  OpenSpec: ópen spec
+  Claude: clod
+  WhatsApp: guatsáp
+  Google: gúguel
+  email: ímeil
+  OK: okéi
+  USD: dólares
+  PR: pe erre
