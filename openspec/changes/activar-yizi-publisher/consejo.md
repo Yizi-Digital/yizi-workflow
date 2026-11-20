@@ -42,7 +42,8 @@
 - Fecha: 2026-11-18
 - Horas: "Vale, usemos 5" (5 h por semana).
 - Responder mensajes del público: "No lo dejen fuera, dejémoslo en la mira como propuesta. Que de cierta forma nuestra agencia sea un Community Manager del cliente." Queda fuera de los planes actuales y registrado como propuesta futura.
-- Acompañamiento IA: PENDIENTE (el CEO pidió que se le explique).
+- Acompañamiento IA: **sí**, como último escalón (CEO, 2026-11-20).
+- Preparar el repositorio de Publisher ya: **sí** ("prepara el repositorio", 2026-11-20). El estado `activo` sigue esperando el punto de control 3.0.
 - Anulaciones de compuertas BLOQUEADAS: ninguna (no hubo bloqueos).
 - Para decidir:
   1. Activar Publisher y el orden de arranque (pilotos de Solutions primero, luego 1 piloto propio).

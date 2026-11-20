@@ -35,7 +35,7 @@
 
 ## Decisión del CEO
 
-- Decisión: PENDIENTE
-- Fecha:
-- Tope por mensaje (duda de Aida): 150 palabras propuesto, PENDIENTE
+- Decisión: **APROBADO**. El CEO: "Sí".
+- Fecha: 2026-11-20
+- Tope por mensaje: el CEO decide: "Si la respuesta puede ser corta, en menos de 150 palabras, que lo haga en un lenguaje natural como una persona o colega. Si es larga, que siga hablando como un colega, pero que al final me lance un detalle más detallado en un mensaje directo." Aida lo incorpora a D1.1 y a la spec.
 - Anulaciones de compuertas BLOQUEADAS (con motivo): ninguna
