@@ -310,7 +310,7 @@ Cómo usarla:
 
 2. Costo de cada llamada = entrada × precio + escritura de caché × precio + lectura de caché × precio + salida × precio, con los `usage` reales.
 3. **Contador visible** en la barra inferior: tokens y USD de la reunión, y USD del mes contra el tope. Color: normal, ámbar al 80 %, rojo al 100 %.
-4. **Corte antes de cada llamada:** calcula el peor caso (entrada estimada + `max_tokens` de salida). Si supera lo que queda del tope de la reunión o del mes, no llama. Ultron (texto fijo, sin modelo) dice: "Llegamos al tope de gasto de esta reunión. Te dejo el acta."
+4. **Corte antes de cada llamada:** calcula el peor caso con los precios del modelo que de verdad usa ese agente: la parte cacheable al precio de escritura de caché (como si la caché estuviera vencida), el resto de la entrada al precio normal y `max_tokens` completo al precio de salida. Estima la entrada por lo alto (caracteres ÷ 3). Si supera lo que queda del tope de la reunión o del mes, no llama. Ultron (texto fijo, sin modelo) dice: "Llegamos al tope de gasto de esta reunión. Te dejo el acta."
 5. Topes por defecto (fase piloto de Edith): **3 USD por reunión y 30 USD al mes**. Subir un tope pide confirmación escrita en pantalla: escribir el monto nuevo y pulsar "Confirmar". Nunca por voz.
 6. `max_tokens`: 700 por turno de agente (unas 80 palabras habladas más el bloque "Detalle"; la parte hablada la limitan las instrucciones), 150 para el moderador y 1 500 para el acta.
 7. Libro de gasto local en `~/Library/Application Support/SalaYizi/gasto.json` (por reunión: fecha, modelo, tokens por tipo, USD). Botón "Copiar resumen del mes" con el formato de `yizi-workflow/finanzas/consumo-ia.md`, para que Edith lo registre. La app no edita ese archivo.
