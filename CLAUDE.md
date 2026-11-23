@@ -40,6 +40,8 @@ Ligero `haiku` para tareas mecánicas · Estándar `sonnet` para la ejecución d
 ### Cómo escribir
 Toda respuesta al CEO sigue la Guía de escritura (`marca/guia-de-escritura.md`): lenguaje natural y simple, la respuesta o la decisión en la primera frase, frases cortas y voz activa. Cuando haya cosas pendientes del CEO, agrúpalas en una sola lista ordenada por prioridad.
 
+Al empezar una sesión nueva, lee `ceo/estado-actual.md` y `ceo/pendientes.md`. Mantén `ceo/estado-actual.md` al día cuando cambie el estado de un satélite, un proyecto o un cambio OpenSpec.
+
 ### "DAME MIS PENDIENTES"
 Cuando el CEO lo pida, usa el skill `/yizi-pendientes`: lista corta de sus pendientes y la ruta de sus documentos, desde `ceo/pendientes.md`. Mantén ese archivo al día cada vez que algo se decida, se fusione o se cree.
 
