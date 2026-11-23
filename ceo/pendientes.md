@@ -1,17 +1,16 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-22 (familiar de respaldo nombrado; preguntas de proyectos MACRO movidas a sus fichas).
+Última actualización: 2026-11-22 (cupo MACRO aprobado; Publisher Media guardada como señal; preguntas de proyectos MACRO en sus fichas).
 
 ## 1. Mis pendientes
 
 ### Decidir
 - Las decisiones de toFinance y del plan de comidas y mercado pasan a la ficha de cada proyecto en Yizi Projects (`proyectos/<id>/ficha.md`). Están en espera hasta que el CEO retome los proyectos.
-- [ ] Cupo MACRO: aprobar el cambio `ajustar-cupo-macro` de Viernes (1 MACRO activo a la vez; varios en propuesta o Discovery). En preparación.
 
 ### Fusionar en GitHub
 - [ ] yizi-projects · PR #6 · ficha de proyecto MACRO (spec, plantilla y fichas de toFinance y plan de comidas). Verificado por Lince.
-- [ ] yizi-workflow · PR #15 · cambio `ajustar-cupo-macro` y estos pendientes. No fusionar el cupo hasta que revise el Consejo y lo apruebes.
+- [ ] yizi-workflow · PR #15 · cambio `ajustar-cupo-macro` (aprobado el 2026-11-22, en implementación), cartera de señales y estos pendientes. Fusionar cuando Lince verifique y el cambio se archive.
 
 ### Hacer yo
 - [ ] Persona de respaldo (Lesfer Garcia, nombrada el 2026-11-22): confirmar que acepta, escribir el procedimiento de emergencia y pedir al abogado el instrumento legal que fija su alcance. No recibe tus credenciales (spec `gobierno-agentes`).

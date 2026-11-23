@@ -58,6 +58,10 @@ Ultron: Condicionado. Hoy no puedo medir las horas del CEO: nadie las registra, 
 
 ## Decisión del CEO
 
-- Decisión: PENDIENTE
-- Fecha:
+- Decisión: APROBADO (plan ajustado con las condiciones del Consejo).
+- Fecha: 2026-11-22.
+- Texto del CEO: "Sí, apruebo", en respuesta a "¿Apruebas la regla del cupo MACRO, contando también la incubación?".
+- Decisión 1 (la regla): aprobada.
+- Decisión 2: "activo" incluye `incubacion`. Los dos estados ocupan el cupo.
+- Decisión 3 (tope total): se fija al retomar el primer Discovery, con la cifra de Edith.
 - Anulaciones de compuertas BLOQUEADAS (con motivo): ninguna (no hay compuertas bloqueadas)

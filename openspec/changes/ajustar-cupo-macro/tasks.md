@@ -7,7 +7,7 @@ Nada de esto se implementa hasta que el CEO apruebe el cambio. Antes de implemen
 ## 1. Consejo y decisión del CEO [Viernes]
 
 - [ ] 1.1 Volver a pasar el cambio por el Consejo con `/yizi-consejo`; cada agente confirma en `consejo.md` que se cumplen sus condiciones
-- [ ] 1.2 Tras la sección 2, presentar al CEO solo las decisiones 1 (la regla) y 2 ("activo" incluye `incubacion`). Registrar sus respuestas en `consejo.md`
+- [x] 1.2 Tras la sección 2, presentar al CEO solo las decisiones 1 (la regla) y 2 ("activo" incluye `incubacion`). Registrar sus respuestas en `consejo.md` (el CEO aprobó las dos el 2026-11-22, antes de 1.1 y de la sección 2; esas tareas siguen pendientes)
 
 ## 2. Antes de la decisión del CEO [Edith, Ultron, Jarvis]
 
