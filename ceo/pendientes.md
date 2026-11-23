@@ -11,7 +11,7 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 
 ### Fusionar en GitHub
 - [ ] yizi-projects · PR #6 · ficha de proyecto MACRO (spec, plantilla y fichas de toFinance y plan de comidas). Verificado por Lince.
-- [ ] yizi-workflow · PR del cambio `ajustar-cupo-macro` y estos pendientes. No fusionar el cupo hasta que revise el Consejo y lo apruebes.
+- [ ] yizi-workflow · PR #15 · cambio `ajustar-cupo-macro` y estos pendientes. No fusionar el cupo hasta que revise el Consejo y lo apruebes.
 
 ### Hacer yo
 - [ ] Persona de respaldo (Lesfer Garcia, nombrada el 2026-11-22): confirmar que acepta, escribir el procedimiento de emergencia y pedir al abogado el instrumento legal que fija su alcance. No recibe tus credenciales (spec `gobierno-agentes`).
