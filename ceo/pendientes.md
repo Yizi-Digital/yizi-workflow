@@ -1,26 +1,20 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-22 (todos los PRs fusionados; Sala Yizi construida en `~/Desktop/yizi-reuniones`).
+Última actualización: 2026-11-22 (familiar de respaldo nombrado; preguntas de proyectos MACRO movidas a sus fichas).
 
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] Cupo MACRO: aprobar la regla de Viernes (toFinance ocupa el cupo; un Discovery de señal con tope no lo ocupa; máximo 1 a la vez).
-- [ ] Plan de comidas y mercado (Discovery): aprobar el tope de 6 semanas, 12 h y S/ 80.
-- [ ] Plan de comidas y mercado: aprobar que siga separado de toFinance, con entrevistas compartidas.
-- [ ] Plan de comidas y mercado: fijar hipótesis y regla de cierre antes de la primera entrevista.
-- [ ] Plan de comidas y mercado: aprobar la ruta de restaurantes como módulo de Yizi Solutions, después del Paquete Base.
-- [ ] toFinance (Discovery indefinido): las 15 entrevistas. Decidir cuándo, a quién (al menos 10 comerciantes, bodegueros o dueños de micronegocio) y qué incentivo dar (dentro de S/ 100). Temis prepara el consentimiento antes de la primera.
-- [ ] toFinance: al reanudar, fijar los umbrales del punto de control 1 (propuesta: seguir si 9 de 15 confirman el problema y 5 de 15 pagarían S/ 9.90 o más).
-- [ ] toFinance: leer la revisión legal (Temis) y llevar las preguntas al abogado. Riesgo clave: Apple podría exigir una empresa (no RUC 10) para publicar en iOS.
-- [ ] toFinance: decidir si se permiten los sitios oficiales peruanos (gob.pe, sbs.gob.pe, El Peruano) para que Temis verifique las normas.
-- [ ] Decir el nombre del familiar de respaldo.
+- Las decisiones de toFinance y del plan de comidas y mercado pasan a la ficha de cada proyecto en Yizi Projects (`proyectos/<id>/ficha.md`). Están en espera hasta que el CEO retome los proyectos.
+- [ ] Cupo MACRO: aprobar el cambio `ajustar-cupo-macro` de Viernes (1 MACRO activo a la vez; varios en propuesta o Discovery). En preparación.
 
 ### Fusionar en GitHub
-- Nada abierto. Fusionados el 2026-11-23: yizi-workflow #13, yizi-projects #5, yizi-publisher #1, yizi-solutions #2 y Fiesteros #2 (el #1 se cerró).
+- [ ] yizi-projects · PR #6 · ficha de proyecto MACRO (spec, plantilla y fichas de toFinance y plan de comidas). Verificado por Lince.
+- [ ] yizi-workflow · PR del cambio `ajustar-cupo-macro` y estos pendientes. No fusionar el cupo hasta que revise el Consejo y lo apruebes.
 
 ### Hacer yo
+- [ ] Persona de respaldo (Lesfer Garcia, nombrada el 2026-11-22): confirmar que acepta, escribir el procedimiento de emergencia y pedir al abogado el instrumento legal que fija su alcance. No recibe tus credenciales (spec `gobierno-agentes`).
 - [ ] Sala Yizi: probar los criterios de la fase 5 (Consejo de 15 min con acta, reunión solo con teclado, Consejo de 30 min sin agotar la ventana) y anotar el cambio de `/usage`. Ver `yizi-reuniones/docs/tareas.md`.
 - [ ] Sala Yizi: crear una API key en la Consola de Anthropic, comprar crédito prepago y apagar la recarga automática (falta para comparar la latencia y el costo con API key).
 - [ ] Fiesteros: renombrar el repo a `fiesteros-web`, pasar Vercel a un equipo Pro y conectarlo, proteger `main` y confirmar que `@fiesteros.pe` es la cuenta correcta.
