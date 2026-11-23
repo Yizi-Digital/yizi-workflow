@@ -19,9 +19,11 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
-- [ ] yizi-workflow · PR #13 · Lince, agentes del producto, un PR por repo, marco legal y toFinance en el registro.
-- [ ] yizi-projects · PR #4 · toFinance fase 0 (expediente, marca v2, revisión legal, talentos Cronos y Tempo, reevaluación).
+- [ ] yizi-workflow · PR #13 · Lince, agentes del producto, Publisher (plan aprobado), agentes que conversan, Sala Yizi y Yizi Voz Local.
+- [ ] yizi-projects · PR #5 · toFinance (plantilla) y plan de comidas y mercado (Discovery). El PR #4 ya se fusionó.
+- [ ] yizi-publisher · PR #1 · fichas, catálogo, kit y operación. Antes: poner `main` como rama por defecto.
 - [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
+- [ ] Fiesteros_web_app · PR #1 y #2 · dos PRs automáticos de Vercel (Web Analytics), casi iguales: fusionar uno y cerrar el otro.
 
 ### Hacer yo
 - [ ] Sala Yizi: crear una API key en la Consola de Anthropic, comprar crédito prepago y apagar la recarga automática; instalar Xcode.
