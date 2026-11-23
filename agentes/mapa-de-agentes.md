@@ -77,6 +77,24 @@ Valores: **Sí** · **Parcial** · **No** · **—** (no aplica, porque no hay f
 
 **Recomendación:** un solo cambio OpenSpec de tamaño S o M ("completar fichas") arregla las referencias, el costo por uso, las herramientas de Vision y Ultron y el dueño del Diagnóstico Flash. Lo propongo después de este estudio, si el CEO lo aprueba.
 
+### 1.4 Equipo de Yizi Publisher (nombres aprobados, 2026-11-18)
+
+El CEO aprobó los nombres el 2026-11-18. Publisher sigue en incubación. Los agentes están **aprobados, se activan con Publisher** y no cuentan como activos hasta que el CEO apruebe el cambio `activar-yizi-publisher`. Aún no tienen ficha. Fuente: `openspec/changes/activar-yizi-publisher/estudio/aida-equipo-v2.md`.
+
+| Agente | Nivel | Dominio | Reporta a | Estado | Cuándo se activa |
+|---|---|---|---|---|---|
+| Homer | N2 Yizi Publisher | Campañas y embudos | Jarvis | Aprobado, se activa con Publisher | Al activar Publisher |
+| Ágora | N3 | Community Manager | Homer | Aprobado, se activa con Publisher | Al arrancar |
+| Faro | N3 | Presencia local y reseñas | Homer | Aprobado, se activa con Publisher | Al arrancar |
+| Quirón | N3 (agente del producto) | El Guía Yizi en modo enseñar IA | Homer | Aprobado, se activa con Publisher | Al arrancar (versión mínima, sin IA en vivo) |
+| Prisma | N3 | Diseño y video con IA | Homer | Aprobado, se activa con Publisher | Al arrancar |
+| Sagita | N3 | Anuncios y embudo de ventas | Homer | Aprobado, con disparador | Primer cliente de Campañas o Embudo |
+| Kepler | N3 | Analista de marketing | Homer | Aprobado, con disparador | Junto con Sagita, o con 10 clientes activos |
+
+**Conteo:** hoy hay 26 agentes activos. Al activarse Publisher, serán **31**. Con Sagita y Kepler, **33**. Jocasta no cuenta.
+
+**Roles humanos:** solo perfiles, sin nombres. Están mapeados y no se ofrecen hoy (ver `talento/mapa-de-roles.md`, sección de Publisher).
+
 ---
 
 ## 2. Agentes que faltan

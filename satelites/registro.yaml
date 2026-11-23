@@ -85,4 +85,16 @@ satelites:
     repo: https://github.com/Yizi-Digital/yizi-projects
     # Proyectos MACRO autorizados. Cada uno vive en proyectos/<id>/ del repo.
     # Límite: limites.macro_simultaneos_max (en incubacion o activo).
-    proyectos: []
+    proyectos:
+      - id: tofinance
+        nombre: toFinance (marca propia, respaldo "toFinance por Yizi")
+        estado: pausado
+        etapa: "discovery indefinido (nuevo rumbo aprobado por el CEO el 2026-11-18: la caja de la casa y del negocio de barrio; sin código)"
+        autorizado: 2026-11-18 (Ruta B; MVP sujeto a Ruta A)
+        carpeta: https://github.com/Yizi-Digital/yizi-projects/tree/main/proyectos/tofinance
+      - id: plan-mercado
+        nombre: Plan de comidas, mercado semanal y presupuesto de la casa (nombre provisional; marca propia "por Yizi" pendiente)
+        estado: propuesto
+        etapa: discovery (aprobada por el CEO el 2026-11-18; Discovery de señal, sin código; tope y cupo MACRO pendientes del CEO)
+        autorizado: "no (no es MACRO autorizado; restaurantes irían como módulo de yizi-solutions)"
+        carpeta: https://github.com/Yizi-Digital/yizi-projects/tree/main/proyectos/idea-mercado-barrio

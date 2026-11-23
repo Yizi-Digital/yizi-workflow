@@ -1,0 +1,25 @@
+# Voz de cada agente para POST /v1/audio/speech (campo "voice" = id del agente).
+# kokoro: una voz de Kokoro o una mezcla "voz*peso+voz*peso".
+#   Voces de español en Kokoro v1.0: ef_dora (mujer), em_alex (hombre), em_santa (hombre).
+#   Las mezclas con voces de portugués (pf_dora, pm_alex, pm_santa) o italiano
+#   (if_sara, im_nicola) dan más variedad; su acento en español no está verificado de oído.
+# velocidad: 0.5 a 2.0. Se multiplica por el "speed" de la petición.
+# say: voz de macOS para el respaldo (ver `say -v '?'`). Si no existe, se usa la primera en español.
+# Solo voces prediseñadas: nunca clones la voz de una persona real.
+
+por_defecto: vision
+
+agentes:
+  ultron:  {kokoro: "em_santa",                   velocidad: 0.95, say: "Jorge",    descripcion: "COO, moderador"}
+  vision:  {kokoro: "em_alex",                    velocidad: 1.00, say: "Juan",     descripcion: "CTO"}
+  jarvis:  {kokoro: "em_alex*0.5+em_santa*0.5",   velocidad: 1.08, say: "Diego",    descripcion: "CDO"}
+  edith:   {kokoro: "ef_dora",                    velocidad: 1.00, say: "Paulina",  descripcion: "CFO"}
+  viernes: {kokoro: "ef_dora*0.7+pf_dora*0.3",    velocidad: 1.08, say: "Mónica",   descripcion: "CSO"}
+  aida:    {kokoro: "ef_dora*0.7+if_sara*0.3",    velocidad: 0.95, say: "Marisol",  descripcion: "Diseño de agentes"}
+  termy:   {kokoro: "em_alex*0.7+pm_alex*0.3",    velocidad: 0.95, say: "Eddy (Español (México))", descripcion: "Talento humano"}
+  lince:   {kokoro: "em_alex*0.7+im_nicola*0.3",  velocidad: 1.10, say: "Reed (Español (México))", descripcion: "Verificación"}
+  karen:   {kokoro: "ef_dora",                    velocidad: 1.12, say: "Paulina",  descripcion: "Líder de Yizi Solutions"}
+  herbie:  {kokoro: "em_santa*0.7+pm_santa*0.3",  velocidad: 1.05, say: "Jorge",    descripcion: "Líder de Yizi Projects"}
+  homer:   {kokoro: "em_santa",                   velocidad: 1.12, say: "Diego",    descripcion: "Líder de Yizi Publisher"}
+  abaco:   {kokoro: "em_alex",                    velocidad: 0.90, say: "Juan",     descripcion: "Analista de Yizi Solutions"}
+  guia:    {kokoro: "ef_dora*0.85+pf_dora*0.15",  velocidad: 1.00, say: "Paulina",  descripcion: "El Guía Yizi (voz ante clientes)"}

@@ -30,6 +30,7 @@
 | Propuesto | Hay una ficha o una idea del rol. No hay aviso publicado |
 | Abierto | El CEO aprobó buscar a la persona y el aviso está publicado |
 | Cubierto | Una persona ocupa el rol |
+| Mapeado, no se ofrece hoy | El perfil existe solo en este mapa, con su disparador. El servicio no se ofrece y no se busca a nadie |
 
 **Prioridad** (la misma escala de Ultron en el flujo operativo)
 
@@ -204,12 +205,30 @@ Ningún rol se abre hasta que el satélite esté activo y el CEO lo apruebe. Est
 
 | Rol | Satélite | Disparador | Prioridad | Estado |
 |---|---|---|---|---|
-| Ejecutivo de cuentas y ventas digitales | Publisher | Publisher pasa a `activo` | Baja | Propuesto |
-| Creador de contenido | Publisher | Publisher activo y con su primer cliente de campaña | Baja | Propuesto |
 | Coordinador de talento | Talent | Talent `activo` y su primer contrato | Baja | Propuesto |
 | Equipo de un proyecto MACRO | Projects | La Autoridad MACRO autoriza un proyecto. Hoy no hay proyectos | Baja | Propuesto |
 
 Los especialistas que Yizi Talent asigna a otras empresas son el producto, no parte del equipo de Yizi.
+
+#### Yizi Publisher: perfiles humanos futuros
+
+**Decisión del CEO (2026-11-18).** Hoy Yizi no tiene fotógrafos ni artistas para ir a los locales. La frontera y los servicios actuales de Publisher son solo lo que se hace **de forma remota con IA**. Los perfiles de esta tabla están **mapeados, no se ofrecen hoy**: no hay aviso, no hay contacto y no hay contratación. Cada uno espera su disparador y la aprobación del CEO. Detalle y perfil completo del primero: `openspec/changes/activar-yizi-publisher/estudio/termy-personas.md`.
+
+| Rol (perfil, sin nombre) | Para qué existe | Disparador | Prioridad | Estado |
+|---|---|---|---|---|
+| Creador de contenido de barrio | Graba en el local, publica con IA y enseña al dueño a usarla. Es el primer rol humano de Publisher | Publisher `activo` y un cliente pide fotos o videos en su local (D1), o el dueño no usa la IA solo tras la capacitación remota (D4) | Baja | Mapeado, no se ofrece hoy |
+| Fotógrafo o videógrafo de negocios | Foto y video de más calidad que el del celular: platos, vitrinas, locales. Por pieza o por sesión | Un cliente pide un nivel de imagen que el creador de barrio no cubre, y el CEO y Edith aprueban el costo (propuesta de Termy, sin medir) | Baja | Mapeado, no se ofrece hoy |
+| Artista o ilustrador local | Arte físico para el local: letrero, mural, ilustración de marca. Servicio externo por pieza | Un cliente pide arte físico y Jarvis define el entregable. Hoy el arte digital lo cubre la IA | Baja | Mapeado, no se ofrece hoy |
+| Segundo creador de contenido | Más capacidad en otra zona | Más de 3 a 5 clientes activos a la vez (D2) o más de 6 horas por semana del CEO en Publisher (D5). Ambas cifras son propuesta de Termy, sin medir | Baja | Mapeado, no se ofrece hoy |
+| Apoyo de atención | Responde a clientes finales del cliente en horas de atención | Un cliente espera respuestas en horario fijo (D3). Modalidad a definir con el abogado | Baja | Mapeado, no se ofrece hoy |
+| Ejecutivo de cuentas y ventas digitales | Vende y da seguimiento a nuevos clientes | La venta pide reuniones y seguimiento constante (D6) | Baja | Mapeado, no se ofrece hoy |
+
+**Reglas.**
+
+1. Ningún perfil se abre hasta que Publisher esté `activo` y el CEO lo apruebe. Los disparadores D1 a D6 están en el estudio y el CEO puede cambiarlos.
+2. Ningún aviso, canal ni servicio de Publisher ofrece fotografía, video ni visitas a locales mientras el rol esté en este estado. Jarvis no los incluye en propuestas ni en el catálogo.
+3. Antes de abrir cualquiera: Edith fija el pago, el abogado revisa el contrato (propiedad del contenido y derechos de imagen) y Aida confirma que ningún agente cubre la tarea.
+4. El Promotor de barrio de Yizi Solutions no toma estos roles. Se coordinan según la sección 4 del estudio.
 
 ## 4. Talento externo por servicio
 

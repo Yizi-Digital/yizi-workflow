@@ -53,11 +53,15 @@ Todo agente persistente (N1, N2 o N3) SHALL tener una ficha versionada en el rep
 - **THEN** Claude Code puede delegar la tarea al subagente definido por la ficha de Vision
 
 ### Requirement: Agentes de área del núcleo
-Un agente de área del núcleo SHALL ser un agente N1 que atiende a todo el grupo en un dominio especializado, sin formar parte del Consejo Ejecutivo y sin custodiar una compuerta. Cada agente de área MUST reportar a un miembro del Consejo. Los agentes de área iniciales son A.I.D.A (diseño de agentes) y T.E.R.M.Y (talento humano), y ambos reportan a U.L.T.R.O.N.
+Un agente de área del núcleo SHALL ser un agente N1 que atiende a todo el grupo en un dominio especializado, sin formar parte del Consejo Ejecutivo y sin custodiar una compuerta. Cada agente de área MUST reportar a un miembro del Consejo. Los agentes de área son A.I.D.A (diseño de agentes), T.E.R.M.Y (talento humano) y L.I.N.C.E (verificación independiente), y los tres reportan a U.L.T.R.O.N.
 
 #### Scenario: Revisión de un cambio grande
 - **WHEN** un cambio de tamaño L pasa por el Consejo
-- **THEN** revisan solo los cinco miembros del Consejo, y Aida o Termy opinan solo si el cambio toca su dominio
+- **THEN** revisan solo los cinco miembros del Consejo, y Aida, Termy o Lince opinan solo si el cambio toca su dominio
+
+#### Scenario: Verificación antes de archivar
+- **WHEN** un cambio terminó su implementación
+- **THEN** Lince lo verifica y nunca lo verifica el mismo agente que lo construyó
 
 ### Requirement: Organigrama vivo
 El organigrama de Yizi (sección "Organigrama" del `README.md` del núcleo) SHALL mostrar a todos los agentes persistentes del universo, con su nivel, a quién reportan y su estado. Todo cambio OpenSpec que agregue, renombre, active o retire un agente MUST actualizar el organigrama en el mismo cambio. Ultron SHALL verificarlo antes de archivar.
@@ -76,3 +80,10 @@ Los roles humanos que aún no están contratados SHALL aparecer en el organigram
 #### Scenario: Promotor aún no contratado
 - **WHEN** el organigrama muestra el rol de Promotor de barrio sin contratar
 - **THEN** aparece como perfil "Promotor de barrio · por contratar", sin nombre
+
+### Requirement: Agentes del producto
+Un agente del producto SHALL ser un agente que trabaja con clientes dentro de la plataforma de un satélite, no como subagente de Claude Code. Su ficha MUST vivir en el repositorio del satélite, en `producto/agentes/`, con su nombre interno, su nivel de modelo, su respaldo humano y sus límites. Ante clientes MUST presentarse siempre como El Guía Yizi.
+
+#### Scenario: Chaski conversa con un bodeguero
+- **WHEN** un bodeguero pide ayuda en la plataforma
+- **THEN** lo atiende Chaski presentándose como El Guía Yizi, nunca con su nombre interno

@@ -1,0 +1,35 @@
+# Configuración de Yizi Voz Local.
+# El token NO va aquí: se pasa con la variable de entorno YIZI_VOZ_TOKEN.
+
+servidor:
+  host: 127.0.0.1        # Solo 127.0.0.1 o ::1. Otro valor detiene el arranque.
+  puerto: 8765           # También: variable YIZI_VOZ_PUERTO
+  max_audio_mb: 25       # Tamaño máximo de un archivo para /v1/audio/transcriptions
+  max_texto: 4096        # Caracteres máximos para /v1/audio/speech
+
+stt:
+  backend: auto          # auto | faster-whisper | mlx  (auto: mlx si es Mac arm64 y está el modelo MLX)
+  modelo: models/whisper/faster-whisper-small
+  # Para más precisión (1,6 GB): ./install.sh --turbo y cambia a
+  # modelo: models/whisper/faster-whisper-large-v3-turbo
+  modelo_mlx: models/whisper/mlx-whisper-large-v3-turbo
+  idioma: es
+  compute_type: int8     # int8 es lo más rápido en CPU
+  hilos: 0               # 0 = automático
+  beam_size: 1           # 1 = más rápido; 5 = algo más preciso
+  # Contexto para Whisper: nombres propios que debe escribir bien. Se usa si la petición no trae "prompt".
+  prompt: "Reunión de Yizi con Ultron, Vision, Jarvis, Edith, Viernes, Aida, Termy, Lince, Karen, Herbie y Homer."
+
+tts:
+  motor: auto            # auto | kokoro | say   (auto: Kokoro; si falta, `say` en macOS)
+  modelo: models/kokoro/kokoro-v1.0.onnx
+  voces: models/kokoro/voices-v1.0.bin
+  pausa_entre_frases_ms: 120
+
+vad:                     # Detección de voz del WebSocket de dictado
+  umbral: 0.5
+  silencio_fin_ms: 600   # Silencio que cierra una frase (fin de turno)
+  parcial_cada_ms: 800   # Cada cuánto se envía un texto parcial
+  max_segmento_s: 25
+  preroll_ms: 300
+  min_final_ms: 400      # Segmentos con menos voz que esto se descartan (final vacío con "discarded": true)
