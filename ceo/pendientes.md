@@ -1,12 +1,11 @@
 # Mis pendientes y mis documentos
 
 Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusiona o se crea.
-Última actualización: 2026-11-18 (plan de comidas y mercado pasa a Discovery).
+Última actualización: 2026-11-22 (todos los PRs fusionados; Sala Yizi construida en `~/Desktop/yizi-reuniones`).
 
 ## 1. Mis pendientes
 
 ### Decidir
-- [ ] App "Sala Yizi" (reuniones por voz): aprobar el cambio OpenSpec antes de construirla (Ultron lo prepara con Vision).
 - [ ] Cupo MACRO: aprobar la regla de Viernes (toFinance ocupa el cupo; un Discovery de señal con tope no lo ocupa; máximo 1 a la vez).
 - [ ] Plan de comidas y mercado (Discovery): aprobar el tope de 6 semanas, 12 h y S/ 80.
 - [ ] Plan de comidas y mercado: aprobar que siga separado de toFinance, con entrevistas compartidas.
@@ -19,14 +18,11 @@ Archivo vivo del CEO. Lo actualiza Ultron cada vez que algo se decide, se fusion
 - [ ] Decir el nombre del familiar de respaldo.
 
 ### Fusionar en GitHub
-- [ ] yizi-workflow · PR #13 · Lince, agentes del producto, Publisher (plan aprobado), agentes que conversan, Sala Yizi y Yizi Voz Local.
-- [ ] yizi-projects · PR #5 · toFinance (plantilla) y plan de comidas y mercado (Discovery). El PR #4 ya se fusionó.
-- [ ] yizi-publisher · PR #1 · fichas, catálogo, kit y operación. Antes: poner `main` como rama por defecto.
-- [ ] yizi-solutions · PR #2 · catálogo (queda abierto hasta terminar).
-- [ ] Fiesteros_web_app · PR #1 y #2 · dos PRs automáticos de Vercel (Web Analytics), casi iguales: fusionar uno y cerrar el otro.
+- Nada abierto. Fusionados el 2026-11-23: yizi-workflow #13, yizi-projects #5, yizi-publisher #1, yizi-solutions #2 y Fiesteros #2 (el #1 se cerró).
 
 ### Hacer yo
-- [ ] Sala Yizi: crear una API key en la Consola de Anthropic, comprar crédito prepago y apagar la recarga automática; instalar Xcode.
+- [ ] Sala Yizi: probar los criterios de la fase 5 (Consejo de 15 min con acta, reunión solo con teclado, Consejo de 30 min sin agotar la ventana) y anotar el cambio de `/usage`. Ver `yizi-reuniones/docs/tareas.md`.
+- [ ] Sala Yizi: crear una API key en la Consola de Anthropic, comprar crédito prepago y apagar la recarga automática (falta para comparar la latencia y el costo con API key).
 - [ ] Fiesteros: renombrar el repo a `fiesteros-web`, pasar Vercel a un equipo Pro y conectarlo, proteger `main` y confirmar que `@fiesteros.pe` es la cuenta correcta.
 - [ ] Crear la cuenta de Google de Yizi con verificación en dos pasos (carpetas privadas de clientes de Publisher).
 - [ ] Probar `claude --agent edith` en mi computadora (la primera vez en modo interactivo, aceptando la carpeta como confiable).
@@ -67,7 +63,7 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Ficha de Lince (verificador) | `yizi-workflow/.claude/agents/lince.md` |
 | Marco legal del grupo | `yizi-workflow/openspec/specs/marco-legal/spec.md` |
 
-### Yizi Solutions · yizi-solutions (rama `karen/catalogo-inicial`)
+### Yizi Solutions · yizi-solutions
 | Qué | Ruta |
 |---|---|
 | Mis decisiones (registro) | `yizi-solutions/catalogo/decisiones-ceo.md` |
@@ -95,7 +91,15 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Equipo de 14 agentes (fichas) | `yizi-projects/.claude/agents/` |
 | Equipo y quién decide qué | `yizi-projects/AGENTS.md` |
 
-### toFinance · yizi-projects (rama `herbie/proyecto-tofinance`, PR #4)
+### Sala Yizi · yizi-reuniones (solo en esta Mac: `~/Desktop/yizi-reuniones`, sin commits ni remoto)
+| Qué | Ruta |
+|---|---|
+| Diseño y decisiones | `yizi-reuniones/docs/design.md` |
+| Tareas por fase | `yizi-reuniones/docs/tareas.md` |
+| Verificación de las fases 0 a 5 | `yizi-reuniones/docs/verificacion-fase*.md` |
+| Latencia de voz | `yizi-reuniones/docs/latencia.md` |
+
+### toFinance y otros · yizi-projects
 | Qué | Ruta |
 |---|---|
 | toFinance · reevaluación frente a la competencia | `yizi-projects/proyectos/tofinance/reevaluacion-competencia.md` |
@@ -109,7 +113,7 @@ Ruta = repositorio / archivo. Si dice "rama", aún no está fusionado.
 | Fiesteros · estudio (Vision, Jarvis, Temis, Edith) | `yizi-workflow/openspec/changes/activar-yizi-publisher/estudio/fiesteros/` |
 | Sala Yizi · prompt para construir la app (Vision, revisado por Aida y Edith) | `yizi-workflow/agentes/reuniones-por-voz/prompt-app-reuniones-mac.md` |
 | Reuniones por voz · opciones (Vision) y costo (Edith) | `yizi-workflow/agentes/reuniones-por-voz/` |
-| Agentes que conversan como personas · plan aprobado | `yizi-workflow/openspec/changes/agentes-conversan-como-personas/` |
+| Agentes que conversan como personas · en curso | `yizi-workflow/openspec/changes/agentes-conversan-como-personas/` |
 | toFinance · revisión legal (Temis) | `yizi-projects/proyectos/tofinance/revision-legal.md` |
 | toFinance · manual de marca v2 (Iris) | `yizi-projects/proyectos/tofinance/manual-de-marca-v2.md` |
 | toFinance · expediente MACRO | `yizi-projects/proyectos/tofinance/expediente.md` |
