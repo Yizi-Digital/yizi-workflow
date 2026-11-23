@@ -36,9 +36,9 @@ Archivados recientes (2026-11-17 y 18): `activar-lince-abaco-chaski`, `aprobacio
 | 2026-11-20 | Los agentes hablan en primera persona, firmados, de 150 palabras o menos, con bloque "Detalle". |
 | 2026-11-20 | Trato de usted con los clientes. |
 | 2026-11-20 | Se prepara el repo de Publisher. El estado `activo` espera el punto de control 3.0. |
-| 2026-11-20 | Acompañamiento IA de Publisher: propuesta S/ 69 al mes. |
-| 2026-11-20 | Publisher recibe 5 horas por semana del CEO. |
-| 2026-11-20 | Fiesteros pasa a Yizi como caso de portafolio. |
+| 2026-11-20 | Acompañamiento IA de Publisher aprobado como último escalón: S/ 69 al mes (precio aún en propuesta hasta 3 cotizaciones). Fuente: `openspec/changes/activar-yizi-publisher/consejo.md`. |
+| 2026-11-18 | Publisher recibe 5 horas por semana del CEO (tope de unos 3 clientes). Fuente: `openspec/changes/activar-yizi-publisher/consejo.md`. |
+| 2026-11-18 | Fiesteros pasa a Yizi como caso de portafolio; repo transferido a Yizi-Digital. Fuente: `openspec/changes/activar-yizi-publisher/estudio/fiesteros/pedido-del-ceo.md`. |
 | 2026-11-20 | Sala Yizi: el plan de IA del CEO es el motor principal. API key de respaldo. |
 | 2026-11-20 | Yizi Voz Local corre en 127.0.0.1:8765. Contrato 1.0.1. |
 
