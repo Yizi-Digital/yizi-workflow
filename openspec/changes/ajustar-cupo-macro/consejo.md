@@ -43,6 +43,19 @@ Viernes: CONDICIONADO. Mantengo la regla: un MACRO en curso y varios Discovery c
 
 Ultron: Condicionado. Hoy no puedo medir las horas del CEO: nadie las registra, y por eso el aviso al 80 % no es verificable. Pido una tabla "Consumo" en cada ficha, con horas que el CEO me reporta cada viernes y caja que anota Edith. Pido también reordenar las tareas: primero las cifras de Edith, luego el CEO decide. El cambio de yizi-projects va aparte. Con eso, apruebo.
 
+## Ajuste del plan (2026-11-22)
+
+- El CEO pidió ajustar el plan ("Sí, que lo ajuste").
+- Viernes incorporó las condiciones de las cinco compuertas en `proposal.md`, `specs/autoridad-macro/spec.md` y `tasks.md`. Ninguna quedó fuera. La tabla "condición → dónde se cumple" está en su informe a Ultron.
+- Choques resueltos por Viernes:
+  - El tope total se fija al retomar el primer Discovery (postura de Viernes), y Edith da sus cifras antes de las decisiones 1 y 2.
+  - Las horas totales se miden por trimestre.
+  - La "Nota de marca" va en la §1 de cada ficha.
+  - El id `plan-mercado` se alinea con la carpeta `idea-mercado-barrio`.
+- El archivo del cambio espera al cambio hermano en `yizi-projects` (`tope-y-consumo-discovery`).
+- `openspec validate ajustar-cupo-macro --strict` pasa sin errores.
+- Pendiente: Lince verifica en la fase 5 que cada condición se cumple.
+
 ## Decisión del CEO
 
 - Decisión: PENDIENTE
