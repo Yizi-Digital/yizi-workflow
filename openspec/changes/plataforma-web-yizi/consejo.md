@@ -5,19 +5,31 @@
 | Dueño | J.A.R.V.I.S (Jarvis) |
 | Alcance | nucleo |
 | Tipo / Tamaño | marca-comunicacion / L |
-| Fecha de revisión | Pendiente |
+| Fecha de revisión | 2026-11-28 |
 
 ## Veredictos
 
 | Agente | Compuerta | Veredicto | Condiciones |
 |---|---|---|---|
-| Vision | Viabilidad técnica | PENDIENTE | Estudio previo: Astro con islas, metas medibles y fases (`estudio/vision-arquitectura.md`). Falta su veredicto formal sobre este plan |
-| Jarvis | Marca y cliente | PENDIENTE | Estudio previo: CONDICIONADO en `estudio/jarvis-narrativa.md` (cerrar datos pendientes, Edith, abogado, CEO). Falta el veredicto sobre el plan |
-| Edith | Costo y presupuesto | PENDIENTE | Estudio previo: precios sin verificar; ninguna cifra financiera en la web (`estudio/edith-costo.md`) |
-| Viernes | Alineación estratégica | PENDIENTE | Estudio previo: CONDICIONADO, pide v1 pequeña (`estudio/viernes-encaje.md`). Falta su veredicto sobre la opción A |
-| Ultron | Operabilidad | PENDIENTE | Debe revisar la carga de horas del CEO frente a los pilotos de Solutions |
+| Vision | Viabilidad técnica | CONDICIONADO | Cómo se sincroniza `registro.yaml` (3.3); acceso de la CI a vistas previas protegidas (1.2); límite del formulario sin almacén (fase 4); confirmar plan de Vercel |
+| Jarvis | Marca y cliente | CONDICIONADO | Subir a la spec el trato de usted y "Productos propios de Yizi"; unificar etiquetas de estado; Lince verifica 2.6 y 3.7 |
+| Edith | Costo y presupuesto | CONDICIONADO | Cotizaciones reales antes de comprar (0.7); precio de Vercel Pro y si Analytics cobra; confirmar costos antes de la fase 1; el CEO fija plazo de retorno y tope; nadie ejecuta pagos salvo el CEO |
+| Viernes | Alineación estratégica | CONDICIONADO | Primera salida = opción B; Publisher, Talent y Nosotros después de los pilotos; Indecopi antes de la fase 3; abogado revisa el texto de inversionistas; la web como canal de la marca madre en el registro |
+| Ultron | Operabilidad | CONDICIONADO | Empezar con B; no iniciar la fase 1 hasta cerrar un piloto (o decisión escrita del CEO); pausa si pasa de 2 h/semana del CEO; fechas por fase y fase 0 en una sesión de máx. 2 h; plazo del abogado |
 
-**Resumen:** ninguna compuerta ha emitido veredicto sobre este plan. Se lanza `/yizi-consejo` después de que el CEO lea la proposal. Además, el abogado revisa lo legal antes de publicar (tareas 4.6 y 6.1).
+**Resumen:** ninguna compuerta está BLOQUEADA. Las cinco dan CONDICIONADO. Viernes y Ultron piden empezar por la opción B; Jarvis recomienda A por fases. Decide el CEO.
+
+## Reunión
+
+**Vision:** Sí con condiciones. Diseño simple: Astro estático, sin base de datos y con plan B. Faltan tres definiciones antes de construir: origen de datos, pruebas en vistas previas y límite del formulario.
+
+**Jarvis:** Mi compuerta pasa con tres ajustes míos: trato de usted y "Productos propios de Yizi" en la spec, etiquetas unificadas y que Lince verifique mis textos.
+
+**Edith:** Gasto en efectivo pequeño, sin cifra hasta tener cotizaciones. Necesito cotizaciones, el plazo de retorno y confirmar si Analytics cobra.
+
+**Viernes:** Nos acerca a la misión si publicamos primero lo listo: Inicio, Solutions, Inversionistas, Contacto y Legales. Lo demás después de los pilotos.
+
+**Ultron:** El plan carga al CEO, que tiene cinco frentes. Empezar con B, después del primer piloto o con decisión escrita del CEO, con tope de 2 h por semana.
 
 ## Decisiones del CEO (por prioridad)
 
